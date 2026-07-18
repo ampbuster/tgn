@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=800, initial-scale=1.0">
-<title>TGN v10.2 Infographic — Mobile (P(wtd) A$5.50-6.50)</title>
+<title>TGN v10.2 Infographic — P(wtd) A$5.50-6.50 with Hyper-bull</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -121,6 +121,8 @@ body {
 .pillar-num { font-family: 'DM Serif Display', serif; font-size: 36px; color: var(--gold); min-width: 50px; line-height: 1; }
 .pillar-text { font-size: 18px; color: var(--text-2); line-height: 1.5; }
 .pillar-text b { color: var(--text); }
+.pillar-title { font-size: 20px; font-weight: 800; color: var(--text); margin-bottom: 6px; }
+.pillar-desc { font-size: 18px; color: var(--text-2); line-height: 1.5; }
 
 /* 5 scenarios */
 .scenarios { display: grid; gap: 14px; }
@@ -155,6 +157,15 @@ body {
 .kd-cell { background: var(--bg-card); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; }
 .kd-label { font-size: 13px; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px; font-weight: 600; }
 .kd-value { font-family: 'JetBrains Mono', monospace; font-size: 18px; color: var(--text); font-weight: 700; }
+
+/* Strategic Tier Demand stack */
+.tier-demand-bar { display: flex; height: 44px; border-radius: 8px; overflow: hidden; margin-bottom: 14px; }
+.tier-demand-bar > div { display: flex; align-items: center; justify-content: center; color: #000; font-weight: 800; font-size: 18px; }
+.td-bucket3-dfars { background: var(--gold); flex: 0 0 32%; }
+.td-bucket3-chem { background: var(--bear); flex: 0 0 43%; }
+.td-bucket2 { background: var(--base); flex: 0 0 25%; color: #fff; }
+.td-legend { font-size: 16px; color: var(--text-2); line-height: 1.7; }
+.td-legend > div { padding: 6px 0; }
 
 /* Sovereign */
 .sovereign { background: linear-gradient(135deg, var(--bg-card), var(--bg-card-2)); border: 1px solid var(--line); border-radius: 12px; padding: 24px 22px; text-align: center; }
@@ -246,7 +257,7 @@ body {
     <div class="section-title">📦 RESOURCE INVENTORY</div>
     <div class="resource-card">
       <div class="resource-total">387 kt WO₃</div>
-      <div class="resource-sub">Total Resource Inventory (annual resource, NOT annual production) — Watershed + Mt Mulgine + Hatches Creek</div>
+      <div class="resource-sub">Total Resource Inventory (NOT annual production) — Watershed + Mt Mulgine + Hatches Creek</div>
       <div class="resource-row">
         <div class="resource-label">Watershed (Q2 2027)</div>
         <div class="resource-bar-bg"><div class="resource-bar-fill" style="width: 19.6%;"></div></div>
@@ -269,11 +280,41 @@ body {
   <div class="section">
     <div class="section-h2">5 Pillars of the Thesis</div>
     <div class="pillars">
-      <div class="pillar"><div class="pillar-num">1</div><div class="pillar-text"><b>Production Tier Evidence</b> — TGN is the only bulk-tonnage open pit Tier 2 (RDP-qualifying) tungsten asset.</div></div>
-      <div class="pillar"><div class="pillar-num">2</div><div class="pillar-text"><b>DFARS Frictionless</b> — DFARS 252.225-7052 (Jan 1, 2027) gives TGN statutory right of first refusal vs Tier 3 (Almonty Sangdong, Korea, Tier 3, NOT DFARS) and Cove Capital (Kazakhstan, Tier 3, NOT DFARS).</div></div>
-      <div class="pillar"><div class="pillar-num">3</div><div class="pillar-text"><b>AISC Cost Floor</b> — TGN's A$415/MTU AISC is the lowest in the world (Almonty A$900-1,000, Mactung A$1,000+). TGN is the last man standing in any Bear scenario.</div></div>
-      <div class="pillar"><div class="pillar-num">4</div><div class="pillar-text"><b>Tripartite Pricing</b> — TGN sells into Bucket 3 (DFARS/Sovereign $2,800-3,500/MTU) and Bucket 2 (ex-China commercial $1,800-2,500/MTU). After 2028, also into China (which becomes a net-importer).</div></div>
-      <div class="pillar"><div class="pillar-num">5</div><div class="pillar-text"><b>3-4 Year Exclusive Frictionless Window</b> — TGN 2027-2030, Mactung 2030-2031. TGN is the only bulk-tonnage open-pit Tier 2 primary producer in this window.</div></div>
+      <div class="pillar">
+        <div class="pillar-num">1</div>
+        <div>
+          <div class="pillar-title">Frictionless Tier 2 Defense</div>
+          <div class="pillar-desc">DFARS-qualifying, automatic access — TGN is the only bulk-tonnage open-pit Tier 2 in 2027-2030</div>
+        </div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-num">2</div>
+        <div>
+          <div class="pillar-title">PEE-Verified Economics</div>
+          <div class="pillar-desc">NPV A$1,309M pre-tax, IRR 198%, 9-month payback, A$415/MTU AISC, A$274M CAPEX (PEE Jun 18, 2026)</div>
+        </div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-num">3</div>
+        <div>
+          <div class="pillar-title">AISC Cost Moat — Last Man Standing</div>
+          <div class="pillar-desc">AISC A$415/MTU vs Mactung A$1,000, Almonty A$900-1,000, expensive Chinese A$1,200+. In a Bear, TGN is profitable when others go bankrupt. Supply tightens, prices recover, TGN captures the recovery.</div>
+        </div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-num">4</div>
+        <div>
+          <div class="pillar-title">Tripartite Pricing</div>
+          <div class="pillar-desc">TGN sells exclusively into Tier 2/3 ex-China APT market (which decoupled from China and is structurally protected)</div>
+        </div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-num">5</div>
+        <div>
+          <div class="pillar-title">3-4 Year Exclusive Frictionless Window</div>
+          <div class="pillar-desc">2027-2030: TGN is the only Tier 2 bulk-tonnage producer ex-China. Mactung (Tier 2 Canada) only comes online 2030-2031</div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -301,13 +342,20 @@ body {
 
   <!-- Strategic Demand -->
   <div class="section">
-    <div class="section-h2">Strategic Tier Demand in 2030</div>
-    <div class="demand-bar">
-      <div class="demand-rev">REVENUE 60%</div>
-      <div class="demand-civ">CIVILIAN 30%</div>
-      <div class="demand-oth">OTHER 10%</div>
+    <div class="section-title">🎯 STRATEGIC TIER DEMAND 19-35 kt</div>
+    <div class="tier-demand">
+      <div class="tier-demand-bar">
+        <div class="td-bucket3-dfars">B3 DFARS 32%</div>
+        <div class="td-bucket3-chem">B3 Chem 43%</div>
+        <div class="td-bucket2">B2 Civilian 25%</div>
+      </div>
+      <div class="td-legend">
+        <div><b style="color: var(--gold);">Bucket 3 DFARS/Sovereign</b> 8-16 kt @ $2,800-3,500/MTU (statute-guaranteed)</div>
+        <div><b style="color: var(--bear);">Bucket 3 Chemicals (WF6/SCR/AMT)</b> 11-19 kt @ APT + $200-400/MTU premium (chemistry-bound)</div>
+        <div><b style="color: var(--base);">Bucket 2 Commercial Civilian</b> 11-19 kt @ $1,800-2,500/MTU (NOT legally mandated)</div>
+        <div style="margin-top: 8px; color: var(--text-3); font-style: italic;">Broader ex-China civilian APT: 50-75 kt (NOT DFARS)</div>
+      </div>
     </div>
-    <div class="demand-detail">Sandvik 14% global mkt share, Kennametal, Mitsubishi Materials, Sumitomo Electric, Kyocera = Top 5 Western Buyers (collectively ~50% of global tungsten carbide consumption). Civilian ex-China is 5-6× larger than defense.</div>
   </div>
 
   <!-- 5 Pillars detail -->
