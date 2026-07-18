@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=800, initial-scale=1.0">
+<title>TGN v10.2 Infographic — Mobile (P(wtd) A$5.50-6.50)</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0e1a;
+  --bg-card: #131826;
+  --bg-card-2: #1a2138;
+  --line: rgba(255,255,255,0.10);
+  --line-soft: rgba(255,255,255,0.06);
+  --text: #f5f5f0;
+  --text-2: #c5c5c0;
+  --text-3: #9c9a92;
+  --gold: #d4af37;
+  --gold-2: #f4cf5b;
+  --bull: #10b981;
+  --bull-2: #34d399;
+  --base: #3b82f6;
+  --base-2: #60a5fa;
+  --bear: #f59e0b;
+  --bear-2: #fbbf24;
+  --floor: #6b7280;
+  --floor-2: #9ca3af;
+  --tier1: #ef4444;
+  --tier2: #10b981;
+  --tier3: #f59e0b;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Outfit', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 22px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+.container { max-width: 800px; margin: 0 auto; padding: 32px 28px; }
+
+/* Header */
+.header { text-align: center; padding: 36px 20px 28px; border-bottom: 1px solid var(--line); margin-bottom: 40px; }
+.asx-badge { display: inline-block; background: var(--gold); color: #000; padding: 8px 20px; border-radius: 6px; font-weight: 800; font-size: 18px; letter-spacing: 0.06em; margin-bottom: 18px; }
+.title { font-family: 'DM Serif Display', serif; font-size: 56px; line-height: 1.1; margin-bottom: 12px; }
+.subtitle { color: var(--gold-2); font-size: 20px; font-weight: 600; }
+.tagline { color: var(--text-2); font-size: 19px; margin-top: 18px; line-height: 1.55; }
+
+/* Section */
+.section { margin-bottom: 48px; }
+.section-title { font-size: 16px; color: var(--text-3); letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 16px; font-weight: 700; }
+.section-h2 { font-family: 'DM Serif Display', serif; font-size: 36px; margin-bottom: 22px; line-height: 1.2; }
+
+/* Hero card (P(wtd)) */
+.hero-card { background: linear-gradient(135deg, var(--bg-card), var(--bg-card-2)); border: 2px solid var(--gold); border-radius: 20px; padding: 36px 24px; text-align: center; margin-bottom: 20px; }
+.hero-label { font-size: 16px; color: var(--text-3); letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 12px; font-weight: 700; }
+.hero-value { font-family: 'DM Serif Display', serif; font-size: 96px; line-height: 1; color: var(--gold-2); margin-bottom: 12px; }
+.hero-mult { font-size: 22px; color: var(--text-2); margin-bottom: 18px; font-weight: 500; }
+.hero-foot { font-size: 18px; color: var(--text-2); line-height: 1.6; border-top: 1px solid var(--line); padding-top: 16px; }
+
+/* Probability mix bar */
+.prob-bar { display: flex; height: 40px; border-radius: 8px; overflow: hidden; margin-bottom: 14px; }
+.prob-bar > div { display: flex; align-items: center; justify-content: center; color: #000; font-weight: 800; font-size: 16px; }
+.prob-bull { background: var(--bull); flex: 0 0 42.5%; }
+.prob-base { background: var(--base); flex: 0 0 37.5%; }
+.prob-bear { background: var(--bear); flex: 0 0 12.5%; color: #000; }
+.prob-floor { background: var(--floor); flex: 0 0 1%; color: #fff; font-size: 12px; }
+.prob-hyper { background: linear-gradient(90deg, #ef4444 0%, #f59e0b 100%); flex: 0 0 7.5%; color: #fff; }
+.prob-legend { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; font-size: 16px; color: var(--text-2); margin-top: 8px; }
+.prob-legend > div { display: flex; align-items: center; gap: 8px; }
+.prob-swatch { width: 14px; height: 14px; border-radius: 3px; flex-shrink: 0; }
+.swatch-bull { background: var(--bull); }
+.swatch-base { background: var(--base); }
+.swatch-bear { background: var(--bear); }
+.swatch-floor { background: var(--floor); }
+
+/* Funding gap card (red) */
+.funding-card { background: linear-gradient(135deg, #2a1410, #1a0a08); border: 2px solid #b53a2a; border-radius: 16px; padding: 32px 24px; text-align: center; margin-bottom: 20px; }
+.funding-label { font-size: 16px; color: #f59e0b; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 700; margin-bottom: 12px; }
+.funding-value { font-family: 'DM Serif Display', serif; font-size: 80px; color: #f43f5e; line-height: 1; margin-bottom: 10px; }
+.funding-sub { font-size: 18px; color: var(--text-2); margin-bottom: 18px; line-height: 1.6; }
+.funding-detail { font-size: 16px; color: var(--text-3); line-height: 1.7; border-top: 1px solid rgba(245,63,94,0.2); padding-top: 16px; }
+
+/* Resource bar chart */
+.resource-card { background: var(--bg-card); border: 1px solid var(--line); border-radius: 14px; padding: 28px 24px; }
+.resource-total { font-family: 'DM Serif Display', serif; font-size: 48px; color: var(--gold-2); margin-bottom: 6px; }
+.resource-sub { font-size: 16px; color: var(--text-3); margin-bottom: 22px; }
+.resource-row { display: grid; grid-template-columns: 150px 1fr 90px; gap: 16px; align-items: center; padding: 12px 0; font-size: 17px; }
+.resource-bar-bg { height: 22px; background: var(--line-soft); border-radius: 4px; overflow: hidden; }
+.resource-bar-fill { height: 100%; background: linear-gradient(90deg, var(--gold), var(--gold-2)); border-radius: 4px; }
+.resource-bar-fill.mulgine { background: linear-gradient(90deg, var(--base), var(--base-2)); }
+.resource-bar-fill.hatches { background: linear-gradient(90deg, var(--bear), var(--bear-2)); }
+.resource-label { color: var(--text-2); }
+.resource-val { font-family: 'JetBrains Mono', monospace; color: var(--text); text-align: right; font-weight: 700; font-size: 18px; }
+
+/* Tripartite Pricing cards */
+.price-grid { display: grid; gap: 14px; }
+.price-card { background: var(--bg-card); border-left: 5px solid; padding: 20px 22px; border-radius: 10px; }
+.price-card.tier1 { border-color: var(--tier1); }
+.price-card.tier2 { border-color: var(--base); }
+.price-card.tier3 { border-color: var(--tier2); }
+.price-tier { font-size: 16px; color: var(--text-3); letter-spacing: 0.1em; text-transform: uppercase; font-weight: 700; margin-bottom: 6px; }
+.price-value { font-family: 'DM Serif Display', serif; font-size: 32px; margin-bottom: 4px; }
+.price-card.tier1 .price-value { color: #f87171; }
+.price-card.tier2 .price-value { color: #60a5fa; }
+.price-card.tier3 .price-value { color: #34d399; }
+.price-context { font-size: 16px; color: var(--text-2); }
+
+/* Strategic Demand bar */
+.demand-bar { display: flex; height: 36px; border-radius: 8px; overflow: hidden; margin: 16px 0 12px; }
+.demand-bar > div { display: flex; align-items: center; justify-content: center; color: #000; font-weight: 800; font-size: 16px; }
+.demand-rev { background: var(--bull); flex: 0 0 60%; }
+.demand-civ { background: var(--base); flex: 0 0 30%; }
+.demand-oth { background: var(--bear); flex: 0 0 10%; color: #000; }
+.demand-detail { font-size: 17px; color: var(--text-2); line-height: 1.6; }
+
+/* Five Pillars */
+.pillars { display: grid; gap: 16px; }
+.pillar { display: flex; align-items: flex-start; gap: 16px; background: var(--bg-card); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; }
+.pillar-num { font-family: 'DM Serif Display', serif; font-size: 36px; color: var(--gold); min-width: 50px; line-height: 1; }
+.pillar-text { font-size: 18px; color: var(--text-2); line-height: 1.5; }
+.pillar-text b { color: var(--text); }
+
+/* 5 scenarios */
+.scenarios { display: grid; gap: 14px; }
+.scenario { background: var(--bg-card); border-left: 5px solid; padding: 20px 22px; border-radius: 10px; }
+.scenario-bull { border-color: var(--bull); }
+.scenario-base { border-color: var(--base); }
+.scenario-bear { border-color: var(--bear); }
+.scenario-floor { border-color: var(--floor); }
+.scen-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.scen-name { font-weight: 800; font-size: 18px; }
+.scenario-bull .scen-name { color: var(--bull); }
+.scenario-base .scen-name { color: var(--base); }
+.scenario-bear .scen-name { color: var(--bear); }
+.scenario-floor .scen-name { color: var(--floor); }
+.scen-prob { font-size: 16px; color: var(--text-3); font-family: 'JetBrains Mono', monospace; font-weight: 600; }
+.scen-value { font-family: 'DM Serif Display', serif; font-size: 40px; line-height: 1; margin-bottom: 10px; }
+.scenario-bull .scen-value { color: var(--bull); }
+.scenario-base .scen-value { color: var(--base); }
+.scenario-bear .scen-value { color: var(--bear); }
+.scenario-floor .scen-value { color: var(--floor); }
+.scen-desc { font-size: 16px; color: var(--text-2); line-height: 1.55; }
+
+/* Catalyst Watch */
+.catalysts { display: grid; gap: 12px; }
+.catalyst-row { display: grid; grid-template-columns: 160px 1fr; gap: 18px; align-items: center; background: var(--bg-card); border: 1px solid var(--line); border-radius: 8px; padding: 14px 18px; }
+.cat-date { font-family: 'JetBrains Mono', monospace; font-size: 14px; color: var(--gold-2); font-weight: 700; }
+.cat-text { font-size: 17px; color: var(--text-2); }
+.cat-text b { color: var(--text); }
+
+/* Key Data table */
+.kd-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 16px; }
+.kd-cell { background: var(--bg-card); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; }
+.kd-label { font-size: 13px; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px; font-weight: 600; }
+.kd-value { font-family: 'JetBrains Mono', monospace; font-size: 18px; color: var(--text); font-weight: 700; }
+
+/* Sovereign */
+.sovereign { background: linear-gradient(135deg, var(--bg-card), var(--bg-card-2)); border: 1px solid var(--line); border-radius: 12px; padding: 24px 22px; text-align: center; }
+.sov-label { font-size: 14px; color: var(--text-3); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 6px; }
+.sov-title { font-family: 'DM Serif Display', serif; font-size: 22px; margin-bottom: 8px; }
+.sov-sub { font-size: 14px; color: var(--text-2); margin-bottom: 14px; }
+.sov-band { display: inline-block; background: linear-gradient(90deg, var(--gold), var(--gold-2)); color: #000; padding: 8px 24px; border-radius: 6px; font-weight: 800; font-size: 18px; margin: 6px 0; }
+
+/* V10.2 4 findings */
+.finding-card { background: var(--bg-card); padding: 22px 24px; border-radius: 10px; }
+.finding-title { font-size: 20px; font-weight: 700; margin-bottom: 12px; }
+.finding-card.gold { border-left: 4px solid var(--gold); }
+.finding-card.gold .finding-title { color: var(--gold-2); }
+.finding-card.tier1 { border-left: 4px solid var(--tier1); }
+.finding-card.tier1 .finding-title { color: #f87171; }
+.finding-card.bull { border-left: 4px solid var(--bull); }
+.finding-card.bull .finding-title { color: var(--bull); }
+.finding-card.base { border-left: 4px solid var(--base); }
+.finding-card.base .finding-title { color: var(--base); }
+.finding-text { font-size: 17px; color: var(--text-2); line-height: 1.6; }
+.finding-text b { color: var(--text); }
+
+/* Revenue projections */
+.rev-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.rev-cell { text-align: center; background: var(--bg-card); padding: 18px 12px; border-radius: 8px; }
+.rev-cell.featured { border: 1px solid var(--gold); }
+.rev-year { font-size: 14px; color: var(--text-3); text-transform: uppercase; font-weight: 700; margin-bottom: 6px; }
+.rev-amount { font-size: 24px; font-weight: 800; margin-bottom: 4px; }
+.rev-cell.featured .rev-amount { font-size: 28px; }
+.rev-amount.gold { color: var(--gold-2); }
+.rev-amount.gold-highlight { color: var(--gold); }
+.rev-detail { font-size: 13px; color: var(--text-3); }
+.rev-sensitivity { margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 15px; color: var(--text-2); line-height: 1.6; text-align: center; }
+
+/* Footer */
+.footer { font-size: 13px; color: var(--text-3); line-height: 1.6; padding-top: 20px; border-top: 1px solid var(--line); margin-top: 32px; }
+.footer b { color: var(--text-2); }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="asx-badge">ASX: TGN</div>
+    <h1 class="title">Tungsten Mining NL</h1>
+    <div class="subtitle">v10.2 — RE-ANCHORED 5-tier with Hyper-bull</div>
+    <div class="tagline">Only bulk-tonnage open-pit tungsten asset in DFARS Tier 2 (qualifying country) supply pipeline. First production Q2 2027. TGN becomes 31-44% of all ex-China AND 44-59% of Tier 2 ex-China by 2035 (6-7× next Tier 2 peer). China flips to deficit 2028.</div>
+  </div>
+
+  <!-- P(wtd) Hero -->
+  <div class="section">
+    <div class="hero-card">
+      <div class="hero-label">P(wtd) Value 2032 (probability-weighted, v10.2 RE-ANCHORED)</div>
+      <div class="hero-value">A$6.00</div>
+      <div class="hero-mult">27.3× from A$0.22 (mid of A$5.50-6.50 range)</div>
+      <div class="hero-foot">H-Bull 5-10% × A$22.50 + Bull 40-45% × A$11.50 + Base 35-40% × A$4.00 + Bear 10-15% × A$2.00 + Floor 1% × A$0.40</div>
+    </div>
+
+    <!-- Probability bar -->
+    <div class="prob-bar">
+      <div class="prob-hyper">H-BULL 7.5%</div>
+      <div class="prob-bull">BULL 42.5%</div>
+      <div class="prob-base">BASE 37.5%</div>
+      <div class="prob-bear">BEAR 12.5%</div>
+      <div class="prob-floor">F</div>
+    </div>
+    <div class="prob-legend">
+      <div><span class="prob-swatch" style="background: linear-gradient(90deg, #ef4444, #f59e0b);"></span><b>H-Bull</b> A$15-30</div>
+      <div><span class="prob-swatch swatch-bull;"></span><b>Bull</b> A$8-15</div>
+      <div><span class="prob-swatch swatch-base;"></span><b>Base</b> A$3-5</div>
+      <div><span class="prob-swatch swatch-bear;"></span><b>Bear</b> A$1.5-2.5</div>
+    </div>
+  </div>
+
+  <!-- #1 Risk -->
+  <div class="section">
+    <div class="section-title">🚨 #1 RISK</div>
+    <div class="funding-card">
+      <div class="funding-label">Funding Gap</div>
+      <div class="funding-value">A$254M</div>
+      <div class="funding-sub">A$274M CAPEX − A$20M from A$53M placement (committed primarily to Mt Mulgine, not directly available for Watershed)</div>
+      <div class="funding-detail">FID September 2026 contingent on closing this gap. If FID slips to Q1-Q2 2027, position reduces to 4-6%, P(wtd) compresses 15-25%. Mitigants: DPA Title III + EXIM + DFC + NAIF + private capital.</div>
+    </div>
+  </div>
+
+  <!-- Resource Inventory -->
+  <div class="section">
+    <div class="section-title">📦 RESOURCE INVENTORY</div>
+    <div class="resource-card">
+      <div class="resource-total">387 kt WO₃</div>
+      <div class="resource-sub">Total Resource Inventory (annual resource, NOT annual production) — Watershed + Mt Mulgine + Hatches Creek</div>
+      <div class="resource-row">
+        <div class="resource-label">Watershed (Q2 2027)</div>
+        <div class="resource-bar-bg"><div class="resource-bar-fill" style="width: 19.6%;"></div></div>
+        <div class="resource-val">76 kt</div>
+      </div>
+      <div class="resource-row">
+        <div class="resource-label">Mt Mulgine (2029+)</div>
+        <div class="resource-bar-bg"><div class="resource-bar-fill mulgine" style="width: 75.0%;"></div></div>
+        <div class="resource-val">290 kt</div>
+      </div>
+      <div class="resource-row">
+        <div class="resource-label">Hatches Creek (2033+)</div>
+        <div class="resource-bar-bg"><div class="resource-bar-fill hatches" style="width: 5.4%;"></div></div>
+        <div class="resource-val">20.9 kt</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4 pillars -->
+  <div class="section">
+    <div class="section-h2">5 Pillars of the Thesis</div>
+    <div class="pillars">
+      <div class="pillar"><div class="pillar-num">1</div><div class="pillar-text"><b>Production Tier Evidence</b> — TGN is the only bulk-tonnage open pit Tier 2 (RDP-qualifying) tungsten asset.</div></div>
+      <div class="pillar"><div class="pillar-num">2</div><div class="pillar-text"><b>DFARS Frictionless</b> — DFARS 252.225-7052 (Jan 1, 2027) gives TGN statutory right of first refusal vs Tier 3 (Almonty Sangdong, Korea, Tier 3, NOT DFARS) and Cove Capital (Kazakhstan, Tier 3, NOT DFARS).</div></div>
+      <div class="pillar"><div class="pillar-num">3</div><div class="pillar-text"><b>AISC Cost Floor</b> — TGN's A$415/MTU AISC is the lowest in the world (Almonty A$900-1,000, Mactung A$1,000+). TGN is the last man standing in any Bear scenario.</div></div>
+      <div class="pillar"><div class="pillar-num">4</div><div class="pillar-text"><b>Tripartite Pricing</b> — TGN sells into Bucket 3 (DFARS/Sovereign $2,800-3,500/MTU) and Bucket 2 (ex-China commercial $1,800-2,500/MTU). After 2028, also into China (which becomes a net-importer).</div></div>
+      <div class="pillar"><div class="pillar-num">5</div><div class="pillar-text"><b>3-4 Year Exclusive Frictionless Window</b> — TGN 2027-2030, Mactung 2030-2031. TGN is the only bulk-tonnage open-pit Tier 2 primary producer in this window.</div></div>
+    </div>
+  </div>
+
+  <!-- Tripartite Pricing -->
+  <div class="section">
+    <div class="section-h2">Tripartite Pricing — TGN sells into Bucket 2 + 3</div>
+    <div class="price-grid">
+      <div class="price-card tier1">
+        <div class="price-tier">Bucket 1 — In-China Commercial "WTI"</div>
+        <div class="price-value">RMB 660,000/ton</div>
+        <div class="price-context">≈ US$1,100/MTU APT — China-internal collapsed -56.6% from Mar 2026 peak per CTIA</div>
+      </div>
+      <div class="price-card tier2">
+        <div class="price-tier">Bucket 2 — Ex-China Commercial "Urals"</div>
+        <div class="price-value">US$1,200-1,800/MTU</div>
+        <div class="price-context">China APT exports restricted, structurally constrained (US$)</div>
+      </div>
+      <div class="price-card tier3">
+        <div class="price-tier">Bucket 3 — DFARS / Sovereign "Brent"</div>
+        <div class="price-value">US$2,800-3,500/MTU</div>
+        <div class="price-context">Statute-guaranteed (DFARS 252.225-7052), only -0.2% from peak</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Strategic Demand -->
+  <div class="section">
+    <div class="section-h2">Strategic Tier Demand in 2030</div>
+    <div class="demand-bar">
+      <div class="demand-rev">REVENUE 60%</div>
+      <div class="demand-civ">CIVILIAN 30%</div>
+      <div class="demand-oth">OTHER 10%</div>
+    </div>
+    <div class="demand-detail">Sandvik 14% global mkt share, Kennametal, Mitsubishi Materials, Sumitomo Electric, Kyocera = Top 5 Western Buyers (collectively ~50% of global tungsten carbide consumption). Civilian ex-China is 5-6× larger than defense.</div>
+  </div>
+
+  <!-- 5 Pillars detail -->
+  <div class="section">
+    <div class="section-title">📊 P(wtd) SCENARIOS — 5-Tier with Hyper-bull (v10.2)</div>
+    <div class="scenarios">
+      <div class="scenario scenario-bull" style="background: linear-gradient(135deg, rgba(239,68,68,0.18), rgba(245,158,11,0.18)); border: 2px solid var(--tier1);">
+        <div class="scen-row">
+          <span class="scen-name">🔥 HYPER-BULL 5-10% (🆕)</span>
+          <span class="scen-prob">A$15-30 (mean A$22.50)</span>
+        </div>
+        <div class="scen-value" style="color: var(--tier1);">A$15-30</div>
+        <div class="scen-desc"><b style="color: var(--tier1);">SEVERE SCARCITY:</b> China net-importer, APT $6-7k/MTU, full scarcity premium. 31-44% ex-China share (44-59% Tier 2) × 200-700× revenue upgrade.</div>
+      </div>
+      <div class="scenario scenario-bull">
+        <div class="scen-row">
+          <span class="scen-name">🟢 BULL 40-45% (UPGRADED)</span>
+          <span class="scen-prob">A$8-15 (mean A$11.50)</span>
+        </div>
+        <div class="scen-value">A$8-15</div>
+        <div class="scen-desc">ex-China APT $4.5-5.5k/MTU, partial China imports, DPA + sovereign premium. TGN revenue A$3-11B by 2035.</div>
+      </div>
+      <div class="scenario scenario-base">
+        <div class="scen-row">
+          <span class="scen-name">🔵 BASE 35-40% (UPGRADED)</span>
+          <span class="scen-prob">A$3-5 (mean A$4.00)</span>
+        </div>
+        <div class="scen-value">A$3-5</div>
+        <div class="scen-desc">ex-China APT $3.5-4k/MTU, partial buildout, FID on time. TGN revenue A$2-3B by 2035.</div>
+      </div>
+      <div class="scenario scenario-bear">
+        <div class="scen-row">
+          <span class="scen-name">🟠 BEAR 10-15% (AISC-supported)</span>
+          <span class="scen-prob">A$1.50-2.50 (mean A$2.00)</span>
+        </div>
+        <div class="scen-value">A$1.50-2.50</div>
+        <div class="scen-desc"><b style="color: var(--gold-2);">AISC-SUPPORTED FLOOR:</b> TGN AISC A$415/MTU = lowest in world. Higher-cost producers (Mactung, Almonty, expensive Chinese) go bankrupt first. TGN = last man standing.</div>
+      </div>
+      <div class="scenario scenario-floor">
+        <div class="scen-row">
+          <span class="scen-name">⚪ FLOOR 1%</span>
+          <span class="scen-prob">A$0.30-0.50 (mean A$0.40)</span>
+        </div>
+        <div class="scen-value">A$0.30-0.50</div>
+        <div class="scen-desc">Project fails FID, NPV-down, secular demand collapse (very unlikely given AISC)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Catalyst Watch -->
+  <div class="section">
+    <div class="section-title">📅 CATALYST WATCH</div>
+    <div class="catalysts">
+      <div class="catalyst-row"><div class="cat-date">Mid-Late Jul 2026</div><div class="cat-text"><b>Mt Mulgine 40,000m RC assays</b> (extension drilling)</div></div>
+      <div class="catalyst-row"><div class="cat-date">Q3 2026</div><div class="cat-text"><b>Watershed FID</b> + financing package (A$254M gap)</div></div>
+      <div class="catalyst-row"><div class="cat-date">Q4 2026</div><div class="cat-text"><b>DLA tungsten IDIQ</b> award (2,040 t FY2025)</div></div>
+      <div class="catalyst-row"><div class="cat-date">Q4 2026</div><div class="cat-text"><b>CSSC +1,000 t/yr WF6</b> online</div></div>
+      <div class="catalyst-row"><div class="cat-date">Q1 2027</div><div class="cat-text"><b>Cove Capital DFS</b> results (largest undeveloped ex-China project)</div></div>
+      <div class="catalyst-row"><div class="cat-date">Jan 1, 2027</div><div class="cat-text"><b>DFARS 252.225-7052</b> effective (TGN Tier 2 advantage activates)</div></div>
+      <div class="catalyst-row"><div class="cat-date">Q2 2027</div><div class="cat-text"><b>Watershed first production</b> (TGN APT output begins)</div></div>
+      <div class="catalyst-row"><div class="cat-date">2028</div><div class="cat-text"><b>China flips to DEFICIT</b> (sanctioned feeders constrained)</div></div>
+      <div class="catalyst-row"><div class="cat-date">Q3 2029</div><div class="cat-text"><b>Mt Mulgine first production</b> (TGN W output doubles)</div></div>
+      <div class="catalyst-row"><div class="cat-date">2030-2031</div><div class="cat-text"><b>Mactung Tier 2</b> comes online (Canada, only other Tier 2)</div></div>
+    </div>
+  </div>
+
+  <!-- Key Data -->
+  <div class="section">
+    <div class="section-title">📈 KEY DATA</div>
+    <div class="kd-grid">
+      <div class="kd-cell"><div class="kd-label">Share price</div><div class="kd-value">A$0.22</div></div>
+      <div class="kd-cell"><div class="kd-label">Market cap</div><div class="kd-value">A$307M</div></div>
+      <div class="kd-cell"><div class="kd-label">Cash (Q1 2026)</div><div class="kd-value">A$53.97M</div></div>
+      <div class="kd-cell"><div class="kd-label">Watershed CAPEX</div><div class="kd-value">A$274M</div></div>
+      <div class="kd-cell"><div class="kd-label">NPV (pre-tax)</div><div class="kd-value">A$1,309M</div></div>
+      <div class="kd-cell"><div class="kd-label">IRR / Payback</div><div class="kd-value">198% / 9 mo</div></div>
+      <div class="kd-cell"><div class="kd-label">AISC (concentrate)</div><div class="kd-value">A$415/MTU</div></div>
+      <div class="kd-cell"><div class="kd-label">APT 2027 output</div><div class="kd-value">2,587 t/yr</div></div>
+      <div class="kd-cell"><div class="kd-label">APT 2035 (full multi-asset)</div><div class="kd-value">22,500 t/yr</div></div>
+      <div class="kd-cell"><div class="kd-label">APT spot ex-China</div><div class="kd-value">US$2,900-3,200/MTU</div></div>
+    </div>
+  </div>
+
+  <!-- Sovereign Expansion -->
+  <div class="section">
+    <div class="sovereign">
+      <div class="sov-label">🚀 POST-2032 SOVEREIGN EXPANSION</div>
+      <div class="sov-title">Long-duration ceiling — not in P(wtd)</div>
+      <div class="sov-sub">5-25% probability ceiling highly subjective; geographic latency 130-5,000 mW or Maiden Acquisitions (TBC); 30-40× multiple in P(wtd); or M&A and control premium</div>
+      <div class="sov-band">A$8-15 (35-68×)</div>
+    </div>
+  </div>
+
+  <!-- V10.2 4 findings -->
+  <div class="section">
+    <div class="section-title">🆕 V10.2 — 4 NEW FINDINGS</div>
+    <div class="finding-card gold">
+      <div class="finding-title">1. China Flips to DEFICIT in 2028</div>
+      <div class="finding-text">China surplus <b>+12,697 t W</b> (2025) → deficit <b>-59,500 t W</b> (2035). Sanctioned feeders (NK + Russia + Kazakhstan = 6,300 t/yr) CONSTRAINED. TGN can supply China from 2028.</div>
+    </div>
+    <div class="finding-card tier1" style="margin-top: 16px;">
+      <div class="finding-title">2. Deficit Grows 4.7× by 2035</div>
+      <div class="finding-text">ex-China deficit <b>-14,800 t W</b> (2025) → <b>-69,541 t W</b> (2035). TGN's share of ex-China: 0% (2025) → <b>31-44% (all) or 44-59% (Tier 2 only) by 2035</b>. Even all new mines combined can't keep up.</div>
+    </div>
+    <div class="finding-card bull" style="margin-top: 16px;">
+      <div class="finding-title">3. TGN as Global Supplier (China + ex-China)</div>
+      <div class="finding-text">Global APT 87,500 t/yr (2025) → 132,500 t/yr (2035). TGN's global market share: 0% → <b>17% by 2035</b>. TGN's addressable market TRIPLES vs ex-China-only framing.</div>
+    </div>
+    <div class="finding-card base" style="margin-top: 16px;">
+      <div class="finding-title">4. TGN Revenue 200-700× Upgrade</div>
+      <div class="finding-text">v10.1: A$22-33M (2035). v10.2: <b>A$5-14B (2035)</b>. Drivers: 4.7× deficit growth + price escalation (ex-China APT $3,000 → $6,000/MTU, China $1,100 → $5,500/MTU) + TGN as global supplier.</div>
+    </div>
+  </div>
+
+  <!-- Revenue Projections -->
+  <div class="section">
+    <div class="section-title">💰 TGN REVENUE PROJECTIONS (v10.2, 30/50/20 mix)</div>
+    <div class="rev-grid">
+      <div class="rev-cell">
+        <div class="rev-year">2027</div>
+        <div class="rev-amount gold">A$776M</div>
+        <div class="rev-detail">1,902 t W/yr</div>
+      </div>
+      <div class="rev-cell">
+        <div class="rev-year">2030</div>
+        <div class="rev-amount gold">A$3,351M</div>
+        <div class="rev-detail">6,038 t W/yr</div>
+      </div>
+      <div class="rev-cell featured">
+        <div class="rev-year" style="color: var(--gold);">2035</div>
+        <div class="rev-amount gold-highlight">A$12,983M</div>
+        <div class="rev-detail">16,544 t W/yr (full multi-asset)</div>
+      </div>
+    </div>
+    <div class="rev-sensitivity"><b>5-scenario sensitivity (2035):</b> Bear A$4,945M · Base A$7,047M · Realistic A$8,438M · Bull A$10,910M · Hyper-bull A$13,970M</div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <b style="color: var(--gold);">v10.2</b> — RE-ANCHORED 5-tier with Hyper-bull (A$5.50-6.50, 25-30×) · Tripartite Pricing + 4-layer stack + $2,500-3,100 baseline / $3,000-4,300 stress-test · 5-7 Years (v9.57d) · Tier 3 = non-qualifying country (Vietnam, Korea, Kazakhstan) · China flips to deficit 2028
+    <br><br>
+    <b>Source documents:</b> thesis/v10-clean-executive.md · thesis/01-master-thesis.md · data/pwt-2032-model.md · data/duopoly-arbitrage.md · tungsten_industry_deficit_2025_2035/
+    <br><br>
+    Last updated: 18 July 2026 | Source: 9 independent AI audits converged to v9.57d, updated to v10.1 (P(wtd) A$4.50-4.80), updated to v10.2 (P(wtd) A$5.50-6.50 with Hyper-bull, July 18, 2026)
+  </div>
+
+</div>
+</body>
+</html>
