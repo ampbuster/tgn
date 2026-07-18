@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TGN v10.1 Infographic</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0e1a;
+  --bg-card: #131826;
+  --bg-card-2: #1a2138;
+  --line: rgba(255,255,255,0.08);
+  --line-soft: rgba(255,255,255,0.05);
+  --text: #f5f5f0;
+  --text-2: #b5b5b0;
+  --text-3: #7c7a72;
+  --gold: #d4af37;
+  --gold-2: #f4cf5b;
+  --bull: #10b981;
+  --bull-2: #34d399;
+  --base: #3b82f6;
+  --base-2: #60a5fa;
+  --bear: #f59e0b;
+  --bear-2: #fbbf24;
+  --floor: #6b7280;
+  --floor-2: #9ca3af;
+  --tier1: #ef4444;
+  --tier2: #10b981;
+  --tier3: #f59e0b;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Outfit', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+.container { max-width: 800px; margin: 0 auto; padding: 24px 20px; }
+
+/* Header */
+.header { text-align: center; padding: 28px 16px 20px; border-bottom: 1px solid var(--line); margin-bottom: 32px; }
+.asx-badge { display: inline-block; background: var(--gold); color: #000; padding: 4px 12px; border-radius: 4px; font-weight: 700; font-size: 13px; letter-spacing: 0.05em; margin-bottom: 12px; }
+.title { font-family: 'DM Serif Display', serif; font-size: 38px; line-height: 1.1; margin-bottom: 8px; }
+.subtitle { color: var(--gold-2); font-size: 14px; font-weight: 500; }
+.tagline { color: var(--text-2); font-size: 13px; margin-top: 12px; line-height: 1.5; }
+
+/* Section */
+.section { margin-bottom: 36px; }
+.section-title { font-size: 11px; color: var(--text-3); letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 10px; font-weight: 600; }
+.section-h2 { font-family: 'DM Serif Display', serif; font-size: 24px; margin-bottom: 16px; line-height: 1.2; }
+
+/* Hero card (P(wtd)) */
+.hero-card { background: linear-gradient(135deg, var(--bg-card), var(--bg-card-2)); border: 1px solid var(--gold); border-radius: 16px; padding: 28px 20px; text-align: center; margin-bottom: 16px; }
+.hero-label { font-size: 11px; color: var(--text-3); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 8px; }
+.hero-value { font-family: 'DM Serif Display', serif; font-size: 64px; line-height: 1; color: var(--gold-2); margin-bottom: 8px; }
+.hero-mult { font-size: 16px; color: var(--text-2); margin-bottom: 14px; }
+.hero-foot { font-size: 12px; color: var(--text-3); line-height: 1.5; border-top: 1px solid var(--line); padding-top: 12px; }
+
+/* Probability mix bar */
+.prob-bar { display: flex; height: 28px; border-radius: 8px; overflow: hidden; margin-bottom: 10px; }
+.prob-bar > div { display: flex; align-items: center; justify-content: center; color: #000; font-weight: 700; font-size: 12px; }
+.prob-bull { background: var(--bull); flex: 0 0 49.5%; }
+.prob-base { background: var(--base); flex: 0 0 41%; }
+.prob-bear { background: var(--bear); flex: 0 0 8.5%; color: #000; }
+.prob-floor { background: var(--floor); flex: 0 0 1%; color: #fff; font-size: 10px; }
+.prob-legend { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; font-size: 11px; color: var(--text-2); }
+.prob-legend > div { display: flex; align-items: center; gap: 6px; }
+.prob-swatch { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+.swatch-bull { background: var(--bull); }
+.swatch-base { background: var(--base); }
+.swatch-bear { background: var(--bear); }
+.swatch-floor { background: var(--floor); }
+
+/* Funding gap card (red) */
+.funding-card { background: linear-gradient(135deg, #2a1410, #1a0a08); border: 1px solid #b53a2a; border-radius: 14px; padding: 24px 20px; text-align: center; margin-bottom: 16px; }
+.funding-label { font-size: 11px; color: #f59e0b; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600; margin-bottom: 8px; }
+.funding-value { font-family: 'DM Serif Display', serif; font-size: 52px; color: #f43f5e; line-height: 1; margin-bottom: 6px; }
+.funding-sub { font-size: 12px; color: var(--text-2); margin-bottom: 14px; line-height: 1.5; }
+.funding-detail { font-size: 11px; color: var(--text-3); line-height: 1.6; border-top: 1px solid rgba(245,63,94,0.2); padding-top: 12px; }
+
+/* Resource bar chart */
+.resource-card { background: var(--bg-card); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+.resource-total { font-family: 'DM Serif Display', serif; font-size: 32px; color: var(--gold-2); margin-bottom: 4px; }
+.resource-sub { font-size: 12px; color: var(--text-3); margin-bottom: 16px; }
+.resource-row { display: grid; grid-template-columns: 110px 1fr 70px; gap: 12px; align-items: center; padding: 8px 0; font-size: 12px; }
+.resource-bar-bg { height: 14px; background: var(--line-soft); border-radius: 4px; overflow: hidden; }
+.resource-bar-fill { height: 100%; background: linear-gradient(90deg, var(--gold), var(--gold-2)); border-radius: 4px; }
+.resource-bar-fill.mulgine { background: linear-gradient(90deg, var(--base), var(--base-2)); }
+.resource-bar-fill.hatches { background: linear-gradient(90deg, var(--bear), var(--bear-2)); }
+.resource-label { color: var(--text-2); }
+.resource-val { font-family: 'JetBrains Mono', monospace; color: var(--text); text-align: right; font-weight: 600; }
+
+/* Tripartite Pricing cards */
+.price-grid { display: grid; gap: 10px; }
+.price-card { background: var(--bg-card); border-left: 4px solid; padding: 14px 16px; border-radius: 8px; }
+.price-card.tier1 { border-color: var(--tier1); }
+.price-card.tier2 { border-color: var(--bull); }
+.price-card.tier3 { border-color: var(--gold); }
+.price-name { font-size: 11px; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px; }
+.price-value { font-family: 'DM Serif Display', serif; font-size: 22px; line-height: 1.1; }
+.price-value.tier1-down { color: #f43f5e; }
+.price-value.tier2-stable { color: var(--bull); }
+.price-value.tier3-stable { color: var(--gold-2); }
+.price-note { font-size: 11px; color: var(--text-2); margin-top: 4px; }
+
+/* Strategic Tier Demand stack */
+.tier-demand { background: var(--bg-card); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+.tier-demand-bar { display: flex; height: 32px; border-radius: 6px; overflow: hidden; margin-bottom: 12px; }
+.td-bucket3-dfars { background: var(--gold); flex: 0 0 32%; display: flex; align-items: center; justify-content: center; font-size: 11px; color: #000; font-weight: 700; }
+.td-bucket3-chem { background: var(--bear); flex: 0 0 43%; display: flex; align-items: center; justify-content: center; font-size: 11px; color: #000; font-weight: 700; }
+.td-bucket2 { background: var(--base); flex: 0 0 25%; display: flex; align-items: center; justify-content: center; font-size: 11px; color: #000; font-weight: 700; }
+.td-legend { font-size: 11px; color: var(--text-2); line-height: 1.5; }
+.td-legend > div { padding: 4px 0; }
+
+/* Five Pillars */
+.pillars { display: grid; gap: 10px; }
+.pillar { background: var(--bg-card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: grid; grid-template-columns: 28px 1fr; gap: 12px; align-items: start; }
+.pillar-num { font-family: 'DM Serif Display', serif; font-size: 22px; color: var(--gold); line-height: 1; }
+.pillar-title { font-size: 13px; font-weight: 600; margin-bottom: 2px; }
+.pillar-desc { font-size: 11px; color: var(--text-2); line-height: 1.5; }
+
+/* P(wtd) Scenarios — DISTINCT COLORS */
+.scenarios { display: grid; gap: 10px; }
+.scenario { padding: 18px 20px; border-radius: 12px; position: relative; overflow: hidden; }
+.scenario-bull { background: linear-gradient(135deg, #064e3b, #022c22); border: 1px solid var(--bull); }
+.scenario-base { background: linear-gradient(135deg, #1e3a8a, #0c1d4a); border: 1px solid var(--base); }
+.scenario-bear { background: linear-gradient(135deg, #78350f, #451a03); border: 1px solid var(--bear); }
+.scenario-floor { background: linear-gradient(135deg, #374151, #1f2937); border: 1px solid var(--floor); }
+.scen-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
+.scen-name { font-weight: 700; font-size: 16px; letter-spacing: 0.04em; }
+.scenario-bull .scen-name { color: var(--bull-2); }
+.scenario-base .scen-name { color: var(--base-2); }
+.scenario-bear .scen-name { color: var(--bear-2); }
+.scenario-floor .scen-name { color: var(--floor-2); }
+.scen-prob { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--text-2); }
+.scen-value { font-family: 'DM Serif Display', serif; font-size: 30px; line-height: 1; }
+.scenario-bull .scen-value { color: var(--bull-2); }
+.scenario-base .scen-value { color: var(--base-2); }
+.scenario-bear .scen-value { color: var(--bear-2); }
+.scenario-floor .scen-value { color: var(--floor-2); }
+.scen-desc { font-size: 11px; color: var(--text-2); margin-top: 6px; line-height: 1.5; }
+
+/* Catalyst Watch */
+.catalysts { background: var(--bg-card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; }
+.catalyst-row { display: grid; grid-template-columns: 80px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line-soft); font-size: 12px; align-items: start; }
+.catalyst-row:last-child { border-bottom: none; }
+.cat-date { font-family: 'JetBrains Mono', monospace; color: var(--gold); font-weight: 600; font-size: 11px; }
+.cat-text { color: var(--text-2); line-height: 1.5; }
+.cat-text strong { color: var(--text); font-weight: 600; }
+
+/* Competitive landscape */
+.competitive { background: var(--bg-card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; }
+.comp-row { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 8px; padding: 8px 0; border-bottom: 1px solid var(--line-soft); font-size: 11px; align-items: center; }
+.comp-row:last-child { border-bottom: none; }
+.comp-row.head { color: var(--text-3); font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; padding-bottom: 4px; }
+.comp-cell { color: var(--text-2); }
+.comp-cell strong { color: var(--text); }
+.tier-badge { display: inline-block; padding: 2px 6px; border-radius: 3px; font-weight: 600; font-size: 10px; }
+.tier-badge.t2 { background: rgba(16,185,129,0.15); color: var(--bull-2); }
+.tier-badge.t3 { background: rgba(245,158,11,0.15); color: var(--bear-2); }
+
+/* Key Data */
+.keydata { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.kd-cell { background: var(--bg-card); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+.kd-label { font-size: 10px; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px; }
+.kd-value { font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 600; }
+
+/* Sovereign Expansion */
+.sovereign { background: linear-gradient(135deg, var(--bg-card), var(--bg-card-2)); border: 1px solid var(--gold); border-radius: 12px; padding: 20px; text-align: center; }
+.sov-label { font-size: 11px; color: var(--gold); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 6px; font-weight: 600; }
+.sov-title { font-family: 'DM Serif Display', serif; font-size: 22px; margin-bottom: 8px; line-height: 1.2; }
+.sov-sub { font-size: 12px; color: var(--text-2); margin-bottom: 12px; line-height: 1.5; }
+.sov-band { background: rgba(212,175,55,0.1); border: 1px dashed var(--gold); border-radius: 8px; padding: 12px; margin-bottom: 12px; }
+.sov-band-label { font-size: 10px; color: var(--gold-2); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 4px; }
+.sov-band-value { font-family: 'JetBrains Mono', monospace; font-size: 20px; color: var(--gold-2); font-weight: 600; }
+
+/* Footer */
+.footer { margin-top: 36px; padding-top: 20px; border-top: 1px solid var(--line); text-align: center; font-size: 10px; color: var(--text-3); line-height: 1.6; }
+
+/* SVG icon helpers */
+.icon { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; vertical-align: middle; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="asx-badge">ASX: TGN</div>
+    <h1 class="title">Tungsten Mining NL</h1>
+    <div class="subtitle">v10.1 — Tier 2 Frictionless (v9.57d update)</div>
+    <div class="tagline">Only bulk-tonnage open-pit tungsten asset in DFARS Tier 2 (qualifying country) supply pipeline. First production Q2 2027.</div>
+  </div>
+
+  <!-- P(wtd) Hero -->
+  <div class="section">
+    <div class="hero-card">
+      <div class="hero-label">P(wtd) Value 2012 (probability-weighted)</div>
+      <div class="hero-value">A$4.65</div>
+      <div class="hero-mult">21.3× from A$0.22 (21.7× entry at A$0.214)</div>
+      <div class="hero-foot">Bull 47-52% × A$7.00 + Base 40-42% × A$2.25 + Bear 7-10% × A$1.50 + Floor 1% × A$0.30</div>
+    </div>
+
+    <!-- Probability bar -->
+    <div class="prob-bar">
+      <div class="prob-bull">BULL 49.5%</div>
+      <div class="prob-base">BASE 41%</div>
+      <div class="prob-bear">BEAR 8.5%</div>
+      <div class="prob-floor">F</div>
+    </div>
+    <div class="prob-legend">
+      <div><span class="prob-swatch swatch-bull"></span>Bull A$4-10 (mean A$7)</div>
+      <div><span class="prob-swatch swatch-base"></span>Base A$1.50-3.00 (mean A$2.25)</div>
+      <div><span class="prob-swatch swatch-bear"></span>Bear A$1.00-2.00 (mean A$1.50, AISC-supported)</div>
+      <div><span class="prob-swatch swatch-floor"></span>Floor A$0.20-0.40 (mean A$0.30)</div>
+    </div>
+  </div>
+
+  <!-- Funding Gap -->
+  <div class="section">
+    <div class="section-title">🚨 THE #1 RISK</div>
+    <div class="funding-card">
+      <div class="funding-label">Funding Gap</div>
+      <div class="funding-value">A$254M</div>
+      <div class="funding-sub">A$274M CAPEX − A$14-30M from A$53M placement (committed primarily to Mt Mulgine, not directly available for Watershed)</div>
+      <div class="funding-detail">FID September 2026 contingent on closing this gap. If FID slips to Q1-Q2 2027, position reduces to 4-6%, P(wtd) compresses 15-25%.</div>
+    </div>
+  </div>
+
+  <!-- 387 kt Resource Inventory -->
+  <div class="section">
+    <div class="section-title">📦 RESOURCE INVENTORY</div>
+    <div class="resource-card">
+      <div class="resource-total">387 kt WO₃</div>
+      <div class="resource-sub">Total Resource Inventory (NOT annual production) — Watershed + Mt Mulgine + Hatches Creek</div>
+      <div class="resource-row">
+        <span class="resource-label">Watershed (QLD)</span>
+        <div class="resource-bar-bg"><div class="resource-bar-fill" style="width:19.6%"></div></div>
+        <span class="resource-val">76 kt</span>
+      </div>
+      <div class="resource-row">
+        <span class="resource-label">Mt Mulgine (WA)</span>
+        <div class="resource-bar-bg"><div class="resource-bar-fill mulgine" style="width:74.9%"></div></div>
+        <span class="resource-val">290 kt</span>
+      </div>
+      <div class="resource-row">
+        <span class="resource-label">Hatches Creek (NT)</span>
+        <div class="resource-bar-bg"><div class="resource-bar-fill hatches" style="width:5.4%"></div></div>
+        <span class="resource-val">20.9 kt</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- A$254M Funding Stack -->
+  <div class="section">
+    <div class="section-title">💰 A$254M FUNDING GAP</div>
+    <div class="resource-card">
+      <div class="resource-sub">Sources: DPA Title III + offtake + project finance</div>
+      <div class="resource-row">
+        <span class="resource-label">DPA Title III (US DoD)</span>
+        <div class="resource-bar-bg"><div class="resource-bar-fill" style="width:18%"></div></div>
+        <span class="resource-val">~$50M</span>
+      </div>
+      <div class="resource-row">
+        <span class="resource-label">Australian NAIF (NAIF)</span>
+        <div class="resource-bar-bg"><div class="resource-bar-fill mulgine" style="width:33%"></div></div>
+        <span class="resource-val">~$90M</span>
+      </div>
+      <div class="resource-row">
+        <span class="resource-label">Offtake prepayment</span>
+        <div class="resource-bar-bg"><div class="resource-bar-fill hatches" style="width:18%"></div></div>
+        <span class="resource-val">~$50M</span>
+      </div>
+      <div class="resource-row">
+        <span class="resource-label">Project finance / debt</span>
+        <div class="resource-bar-bg"><div class="resource-bar-fill" style="width:30%"></div></div>
+        <span class="resource-val">~$80M</span>
+      </div>
+      <div class="resource-row" style="border-top: 1px solid var(--line); padding-top: 12px; margin-top: 4px;">
+        <span class="resource-label" style="color: var(--gold);">Total identified</span>
+        <div></div>
+        <span class="resource-val" style="color: var(--gold);">~$254M</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tripartite Pricing Model -->
+  <div class="section">
+    <div class="section-title">💲 TRIPARTITE PRICING MODEL</div>
+    <div class="section-h2">Ex-China APT price floor: $2,500-3,100/MTU (4-layer v10.1)</div>
+    <div class="price-grid">
+      <div class="price-card tier1">
+        <div class="price-name">Bucket 1 — In-China (Tripartite Tier 1)</div>
+        <div class="price-value tier1-down">RMB 660,000/ton</div>
+        <div class="price-note">−56.6% from Mar 16 peak per CTIA — In-China collapsed</div>
+      </div>
+      <div class="price-card tier2">
+        <div class="price-name">Bucket 2 — Ex-China Commercial "Urals"</div>
+        <div class="price-value tier2-stable">$1,200-1,800/MTU</div>
+        <div class="price-note">Cyclical, structurally constrained by Chinese restrictions</div>
+      </div>
+      <div class="price-card tier3">
+        <div class="price-name">Bucket 3 — DFARS/Sovereign "Brent"</div>
+        <div class="price-value tier3-stable">$2,800-3,500/MTU</div>
+        <div class="price-note">Inelastic, statute-mandated, structurally protected</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Strategic Tier Demand -->
+  <div class="section">
+    <div class="section-title">🎯 STRATEGIC TIER DEMAND 19-35 kt</div>
+    <div class="tier-demand">
+      <div class="tier-demand-bar">
+        <div class="td-bucket3-dfars">B3 DFARS 32%</div>
+        <div class="td-bucket3-chem">B3 Chem 43%</div>
+        <div class="td-bucket2">B2 Civilian 25%</div>
+      </div>
+      <div class="td-legend">
+        <div><strong style="color: var(--gold);">Bucket 3 DFARS/Sovereign</strong> 8-16 kt @ $2,800-3,500/MTU (statute-guaranteed)</div>
+        <div><strong style="color: var(--bear);">Bucket 3 Chemicals (WF6/SCR/AMT)</strong> 11-19 kt @ APT + $200-400/MTU premium (chemistry-bound)</div>
+        <div><strong style="color: var(--base);">Bucket 2 Commercial Civilian</strong> 11-19 kt @ $1,800-2,500/MTU (NOT legally mandated)</div>
+        <div style="margin-top: 6px; color: var(--text-3); font-style: italic;">Broader ex-China civilian APT: 50-75 kt (NOT DFARS)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Five Pillars -->
+  <div class="section">
+    <div class="section-title">🏛️ FIVE PILLARS</div>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="pillar-num">1</div>
+        <div>
+          <div class="pillar-title">Frictionless Tier 2 Defense</div>
+          <div class="pillar-desc">DFARS-qualifying, automatic access — TGN is the only bulk-tonnage open-pit Tier 2 in 2027-2030</div>
+        </div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-num">2</div>
+        <div>
+          <div class="pillar-title">PES-Verified Economics</div>
+          <div class="pillar-desc">NPV A$1,309M pre-tax, IRR 198%, 9-month payback, A$415/MTU OPEX, A$274M CAPEX (PEE Jun 18, 2026)</div>
+        </div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-num">3</div>
+        <div>
+          <div class="pillar-title">AISC Cost Moat — Last Man Standing</div>
+          <div class="pillar-desc">AISC A$415/MTU vs Mactung A$1,000, Almonty A$900-1,000, expensive Chinese A$1,200+. In a Bear, TGN is profitable when others go bankrupt. Supply tightens, prices recover, TGN captures the recovery.</div>
+        </div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-num">4</div>
+        <div>
+          <div class="pillar-title">Tripartite Pricing</div>
+          <div class="pillar-desc">TGN sells exclusively into Tier 2/3 ex-China APT market (which decoupled from China and is structurally protected)</div>
+        </div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-num">5</div>
+        <div>
+          <div class="pillar-title">3-4 Year Exclusive Frictionless Window</div>
+          <div class="pillar-desc">2027-2030: TGN is the only Tier 2 bulk-tonnage producer ex-China. Mactung (Tier 2 Canada) only comes online 2030-2031</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- P(wtd) Scenarios — AISC-SUPPORTED FLOOR -->
+  <div class="section">
+    <div class="section-title">📊 P(wtd) SCENARIOS — 4-Tier (v10.1 AISC-supported floor)</div>
+    <div class="scenarios">
+      <div class="scenario scenario-bull">
+        <div class="scen-row">
+          <span class="scen-name">🟢 BULL 47-52%</span>
+          <span class="scen-prob">A$4-10 (mean A$7.00)</span>
+        </div>
+        <div class="scen-value">A$4-10</div>
+        <div class="scen-desc">APT $3-7k/MTU, DLA IDIQ, NAA & 30%+ premium, full upside captured</div>
+      </div>
+      <div class="scenario scenario-base">
+        <div class="scen-row">
+          <span class="scen-name">🔵 BASE 40-42%</span>
+          <span class="scen-prob">A$1.50-3.00 (mean A$2.25)</span>
+        </div>
+        <div class="scen-value">A$1.50-3.00</div>
+        <div class="scen-desc">APT normalizes $2-3k/MTU, FID slips 1-3 mo., dilution absorbs funding gap</div>
+      </div>
+      <div class="scenario scenario-bear">
+        <div class="scen-row">
+          <span class="scen-name">🟠 BEAR 7-10%</span>
+          <span class="scen-prob">A$1.00-2.00 (mean A$1.50)</span>
+        </div>
+        <div class="scen-value">A$1.00-2.00</div>
+        <div class="scen-desc"><strong style="color: var(--gold-2);">AISC-SUPPORTED FLOOR:</strong> APT retreats to $1-1.5k/MTU, but TGN AISC A$415/MTU keeps TGN profitable. Higher-cost producers (Mactung, Almonty, expensive Chinese mines) go bankrupt first. Supply tightens, prices recover. TGN = last man standing. Market overhang keeps TGN share price at 5-9× current, NOT 0.5×.</div>
+      </div>
+      <div class="scenario scenario-floor">
+        <div class="scen-row">
+          <span class="scen-name">⚪ FLOOR 1%</span>
+          <span class="scen-prob">A$0.20-0.40 (mean A$0.30)</span>
+        </div>
+        <div class="scen-value">A$0.20-0.40</div>
+        <div class="scen-desc">Project fails to clear FID, NPV-down, secular demand collapse (very unlikely given AISC)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Catalyst Watch -->
+  <div class="section">
+    <div class="section-title">📅 CATALYST WATCH</div>
+    <div class="catalysts">
+      <div class="catalyst-row">
+        <div class="cat-date">Mid-Late Jul 2026</div>
+        <div class="cat-text"><strong>Mt Mulgine 40,000m RC assays</strong></div>
+      </div>
+      <div class="catalyst-row">
+        <div class="cat-date">Sep 2026</div>
+        <div class="cat-text"><strong>Watershed FID</strong> + binding offtake + NAIF/AESF funding close</div>
+      </div>
+      <div class="catalyst-row">
+        <div class="cat-date">Q3 2026</div>
+        <div class="cat-text"><strong>NASDAQ/NYSE listing</strong> (US institutional funding visible)</div>
+      </div>
+      <div class="catalyst-row">
+        <div class="cat-date">Q4 2026</div>
+        <div class="cat-text"><strong>DLA tungsten IDIQ award</strong> (2,040 t FY2025) + CPA Title III funding</div>
+      </div>
+      <div class="catalyst-row">
+        <div class="cat-date">Q4 2026</div>
+        <div class="cat-text"><strong>Mt Mulgine updated PFS</strong> (gold + tungsten)</div>
+      </div>
+      <div class="catalyst-row">
+        <div class="cat-date">Q2 2027</div>
+        <div class="cat-text"><strong>Watershed first production</strong> (PEE, 9-month payback)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Competitive Landscape -->
+  <div class="section">
+    <div class="section-title">🌍 COMPETITIVE LANDSCAPE</div>
+    <div class="competitive">
+      <div class="comp-row head">
+        <div>Producer</div>
+        <div>Jurisdiction</div>
+        <div>DFARS Tier</div>
+        <div>Online</div>
+      </div>
+      <div class="comp-row">
+        <div class="comp-cell">Almonty Sangdong</div>
+        <div class="comp-cell">South Korea</div>
+        <div class="comp-cell"><span class="tier-badge t3">Tier 3 (TAA)</span></div>
+        <div class="comp-cell">Live (Jul 2026)</div>
+      </div>
+      <div class="comp-row">
+        <div class="comp-cell">Mactung (Fireweed)</div>
+        <div class="comp-cell">Canada</div>
+        <div class="comp-cell"><span class="tier-badge t2">Tier 2</span></div>
+        <div class="comp-cell">2030-2031</div>
+      </div>
+      <div class="comp-row">
+        <div class="comp-cell">Cove Capital</div>
+        <div class="comp-cell">Kazakhstan</div>
+        <div class="comp-cell"><span class="tier-badge t3">Tier 3 (TAA)</span></div>
+        <div class="comp-cell">2029+</div>
+      </div>
+      <div class="comp-row">
+        <div class="comp-cell"><strong>TGN</strong></div>
+        <div class="comp-cell"><strong>Australia</strong></div>
+        <div class="comp-cell"><span class="tier-badge t2">Tier 2 (RDP)</span></div>
+        <div class="comp-cell"><strong>Q2 2027 (PEE)</strong></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Key Data -->
+  <div class="section">
+    <div class="section-title">🔑 KEY DATA</div>
+    <div class="keydata">
+      <div class="kd-cell">
+        <div class="kd-label">TGN Share Price</div>
+        <div class="kd-value">A$0.22</div>
+      </div>
+      <div class="kd-cell">
+        <div class="kd-label">Market Cap</div>
+        <div class="kd-value">A$357M</div>
+      </div>
+      <div class="kd-cell">
+        <div class="kd-label">52-week range</div>
+        <div class="kd-value">A$0.165 – A$0.375</div>
+      </div>
+      <div class="kd-cell">
+        <div class="kd-label">5-year return</div>
+        <div class="kd-value">+250%</div>
+      </div>
+      <div class="kd-cell">
+        <div class="kd-label">TGN cash (Mar 31, 2026)</div>
+        <div class="kd-value">A$53.968M</div>
+      </div>
+      <div class="kd-cell">
+        <div class="kd-label">Watershed CAPEX</div>
+        <div class="kd-value">A$274M</div>
+      </div>
+      <div class="kd-cell">
+        <div class="kd-label">Mathematical Floor</div>
+        <div class="kd-value">A$0.48-0.68 (0-3×)</div>
+      </div>
+      <div class="kd-cell">
+        <div class="kd-label">P(wtd) Headline</div>
+        <div class="kd-value" style="color: var(--gold-2);">A$4.50-4.80 (20.5-22.0×)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sovereign Expansion -->
+  <div class="section">
+    <div class="sovereign">
+      <div class="sov-label">🚀 Post-2032 Sovereign Expansion</div>
+      <div class="sov-title">Long-duration ceiling — not in P(wtd)</div>
+      <div class="sov-sub">5-25% probability ceiling highly subjective; geographic latency 130-5,000 mW or Maiden Acquisitions (TBC); 30-40× multiple in P(wtd); or M&A and control premium</div>
+      <div class="sov-band">
+        <div class="sov-band-label">Range</div>
+        <div class="sov-band-value">A$8-15</div>
+      </div>
+      <div style="font-size: 11px; color: var(--text-3);">30-40× multiple</div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div style="margin-bottom: 6px;">
+      <strong style="color: var(--gold);">v10.1</strong> — Tripartite Pricing + 4-layer stack + $2,500-3,100 baseline / $3,000-4,300 stress-test · 5-7 Years (v9.57d) · Tier 3 = non-qualifying country (Vietnam, Korea, Kazakhstan)
+    </div>
+    <div>Source documents: <span style="color: var(--text-2);">thesis/v10-clean-executive.md</span> · <span style="color: var(--text-2);">thesis/00-clean-summary-v7.md</span> · <span style="color: var(--text-2);">thesis/01-master-thesis.md</span></div>
+    <div style="margin-top: 8px;">Last updated: 17 July 2026 | Source: 9 independent AI audits converged to v9.57d (P(wtd) A$4.50-4.80/21.3×), updated to v10.1 (July 18, 2026)</div>
+  </div>
+
+</div>
+</body>
+</html>
