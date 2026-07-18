@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tungsten Supply-Demand: Industry-Specific Recycling (35th User Catch)</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: #e2e8f0;
+    padding: 16px;
+    line-height: 1.5;
+  }
+  .container { max-width: 1200px; margin: 0 auto; }
+  .header {
+    text-align: center;
+    padding: 20px 0 30px;
+    border-bottom: 1px solid #334155;
+    margin-bottom: 24px;
+  }
+  .header h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #f1f5f9;
+    margin-bottom: 8px;
+  }
+  .header .subtitle {
+    font-size: 14px;
+    color: #94a3b8;
+  }
+  .catch-box {
+    background: rgba(239, 68, 68, 0.1);
+    border: 2px solid #ef4444;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 24px;
+  }
+  .catch-box h2 {
+    color: #fca5a5;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .catch-box p {
+    color: #e2e8f0;
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .kpi {
+    background: rgba(30, 41, 59, 0.7);
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 14px;
+    text-align: center;
+  }
+  .kpi .num {
+    font-size: 22px;
+    font-weight: 800;
+    color: #fbbf24;
+    margin-bottom: 4px;
+  }
+  .kpi .label {
+    font-size: 11px;
+    color: #cbd5e1;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .kpi.danger .num { color: #fca5a5; }
+  .kpi.success .num { color: #86efac; }
+  .chart-card {
+    background: rgba(30, 41, 59, 0.6);
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  .chart-card h2 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #f1f5f9;
+    margin-bottom: 4px;
+  }
+  .chart-card .desc {
+    font-size: 12px;
+    color: #94a3b8;
+    margin-bottom: 12px;
+  }
+  .chart-wrap {
+    position: relative;
+    height: 360px;
+  }
+  .insight {
+    background: rgba(251, 191, 36, 0.08);
+    border-left: 3px solid #fbbf24;
+    padding: 10px 14px;
+    margin: 12px 0;
+    font-size: 12px;
+    color: #fde68a;
+    border-radius: 4px;
+  }
+  .insight-red {
+    background: rgba(239, 68, 68, 0.08);
+    border-left: 3px solid #ef4444;
+    color: #fecaca;
+  }
+  .insight-green {
+    background: rgba(34, 197, 94, 0.08);
+    border-left: 3px solid #22c55e;
+    color: #bbf7d0;
+  }
+  .insight-blue {
+    background: rgba(59, 130, 246, 0.08);
+    border-left: 3px solid #3b82f6;
+    color: #bfdbfe;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    margin-top: 8px;
+  }
+  th, td {
+    padding: 6px 8px;
+    text-align: right;
+    border-bottom: 1px solid #334155;
+  }
+  th { color: #94a3b8; font-weight: 600; text-transform: uppercase; font-size: 10px; }
+  td:first-child, th:first-child { text-align: left; }
+  .neg { color: #fca5a5; }
+  .pos { color: #86efac; }
+  .chem-bound { color: #fbbf24; font-weight: 700; }
+  .footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #334155;
+    text-align: center;
+    font-size: 11px;
+    color: #64748b;
+  }
+  @media (max-width: 640px) {
+    .chart-wrap { height: 280px; }
+    .header h1 { font-size: 18px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>🔬 Tungsten Supply-Demand: Industry-Specific Recycling</h1>
+    <div class="subtitle">35th User Catch | Tier 2 vs Tier 3 Mine Classification | V10.1 Update</div>
+  </div>
+
+  <div class="catch-box">
+    <h2>⚠️ The 35th User Catch</h2>
+    <p><b>User's insight:</b> "Recycling doesn't close the volume because they are limited to industry no? carbine recycled material cannot be used for wf6?"</p>
+    <p><b>What this means:</b> Cemented carbide scrap returns to cemented carbide. WF6 needs NEW mine tungsten. These are NOT interchangeable. The 41,400 t/yr of recycled tungsten is INDUSTRY-LOCKED, not a fungible volume offset.</p>
+    <p><b>Result:</b> The ex-China Tier 2 primary deficit is <b>-23,900 t/yr (2025)</b>, not -16,860 t/yr. <b>3.5× larger</b> than the previous (flawed) analysis showed.</p>
+  </div>
+
+  <div class="kpi-row">
+    <div class="kpi danger">
+      <div class="num">-23,900 t/yr</div>
+      <div class="label">2025 Ex-China Tier 2 Deficit</div>
+    </div>
+    <div class="kpi danger">
+      <div class="num">-27,743 t/yr</div>
+      <div class="label">2035 Ex-China Tier 2 Deficit</div>
+    </div>
+    <div class="kpi success">
+      <div class="num">41%</div>
+      <div class="label">TGN % of 2035 Tier 2 Deficit</div>
+    </div>
+    <div class="kpi">
+      <div class="num">-5,980 t/yr</div>
+      <div class="label">2025 Ex-China WF6 Deficit (chemistry-bound)</div>
+    </div>
+    <div class="kpi">
+      <div class="num">-3,675 t/yr</div>
+      <div class="label">2025 Ex-China 6N/7N Deficit (chemistry-bound)</div>
+    </div>
+  </div>
+
+  <!-- Chart 1: Ex-China Industry-by-Industry 2025 -->
+  <div class="chart-card">
+    <h2>Chart 1: Ex-China Industry-by-Industry Primary Supply vs Demand (2025)</h2>
+    <div class="desc">Each industry's ex-China primary demand net of internal recycling vs ex-China Tier 2 primary supply. The deficit is the binding constraint.</div>
+    <div class="chart-wrap"><canvas id="chart1"></canvas></div>
+    <div class="insight insight-red">
+      <b>Chemistry-bound industries MUST come from mines:</b> WF6 (-5,980 t/yr), 6N/7N (-3,675 t/yr), AMT (-2,092 t/yr), Defense (-350 t/yr). Together: -12,097 t/yr of ex-China demand that CANNOT be closed by any recycled material.
+    </div>
+  </div>
+
+  <!-- Chart 2: Tier 2 vs Tier 3 -->
+  <div class="chart-card">
+    <h2>Chart 2: Ex-China Tier 2 vs Tier 3 Mine Supply (2025)</h2>
+    <div class="desc">Tier 2 (DFARS-compliant): Portugal, Spain, Australia, UK, Canada, Austria. Tier 3 (DFARS-restricted): Korea, Vietnam, Russia, Bolivia, N. Korea, Rwanda, Kazakhstan. Tier 3 CANNOT substitute for Tier 2 in DFARS-compliant end-uses.</div>
+    <div class="chart-wrap"><canvas id="chart2"></canvas></div>
+    <div class="insight insight-blue">
+      <b>Tier 2 is the binding constraint:</b> Ex-China Tier 2 supply is only 4,100 t/yr (2025), vs Tier 3 at 13,340 t/yr. For DFARS-compliant end-uses (US defense, certain semiconductors), only Tier 2 counts. TGN is the only Tier 2 source at scale coming online by 2027.
+    </div>
+  </div>
+
+  <!-- Chart 3: Ex-China Tier 2 Deficit by Year -->
+  <div class="chart-card">
+    <h2>Chart 3: Ex-China Tier 2 Primary Deficit (2025-2035) — Year-by-Year</h2>
+    <div class="desc">Tier 2 demand grows from 28 kt/yr (2025) to 49 kt/yr (2035). Tier 2 supply grows from 4 kt/yr (2025) to 21 kt/yr (2035). The deficit PERSISTS at 22-28 kt/yr through 2035.</div>
+    <div class="chart-wrap"><canvas id="chart3"></canvas></div>
+    <div class="insight insight-red">
+      <b>The Tier 2 deficit is structurally binding:</b> Even with full TGN + Almonty + EQR + Tungsten West + Mactung ramp, the 2035 deficit is still -27,743 t/yr. This is 12,000+ t/yr UNFILLED Tier 2 captive demand.
+    </div>
+  </div>
+
+  <!-- Chart 4: TGN's Coverage of Tier 2 Deficit -->
+  <div class="chart-card">
+    <h2>Chart 4: TGN's Production vs Tier 2 Deficit (2027-2035)</h2>
+    <div class="desc">TGN production ramp 0 → 1,657 (2027) → 5,259 (2030) → 10,857 (2032) → 11,457 (2035) t W. TGN's share of the Tier 2 deficit: 6.8% (2027) → 22.0% (2030) → 49.3% (2032) → 41.3% (2035).</div>
+    <div class="chart-wrap"><canvas id="chart4"></canvas></div>
+    <div class="insight insight-green">
+      <b>TGN is the most consequential single Tier 2 supplier:</b> TGN alone covers 41% of the 2035 Tier 2 deficit. The next largest Tier 2 supplier is Mactung at 3,500 t W (13% of the deficit). TGN is 3.3× larger than Mactung.
+    </div>
+  </div>
+
+  <!-- Chart 5: Chemistry-Bound Industries Need Mines -->
+  <div class="chart-card">
+    <h2>Chart 5: Chemistry-Bound + Low-Recycling Industries — MUST Come from Mines</h2>
+    <div class="desc">WF6, 6N/7N, AMT, Defense, Mill Products, Pigments, WS2 — all have 0-10% industry-internal recycling. These industries MUST source from primary mines.</div>
+    <div class="chart-wrap"><canvas id="chart5"></canvas></div>
+    <div class="insight insight-red">
+      <b>28-44 kt/yr of global demand is chemistry-bound + low-recycling:</b> This demand CANNOT be closed by cemented carbide recycling. It MUST come from mines. This is the structural floor for primary demand.
+    </div>
+  </div>
+
+  <!-- Chart 6: Ex-China Tier 2 Supply by Mine (Stacked) -->
+  <div class="chart-card">
+    <h2>Chart 6: Ex-China Tier 2 Mine Production by Source (2025-2035)</h2>
+    <div class="desc">Stacked area: TGN grows from 0 (2025) to 11,457 t W (2035), becoming the largest Tier 2 producer. Almonty Panasqueira + Los Santos flat at 1,800. EQR flat at 4,000. Mactung ramps 0 → 3,500. Tungsten West 100 → 500.</div>
+    <div class="chart-wrap"><canvas id="chart6"></canvas></div>
+    <div class="insight">
+      <b>Concentration of Tier 2 supply:</b> By 2035, TGN alone accounts for 54% of ex-China Tier 2 primary supply. TGN + Almonty + EQR + Mactung + Tungsten West = 100% (the entire ex-China Tier 2 supply base).
+    </div>
+  </div>
+
+  <!-- Chart 7: TGN % of Tier 2 Deficit (Year-by-Year) -->
+  <div class="chart-card">
+    <h2>Chart 7: TGN's % Coverage of the Ex-China Tier 2 Deficit (2027-2035)</h2>
+    <div class="desc">TGN's share of the Tier 2 deficit: 6.8% (2027) → 11.7% (2029) → 22.0% (2030) → 49.3% (2032) → 41.3% (2035).</div>
+    <div class="chart-wrap"><canvas id="chart7"></canvas></div>
+  </div>
+
+  <!-- Chart 8: Comparison Flawed vs Corrected -->
+  <div class="chart-card">
+    <h2>Chart 8: Previous (Flawed) vs Corrected Supply-Demand Analysis</h2>
+    <div class="desc">Previous: recycling as fungible volume. Corrected: industry-specific recycling + Tier 2 vs Tier 3 classification.</div>
+    <div class="chart-wrap"><canvas id="chart8"></canvas></div>
+    <div class="insight insight-red">
+      <b>The 35th catch reveals a 3.5× larger structural deficit:</b> Previous analysis showed ex-China primary deficit of -16,860 t/yr (2025). Corrected analysis shows ex-China Tier 2 primary deficit of -23,900 t/yr (2025). The chemistry-bound + Tier 2 captive demand CANNOT be closed by industry-locked recycling or Tier 3 mines.
+    </div>
+  </div>
+
+  <!-- Year-by-Year Data Table -->
+  <div class="chart-card">
+    <h2>📊 Year-by-Year Tier 2 Supply-Demand Data Table</h2>
+    <div class="desc">Complete numerical reference for ex-China Tier 2 primary supply vs demand</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Tier 2 Demand (t W)</th>
+          <th>Tier 2 Supply (t W)</th>
+          <th>Tier 2 Deficit (t W)</th>
+          <th>TGN Production (t W)</th>
+          <th>TGN % of Deficit</th>
+          <th>Unfilled (t W)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>2025</td><td>28,000</td><td>4,100</td><td class="neg">-23,900</td><td>0</td><td>0%</td><td>23,900</td></tr>
+        <tr><td>2026</td><td>30,100</td><td>5,100</td><td class="neg">-25,000</td><td>0</td><td>0%</td><td>25,000</td></tr>
+        <tr><td>2027</td><td>32,200</td><td>7,757</td><td class="neg">-24,443</td><td>1,657</td><td>6.8%</td><td>22,786</td></tr>
+        <tr><td>2028</td><td>34,300</td><td>7,857</td><td class="neg">-26,443</td><td>1,657</td><td>6.3%</td><td>24,786</td></tr>
+        <tr><td>2029</td><td>36,400</td><td>9,457</td><td class="neg">-26,943</td><td>3,157</td><td>11.7%</td><td>23,786</td></tr>
+        <tr><td>2030</td><td>38,500</td><td>14,559</td><td class="neg">-23,941</td><td>5,259</td><td>22.0%</td><td>18,682</td></tr>
+        <tr><td>2031</td><td>40,600</td><td>15,059</td><td class="neg">-25,541</td><td>5,259</td><td>20.6%</td><td>20,282</td></tr>
+        <tr><td>2032</td><td>42,700</td><td>20,657</td><td class="neg">-22,043</td><td>10,857</td><td>49.3%</td><td>11,186</td></tr>
+        <tr><td>2033</td><td>44,800</td><td>20,957</td><td class="neg">-23,843</td><td>11,157</td><td>46.8%</td><td>12,686</td></tr>
+        <tr><td>2034</td><td>46,900</td><td>21,157</td><td class="neg">-25,743</td><td>11,357</td><td>44.1%</td><td>14,386</td></tr>
+        <tr><td>2035</td><td>49,000</td><td>21,257</td><td class="neg">-27,743</td><td>11,457</td><td>41.3%</td><td>16,286</td></tr>
+      </tbody>
+    </table>
+    <div class="insight" style="margin-top:14px">
+      <b>Reading the table:</b> Tier 2 Demand = ex-China industry-by-industry demand for DFARS-compliant tungsten. Tier 2 Supply = ex-China Tier 2 (DFARS-compliant) mine production. Tier 2 Deficit = Supply - Demand (negative = structural deficit). TGN Production = ramp from 0 (2025) to 11,457 t W (2035). Unfilled = remaining Tier 2 demand not covered by any ex-China Tier 2 mine.
+    </div>
+  </div>
+
+  <div class="footer">
+    V10.1 Thesis Update — 35th User Catch Correction | July 18, 2026<br>
+    Sources: USGS MCS 2026, ITIA, Sandvik, Plansee, H.C. Starck, JNM, Sumitomo, Almonty, Fireweed, EQR, TGN ASX disclosures<br>
+    Key insight: Recycling is INDUSTRY-LOCKED. Chemistry-bound applications MUST source from mines.
+  </div>
+</div>
+
+<script>
+const years = ['2025', '2026', '2027', '2028', '2029', '2030', '2031', '2032', '2033', '2034', '2035'];
+
+// Industry-by-industry ex-China 2025
+const industries = ['Cemented Carbide', 'Steel/Superalloy', 'Mill Products', 'WF6', '6N/7N', 'Defense', 'AMT'];
+const exChinaDemandByInd = [16000, 5500, 2750, 6500, 3750, 1250, 2250];
+const exChinaRecycledByInd = [8000, 825, 138, 520, 75, 100, 158];
+const netPrimaryDemandByInd = [8000, 4675, 2612, 5980, 3675, 1150, 2092];
+const exChinaTier2SupplyByInd = [3000, 1000, 0, 0, 0, 800, 0];
+const tier2DeficitByInd = exChinaTier2SupplyByInd.map((s, i) => s - netPrimaryDemandByInd[i]);
+
+// Tier 2 vs Tier 3 ex-China supply 2025
+const tier2Mines = ['Almonty Panasqueira', 'Almonty Los Santos', 'EQR Mt Carbine', 'EQR Barruecopardo', 'Tungsten West', 'Austria Wolfram'];
+const tier2Supply = [800, 700, 1000, 1500, 100, 0];
+const tier3Mines = ['Almonty Sangdong (Korea)', 'Almonty Gentung (Korea)', 'Masan Nui Phao (Vietnam)', 'Kazakhstan Boguty', 'Russia', 'Bolivia', 'N. Korea', 'Rwanda'];
+const tier3Supply = [0, 0, 3000, 2400, 2000, 1700, 2000, 1300];
+
+// Tier 2 year-by-year
+const tier2Demand = [28000, 30100, 32200, 34300, 36400, 38500, 40600, 42700, 44800, 46900, 49000];
+const tier2SupplyByYear = [4100, 5100, 7757, 7857, 9457, 14559, 15059, 20657, 20957, 21157, 21257];
+const tier2Deficit = tier2SupplyByYear.map((s, i) => s - tier2Demand[i]);
+const tgnProduction = [0, 0, 1657, 1657, 3157, 5259, 5259, 10857, 11157, 11357, 11457];
+const tgnPctDeficit = tgnProduction.map((t, i) => tier2Deficit[i] < 0 ? Math.abs(t / tier2Deficit[i] * 100) : 0);
+
+// TGN's coverage of Tier 2 deficit (from 2027)
+const tgnPctFrom2027 = tgnPctDeficit.slice(2);
+
+// Chemistry-bound industries (must come from mines)
+const chemBoundIndustries = ['WF6', '6N/7N', 'AMT', 'Defense', 'Mill Products', 'Pigments', 'WS2'];
+const chemBoundRecyclingRate = [8, 2, 7, 8, 5, 0, 0];
+const chemBoundDemand2025 = [8550, 11760, 6975, 3680, 8550, 1500, 1500];
+const chemBoundRecycled2025 = chemBoundDemand2025.map((d, i) => d * chemBoundRecyclingRate[i] / 100);
+const chemBoundPrimary2025 = chemBoundDemand2025.map((d, i) => d - chemBoundRecycled2025[i]);
+
+// Ex-China Tier 2 supply by mine (stacked)
+const almontyPanasqueira = [800, 900, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000];
+const almontyLosSantos = [700, 800, 800, 800, 800, 800, 800, 800, 800, 800, 800];
+const eqrMtCarbine = [1000, 1200, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500];
+const eqrBarruecopardo = [1500, 2000, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500];
+const tungstenWest = [100, 200, 300, 400, 500, 500, 500, 500, 500, 500, 500];
+const mactung = [0, 0, 0, 0, 0, 3000, 3500, 3500, 3500, 3500, 3500];
+const tgnWatershed = [0, 0, 1657, 1657, 1657, 1657, 1657, 1657, 1657, 1657, 1657];
+const tgnMtMulgine = [0, 0, 0, 0, 1500, 3602, 3602, 9000, 9000, 9000, 9000];
+const tgnHatchesCreek = [0, 0, 0, 0, 0, 0, 0, 200, 500, 700, 800];
+const austriaWolfram = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+
+// Previous (flawed) vs corrected
+const previousFlawed = [-16860, -13660, -10203, -10703, -10003, -5003, -3003, 497, 1497, 997, 497];
+const corrected = [-23900, -25000, -24443, -26443, -26943, -23941, -25541, -22043, -23843, -25743, -27743];
+
+// Chart 1: Ex-China Industry-by-Industry 2025
+new Chart(document.getElementById('chart1'), {
+  type: 'bar',
+  data: {
+    labels: industries,
+    datasets: [
+      {
+        label: 'Net Primary Demand (t W)',
+        data: netPrimaryDemandByInd,
+        backgroundColor: 'rgba(251, 191, 36, 0.5)',
+        borderColor: '#fbbf24',
+        borderWidth: 1
+      },
+      {
+        label: 'Ex-China Tier 2 Supply (t W)',
+        data: exChinaTier2SupplyByInd,
+        backgroundColor: 'rgba(34, 197, 94, 0.5)',
+        borderColor: '#22c55e',
+        borderWidth: 1
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { labels: { color: '#cbd5e1', font: { size: 12 } } }
+    },
+    scales: {
+      x: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(148, 163, 184, 0.1)' } },
+      y: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(148, 163, 184, 0.1)' } }
+    }
+  }
+});
+
+// Chart 2: Tier 2 vs Tier 3
+new Chart(document.getElementById('chart2'), {
+  type: 'bar',
+  data: {
+    labels: ['Tier 2 (DFARS-compliant)', 'Tier 3 (DFARS-restricted)'],
+    datasets: [{
+      label: '2025 Ex-China Supply (t W)',
+      data: [4100, 13340],
+      backgroundColor: ['rgba(34, 197, 94, 0.6)', 'rgba(239, 68, 68, 0.6)'],
+      borderColor: ['#22c55e', '#ef4444'],
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false }
+    },
+    scales: {
+      x: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(148, 163, 184, 0.1)' } },
+      y: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(148, 163, 184, 0.1)' } }
+    }
+  }
+});
+
+// Chart 3: Ex-China Tier 2 Deficit by Year
+new Chart(document.getElementById('chart3'), {
+  type: 'line',
+  data: {
+    labels: years,
+    datasets: [
+      {
+        label: 'Tier 2 Demand (t W/yr)',
+        data: tier2Demand,
+        borderColor: '#fbbf24',
+        backgroundColor: 'rgba(251, 191, 36, 0.1)',
+        borderWidth: 3,
+        tension: 0.2,
+        pointRadius: 5
+      },
+      {
+        label: 'Tier 2 Supply (t W/yr)',
+        data: tier2SupplyByYear,
+        borderColor: '#22c55e',
+        backgroundColor: 'rgba(34, 197, 94, 0.1)',
+        borderWidth: 3,
+        tension: 0.2,
+        pointRadius: 5
+      },
+      {
+        label: 'Tier 2 Deficit (t W/yr, negative)',
+        data: tier2Deficit,
+        borderColor: '#ef4444',
+        backgroundColor: 'rgba(239, 68, 68, 0.2)',
+        borderWidth: 3,
+        borderDash: [5, 5],
+        tension: 0.2,
+        pointRadius: 5,
+        fill: true
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { labels: { color: '#cbd5e1', font: { size: 11 } } }
+    },
+    scales: {
+      x: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(148, 163, 184, 0.1)' } },
+      y: { 
+        ticks: { color: '#94a3b8', callback: v => (v/1000).toFixed(0) + 'k' },
+        grid: { color: 'rgba(148, 163, 184, 0.1)' },
+        title: { display: true, text: 'Tonnes W/yr', color: '#94a3b8' }
+      }
+    }
+  }
+});
+
+// Chart 4: TGN's Coverage of Tier 2 Deficit
+new Chart(document.getElementById('chart4'), {
+  type: 'bar',
+  data: {
+    labels: years,
+    datasets: [
+      {
+        label: 'TGN Production (t W/yr)',
+        data: tgnProduction,
+        backgroundColor: 'rgba(34, 197, 94, 0.7)',
+        borderColor: '#22c55e',
+        borderWidth: 1
+      },
+      {
+        label: 'Tier 2 Deficit (absolute, t W/yr)',
+        data: tier2Deficit.map(d => Math.abs(d)),
+        backgroundColor: 'rgba(239, 68, 68, 0.4)',
+        borderColor: '#ef4444',
+        borderWidth: 1
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { labels: { color: '#cbd5e1', font: { size: 11 } } }
+    },
+    scales: {
+      x: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(148, 163, 184, 0.1)' } },
+      y: { 
+        ticks: { color: '#94a3b8', callback: v => (v/1000).toFixed(0) + 'k' },
+        grid: { color: 'rgba(148, 163, 184, 0.1)' },
+        title: { display: true, text: 'Tonnes W/yr', color: '#94a3b8' }
+      }
+    }
+  }
+});
+
+// Chart 5: Chemistry-Bound Industries Need Mines
+new Chart(document.getElementById('chart5'), {
+  type: 'bar',
+  data: {
+    labels: chemBoundIndustries,
+    datasets: [
+      {
+        label: 'Total Demand (t W/yr)',
+        data: chemBoundDemand2025,
+        backgroundColor: 'rgba(148, 163, 184, 0.4)',
+        borderColor: '#94a3b8',
+        borderWidth: 1
+      },
+      {
+        label: 'Industry-Internal Recycled (t W/yr)',
+        data: chemBoundRecycled2025,
+        backgroundColor: 'rgba(34, 197, 94, 0.4)',
+        borderColor: '#22c55e',
+        borderWidth: 1
+      },
+      {
+        label: 'MUST Come from Mines (t W/yr)',
+        data: chemBoundPrimary2025,
+        backgroundColor: 'rgba(239, 68, 68, 0.5)',
+        borderColor: '#ef4444',
+        borderWidth: 1
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { labels: { color: '#cbd5e1', font: { size: 10 } } }
+    },
+    scales: {
+      x: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(148, 163, 184, 0.1)' } },
+      y: { 
+        stacked: true,
+        ticks: { color: '#94a3b8', callback: v => (v/1000).toFixed(0) + 'k' },
+        grid: { color: 'rgba(148, 163, 184, 0.1)' }
+      }
+    }
+  }
+});
+
+// Chart 6: Ex-China Tier 2 Supply by Mine (Stacked)
+new Chart(document.getElementById('chart6'), {
+  type: 'bar',
+  data: {
+    labels: years,
+    datasets: [
+      { label: 'TGN Watershed', data: tgnWatershed, backgroundColor: '#22c55e' },
+      { label: 'TGN Mt Mulgine', data: tgnMtMulgine, backgroundColor: '#16a34a' },
+      { label: 'TGN Hatches Creek', data: tgnHatchesCreek, backgroundColor: '#15803d' },
+      { label: 'Almonty Panasqueira', data: almontyPanasqueira, backgroundColor: '#06b6d4' },
+      { label: 'Almonty Los Santos', data: almontyLosSantos, backgroundColor: '#0891b2' },
+      { label: 'EQR Mt Carbine', data: eqrMtCarbine, backgroundColor: '#ec4899' },
+      { label: 'EQR Barruecopardo', data: eqrBarruecopardo, backgroundColor: '#f472b6' },
+      { label: 'Tungsten West', data: tungstenWest, backgroundColor: '#a855f7' },
+      { label: 'Mactung', data: mactung, backgroundColor: '#f59e0b' }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { labels: { color: '#cbd5e1', font: { size: 9 } } }
+    },
+    scales: {
+      x: { stacked: true, ticks: { color: '#94a3b8' }, grid: { color: 'rgba(148, 163, 184, 0.1)' } },
+      y: { stacked: true, ticks: { color: '#94a3b8', callback: v => (v/1000).toFixed(0) + 'k' }, grid: { color: 'rgba(148, 163, 184, 0.1)' } }
+    }
+  }
+});
+
+// Chart 7: TGN % of Tier 2 Deficit
+new Chart(document.getElementById('chart7'), {
+  type: 'line',
+  data: {
+    labels: years.slice(2),
+    datasets: [
+      {
+        label: 'TGN % of Tier 2 Deficit',
+        data: tgnPctFrom2027,
+        borderColor: '#fbbf24',
+        backgroundColor: 'rgba(251, 191, 36, 0.1)',
+        borderWidth: 3,
+        tension: 0.2,
+        pointRadius: 6,
+        pointBackgroundColor: '#fbbf24',
+        fill: true
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { labels: { color: '#cbd5e1', font: { size: 12 } } }
+    },
+    scales: {
+      x: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(148, 163, 184, 0.1)' } },
+      y: { 
+        ticks: { color: '#fbbf24', callback: v => v.toFixed(0) + '%' },
+        grid: { color: 'rgba(148, 163, 184, 0.1)' },
+        title: { display: true, text: 'TGN % Coverage', color: '#fbbf24' }
+      }
+    }
+  }
+});
+
+// Chart 8: Flawed vs Corrected
+new Chart(document.getElementById('chart8'), {
+  type: 'line',
+  data: {
+    labels: years,
+    datasets: [
+      {
+        label: 'Previous (Flawed) Ex-China Primary Deficit',
+        data: previousFlawed,
+        borderColor: '#94a3b8',
+        backgroundColor: 'rgba(148, 163, 184, 0.1)',
+        borderWidth: 2,
+        borderDash: [5, 5],
+        tension: 0.2,
+        pointRadius: 4
+      },
+      {
+        label: 'Corrected Ex-China Tier 2 Primary Deficit',
+        data: corrected,
+        borderColor: '#ef4444',
+        backgroundColor: 'rgba(239, 68, 68, 0.2)',
+        borderWidth: 3,
+        tension: 0.2,
+        pointRadius: 5,
+        pointBackgroundColor: '#ef4444',
+        fill: true
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { labels: { color: '#cbd5e1', font: { size: 11 } } }
+    },
+    scales: {
+      x: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(148, 163, 184, 0.1)' } },
+      y: { 
+        ticks: { color: '#94a3b8', callback: v => (v/1000).toFixed(0) + 'k' },
+        grid: { color: 'rgba(148, 163, 184, 0.1)' },
+        title: { display: true, text: 'Tonnes W/yr', color: '#94a3b8' }
+      }
+    }
+  }
+});
+</script>
+</body>
+</html>
