@@ -62,10 +62,11 @@ body {
 /* Probability mix bar */
 .prob-bar { display: flex; height: 28px; border-radius: 8px; overflow: hidden; margin-bottom: 10px; }
 .prob-bar > div { display: flex; align-items: center; justify-content: center; color: #000; font-weight: 700; font-size: 12px; }
-.prob-bull { background: var(--bull); flex: 0 0 49.5%; }
-.prob-base { background: var(--base); flex: 0 0 41%; }
-.prob-bear { background: var(--bear); flex: 0 0 8.5%; color: #000; }
+.prob-bull { background: var(--bull); flex: 0 0 42.5%; }
+.prob-base { background: var(--base); flex: 0 0 37.5%; }
+.prob-bear { background: var(--bear); flex: 0 0 12.5%; color: #000; }
 .prob-floor { background: var(--floor); flex: 0 0 1%; color: #fff; font-size: 10px; }
+.prob-hyper { background: linear-gradient(90deg, #ef4444 0%, #f59e0b 100%); flex: 0 0 7.5%; color: #fff; }
 .prob-legend { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; font-size: 11px; color: var(--text-2); }
 .prob-legend > div { display: flex; align-items: center; gap: 6px; }
 .prob-swatch { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
@@ -206,10 +207,10 @@ body {
 
     <!-- Probability bar (v10.2 — 5-tier with Hyper-bull) -->
     <div class="prob-bar">
-      <div class="prob-bull" style="background: linear-gradient(90deg, #ef4444 0%, #f59e0b 8%);">H-BULL 7.5%</div>
+      <div class="prob-hyper">H-BULL 7.5%</div>
       <div class="prob-bull">BULL 42.5%</div>
       <div class="prob-base">BASE 37.5%</div>
-      <div class="prob-bear" style="width: 12.5%;">BEAR 12.5%</div>
+      <div class="prob-bear">BEAR 12.5%</div>
       <div class="prob-floor">F</div>
     </div>
     <div class="prob-legend">
@@ -292,7 +293,7 @@ body {
   <!-- Tripartite Pricing Model -->
   <div class="section">
     <div class="section-title">💲 TRIPARTITE PRICING MODEL</div>
-    <div class="section-h2">Ex-China APT price floor: $2,500-3,100/MTU (4-layer v10.1)</div>
+    <div class="section-h2">Ex-China APT price: $3,000/MTU (2025) → $6,000/MTU (2035) — 2× price escalation</div>
     <div class="price-grid">
       <div class="price-card tier1">
         <div class="price-name">Bucket 1 — In-China (Tripartite Tier 1)</div>
@@ -372,41 +373,49 @@ body {
     </div>
   </div>
 
-  <!-- P(wtd) Scenarios — AISC-SUPPORTED FLOOR -->
+  <!-- P(wtd) Scenarios — 5-TIER WITH HYPER-BULL (v10.2) -->
   <div class="section">
-    <div class="section-title">📊 P(wtd) SCENARIOS — 4-Tier (v10.1 AISC-supported floor)</div>
+    <div class="section-title">📊 P(wtd) SCENARIOS — 5-Tier with Hyper-bull (v10.2 RE-ANCHORED)</div>
     <div class="scenarios">
+      <div class="scenario scenario-bull" style="background: linear-gradient(135deg, rgba(239,68,68,0.15), rgba(245,158,11,0.15)); border: 1px solid var(--tier1);">
+        <div class="scen-row">
+          <span class="scen-name">🔥 HYPER-BULL 5-10% (🆕)</span>
+          <span class="scen-prob">A$15-30 (mean A$22.50)</span>
+        </div>
+        <div class="scen-value">A$15-30</div>
+        <div class="scen-desc"><strong style="color: var(--tier1);">SEVERE SCARCITY:</strong> China net-importer, APT $6-7k/MTU, full scarcity premium captured. 51% ex-China share × 200-700× revenue upgrade.</div>
+      </div>
       <div class="scenario scenario-bull">
         <div class="scen-row">
-          <span class="scen-name">🟢 BULL 47-52%</span>
-          <span class="scen-prob">A$4-10 (mean A$7.00)</span>
+          <span class="scen-name">🟢 BULL 40-45% (UPGRADED)</span>
+          <span class="scen-prob">A$8-15 (mean A$11.50)</span>
         </div>
-        <div class="scen-value">A$4-10</div>
-        <div class="scen-desc">APT $3-7k/MTU, DLA IDIQ, NAA & 30%+ premium, full upside captured</div>
+        <div class="scen-value">A$8-15</div>
+        <div class="scen-desc">ex-China APT $4.5-5.5k/MTU, partial China imports, DPA + sovereign premium. TGN revenue A$3-11B by 2035.</div>
       </div>
       <div class="scenario scenario-base">
         <div class="scen-row">
-          <span class="scen-name">🔵 BASE 40-42%</span>
-          <span class="scen-prob">A$1.50-3.00 (mean A$2.25)</span>
+          <span class="scen-name">🔵 BASE 35-40% (UPGRADED)</span>
+          <span class="scen-prob">A$3-5 (mean A$4.00)</span>
         </div>
-        <div class="scen-value">A$1.50-3.00</div>
-        <div class="scen-desc">APT normalizes $2-3k/MTU, FID slips 1-3 mo., dilution absorbs funding gap</div>
+        <div class="scen-value">A$3-5</div>
+        <div class="scen-desc">ex-China APT $3.5-4k/MTU, partial buildout, FID on time. TGN revenue A$2-3B by 2035.</div>
       </div>
       <div class="scenario scenario-bear">
         <div class="scen-row">
-          <span class="scen-name">🟠 BEAR 7-10%</span>
-          <span class="scen-prob">A$1.00-2.00 (mean A$1.50)</span>
+          <span class="scen-name">🟠 BEAR 10-15% (AISC-supported)</span>
+          <span class="scen-prob">A$1.50-2.50 (mean A$2.00)</span>
         </div>
-        <div class="scen-value">A$1.00-2.00</div>
-        <div class="scen-desc"><strong style="color: var(--gold-2);">AISC-SUPPORTED FLOOR:</strong> APT retreats to $1-1.5k/MTU, but TGN AISC A$415/MTU keeps TGN profitable. Higher-cost producers (Mactung, Almonty, expensive Chinese mines) go bankrupt first. Supply tightens, prices recover. TGN = last man standing. Market overhang keeps TGN share price at 5-9× current, NOT 0.5×.</div>
+        <div class="scen-value">A$1.50-2.50</div>
+        <div class="scen-desc"><strong style="color: var(--gold-2);">AISC-SUPPORTED FLOOR:</strong> TGN AISC A$415/MTU = lowest in world. Higher-cost producers (Mactung, Almonty, expensive Chinese) go bankrupt first. TGN = last man standing.</div>
       </div>
       <div class="scenario scenario-floor">
         <div class="scen-row">
           <span class="scen-name">⚪ FLOOR 1%</span>
-          <span class="scen-prob">A$0.20-0.40 (mean A$0.30)</span>
+          <span class="scen-prob">A$0.30-0.50 (mean A$0.40)</span>
         </div>
-        <div class="scen-value">A$0.20-0.40</div>
-        <div class="scen-desc">Project fails to clear FID, NPV-down, secular demand collapse (very unlikely given AISC)</div>
+        <div class="scen-value">A$0.30-0.50</div>
+        <div class="scen-desc">Project fails FID, NPV-down, secular demand collapse (very unlikely given AISC)</div>
       </div>
     </div>
   </div>
@@ -557,6 +566,33 @@ body {
       <div style="font-size: 13px; color: var(--base); margin-bottom: 8px;"><b>4. TGN Revenue 200-700× Upgrade</b></div>
       <div style="font-size: 11px; color: var(--text-2); line-height: 1.5;">
         v10.1: A$22-33M (2035). v10.2: <b>A$5-14B (2035)</b>. Drivers: 4.7× deficit growth + price escalation (ex-China APT $3,000 → $6,000/MTU, China $1,100 → $5,500/MTU) + TGN as global supplier.
+      </div>
+    </div>
+  </div>
+
+  <!-- v10.2 REVENUE PROJECTIONS -->
+  <div class="section">
+    <div class="section-title">💰 TGN REVENUE PROJECTIONS (v10.2, 30/50/20 mix)</div>
+    <div style="background: var(--bg-card); padding: 16px; border-radius: 8px; border: 1px solid var(--gold);">
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;">
+        <div style="text-align: center;">
+          <div style="font-size: 11px; color: var(--text-3); text-transform: uppercase;">2027</div>
+          <div style="font-size: 20px; color: var(--gold-2); font-weight: 700;">A$776M</div>
+          <div style="font-size: 10px; color: var(--text-3);">1,902 t W/yr</div>
+        </div>
+        <div style="text-align: center;">
+          <div style="font-size: 11px; color: var(--text-3); text-transform: uppercase;">2030</div>
+          <div style="font-size: 20px; color: var(--gold-2); font-weight: 700;">A$3,351M</div>
+          <div style="font-size: 10px; color: var(--text-3);">6,038 t W/yr</div>
+        </div>
+        <div style="text-align: center;">
+          <div style="font-size: 11px; color: var(--gold); text-transform: uppercase;">2035</div>
+          <div style="font-size: 24px; color: var(--gold); font-weight: 700;">A$12,983M</div>
+          <div style="font-size: 10px; color: var(--text-3);">16,544 t W/yr (full multi-asset)</div>
+        </div>
+      </div>
+      <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 11px; color: var(--text-2); line-height: 1.5;">
+        <b>5-scenario sensitivity (2035):</b> Bear A$4,945M · Base A$7,047M · Realistic A$8,438M · Bull A$10,910M · Hyper-bull A$13,970M
       </div>
     </div>
   </div>
