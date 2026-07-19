@@ -59,14 +59,14 @@ body {
 .hero-mult { font-size: 16px; color: var(--text-2); margin-bottom: 14px; }
 .hero-foot { font-size: 12px; color: var(--text-3); line-height: 1.5; border-top: 1px solid var(--line); padding-top: 12px; }
 
-/* Probability mix bar */
+/* Probability mix bar (v10.2 normalized: H-Bull 5% + Bull 20% + Base 60% + Bear 14% + Floor 1% = 100%) */
 .prob-bar { display: flex; height: 28px; border-radius: 8px; overflow: hidden; margin-bottom: 10px; }
 .prob-bar > div { display: flex; align-items: center; justify-content: center; color: #000; font-weight: 700; font-size: 12px; }
-.prob-bull { background: var(--bull); flex: 0 0 42.5%; }
-.prob-base { background: var(--base); flex: 0 0 37.5%; }
-.prob-bear { background: var(--bear); flex: 0 0 12.5%; color: #000; }
+.prob-bull { background: var(--bull); flex: 0 0 20%; }
+.prob-base { background: var(--base); flex: 0 0 60%; }
+.prob-bear { background: var(--bear); flex: 0 0 14%; color: #000; }
 .prob-floor { background: var(--floor); flex: 0 0 1%; color: #fff; font-size: 10px; }
-.prob-hyper { background: linear-gradient(90deg, #ef4444 0%, #f59e0b 100%); flex: 0 0 7.5%; color: #fff; }
+.prob-hyper { background: linear-gradient(90deg, #ef4444 0%, #f59e0b 100%); flex: 0 0 5%; color: #fff; }
 .prob-legend { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; font-size: 11px; color: var(--text-2); }
 .prob-legend > div { display: flex; align-items: center; gap: 6px; }
 .prob-swatch { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
@@ -211,7 +211,7 @@ body {
       <div class="prob-bull">BULL 20%</div>
       <div class="prob-base">BASE 60%</div>
       <div class="prob-bear">BEAR 14%</div>
-      <div class="prob-floor">F</div>
+      <div class="prob-floor">FLOOR 1%</div>
     </div>
     <div class="prob-legend">
       <div><span class="prob-swatch" style="background: linear-gradient(90deg, #ef4444, #f59e0b);"></span><b>H-Bull</b> A$15-30 (mean A$22.50, 🆕 severe scarcity)</div>
@@ -296,9 +296,9 @@ body {
     <div class="section-h2">Ex-China APT price: $3,000/MTU (2025) → $6,000/MTU (2035) — 2× price escalation</div>
     <div class="price-grid">
       <div class="price-card tier1">
-        <div class="price-name">Bucket 1 — In-China (Tripartite Tier 1)</div>
+        <div class="price-name">Bucket 1 — In-China Commercial "WTI"</div>
         <div class="price-value tier1-down">RMB 660,000/ton</div>
-        <div class="price-note">−56.6% from Mar 16 peak per CTIA — In-China collapsed</div>
+        <div class="price-note">−56.6% from Mar 2026 peak per CTIA — In-China collapsed</div>
       </div>
       <div class="price-card tier2">
         <div class="price-name">Bucket 2 — Ex-China Commercial "Urals"</div>
@@ -345,8 +345,8 @@ body {
       <div class="pillar">
         <div class="pillar-num">2</div>
         <div>
-          <div class="pillar-title">PES-Verified Economics</div>
-          <div class="pillar-desc">NPV A$1,309M pre-tax, IRR 198%, 9-month payback, A$415/MTU OPEX, A$274M CAPEX (PEE Jun 18, 2026)</div>
+          <div class="pillar-title">PEE-Verified Economics</div>
+          <div class="pillar-desc">NPV A$1,309M pre-tax, IRR 198%, 9-month payback, A$415/MTU AISC, A$274M CAPEX (PEE Jun 18, 2026)</div>
         </div>
       </div>
       <div class="pillar">
@@ -577,22 +577,22 @@ body {
       <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;">
         <div style="text-align: center;">
           <div style="font-size: 11px; color: var(--text-3); text-transform: uppercase;">2027</div>
-          <div style="font-size: 20px; color: var(--gold-2); font-weight: 700;">A$776M</div>
-          <div style="font-size: 10px; color: var(--text-3);">1,902 t W/yr</div>
+          <div style="font-size: 20px; color: var(--gold-2); font-weight: 700;">A$676-780M</div>
+          <div style="font-size: 10px; color: var(--text-3);">1,657 t W/yr (Watershed)</div>
         </div>
         <div style="text-align: center;">
           <div style="font-size: 11px; color: var(--text-3); text-transform: uppercase;">2030</div>
-          <div style="font-size: 20px; color: var(--gold-2); font-weight: 700;">A$3,351M</div>
-          <div style="font-size: 10px; color: var(--text-3);">6,038 t W/yr</div>
+          <div style="font-size: 20px; color: var(--gold-2); font-weight: 700;">A$3,158-3,644M</div>
+          <div style="font-size: 10px; color: var(--text-3);">5,959 t W/yr (Watershed + Mt Mulgine 6 Mtpa + Hatches)</div>
         </div>
         <div style="text-align: center;">
           <div style="font-size: 11px; color: var(--gold); text-transform: uppercase;">2035</div>
-          <div style="font-size: 24px; color: var(--gold); font-weight: 700;">A$12,983M</div>
-          <div style="font-size: 10px; color: var(--text-3);">16,544 t W/yr (full multi-asset)</div>
+          <div style="font-size: 24px; color: var(--gold); font-weight: 700;">A$8,517-13,292M</div>
+          <div style="font-size: 10px; color: var(--text-3);">11,357-15,357 t W/yr (resource-capable)</div>
         </div>
       </div>
       <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 11px; color: var(--text-2); line-height: 1.5;">
-        <b>5-scenario sensitivity (2035):</b> Bear A$4,945M · Base A$7,047M · Realistic A$8,438M · Bull A$10,910M · Hyper-bull A$13,970M
+        <b>5-scenario sensitivity (2035, 75% payable, 11,357-15,357 t W):</b> Bear A$5,706-7,712M · Base A$8,132-10,991M · Realistic A$9,738-13,162M · Bull A$12,591-17,019M · Hyper-bull A$16,124-21,795M
       </div>
     </div>
   </div>
@@ -600,10 +600,10 @@ body {
   <!-- Footer -->
   <div class="footer">
     <div style="margin-bottom: 6px;">
-      <strong style="color: var(--gold);">v10.2</strong> — RE-ANCHORED 5-tier with Hyper-bull (A$5.50-6.50, 25-30×) · Tripartite Pricing + 4-layer stack + $2,500-3,100 baseline / $3,000-4,300 stress-test · 5-7 Years (v9.57d) · Tier 3 = non-qualifying country (Vietnam, Korea, Kazakhstan) · China flips to deficit 2028
+      <strong style="color: var(--gold);">v10.2</strong> — RE-ANCHORED 5-tier with Hyper-bull (A$5.50-6.50, 25-30×) · Tripartite Pricing + 4-layer stack + $2,500-3,100 baseline / $3,000-4,300 stress-test · 5-7 Years to 2032 P(wtd) · <strong>4-tier DFARS:</strong> Tier 1=U.S. Domestic (empty for W), Tier 2=Qualifying (RDP MOU 28 nations: Australia, Japan, EU, UK, Canada, Portugal, Spain, Austria), Tier 3=Non-Qualifying (TAA-only: Vietnam, South Korea, India, Kazakhstan, Bolivia, Rwanda), Tier 4=Banned (DFARS 252.225-7052: China, Russia, Iran, NK) · China flips to deficit 2028
     </div>
     <div>Source documents: <span style="color: var(--text-2);">thesis/v10-clean-executive.md</span> · <span style="color: var(--text-2);">thesis/00-clean-summary-v7.md</span> · <span style="color: var(--text-2);">thesis/01-master-thesis.md</span></div>
-    <div style="margin-top: 8px;">Last updated: 18 July 2026 | Source: 9 independent AI audits converged to v9.57d, updated to v10.1 (P(wtd) A$4.50-4.80), updated to v10.2 (P(wtd) A$5.50-6.50 with Hyper-bull, July 18, 2026)</div>
+    <div style="margin-top: 8px;">Last updated: 18 July 2026 | Source: 9 independent AI audits; previous consensus v9.57d → v10.1 (P(wtd) A$4.50-4.80) → v10.2 (P(wtd) A$5.50-6.50 with Hyper-bull, July 18, 2026)</div>
   </div>
 
 </div>
