@@ -1,0 +1,4 @@
+# Git backups (never commit)
+/.git.backup-*
+/.git-*-backup
+*.backup
