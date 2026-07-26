@@ -4,7 +4,7 @@
 
 > This is the **distilled executive version** of the TGN investment thesis. For the full 3,500+ line comprehensive thesis (use `git log` for history). For the full comprehensive thesis, see `01-master-thesis.md`. This document contains only the verified, decision-relevant insights for institutional review.
 
-> **v10.2 v3 (July 19, 2026) — 5 NEW FINDINGS INTEGRATED (added PEE Error Band + Boguty Reality Check on July 19):**
+> **v10.2 v3 (July 19, 2026) — 5 NEW FINDINGS INTEGRATED:**
 > 1. **Industry-by-industry year-by-year deficit (35th catch):** 6 industries, ITIA 2024 recycling rates; 5 of 6 industries in deficit; only WC is surplus. TGN's addressable market = 5-industry deficit (-194 → -2,039 t/yr W).
 > 2. **TGN as global supplier (37th catch):** TGN can supply BOTH China AND ex-China. Global APT demand 87,500 t/yr (2025) → 132,500 t/yr (2035). TGN's market share: 0% global → 17% by 2035.
 > 3. **China flips to deficit in 2028 (37th catch):** China surplus +12,697 t W (2025) → deficit -59,500 t W (2035). Sanctioned feeders (NK 2,000 + Russia 2,000 + Kazakhstan 2,400) are CONSTRAINED.
@@ -14,10 +14,10 @@
 
 ## 🎯 Executive Summary (One Paragraph)
 
-Tungsten Mining NL is the **only bulk-tonnage open-pit Tier 2 (RDP-qualifying) tungsten producer** in the 2027-2028 US DoD captive window (Q4 2026 - Q4 2027, 12-18 months), AND the dominant undeveloped Tier 2 tungsten resource globally with Mt Mulgine's 290+ kt W contained (expanding). The U.S. military is legally cutting off Chinese and Russian tungsten supply on **January 1, 2027** (DFARS 252.225-7052), creating a **12-18 month US DoD captive window (Q4 2026 - Q4 2027)** for compliant producers, closing as US Tier 1 mines ramp (TUNGF Phase II Q2 2027, Blue Moon Q4 2027, Guardian Pilot Q4 2028). TGN's Watershed project (PEE-stage economics, A$1,309M pre-tax NPV, 198% IRR, 9-month payback) is positioned to capture the **frictionless defense procurement share of the 2027-2028 US DoD window** (12-18 months — NOT a 3-4 year window; US Tier 1 mines close this window by Q4 2027; Cove Kaz Tier 3 EXEMPTED under EO Section 5 Project Vault from 2030), and **funds the Mt Mulgine development** (Q3 2029 first production, 6 Mtpa initial / 15 Mtpa full expansion 2030-2031). The durable 95% of TGN's revenue rests on civilian APT (60%) + Japan 6N/WF6 chokepoint (20%) + allied defense non-US (15%) — AISC moat is Mt Mulgine US$111/MTU LOM (Tier S globally). **P(wtd) A$13.50-15.50 (61-70×, v5.2 LIVE 5-tier Mt Mulgine-as-Base)** — 5-tier normalized (7% H-Bull + 33% Bull + 50% Base + 9% Bear + 1% Floor = 100%) with **Base = Mt Mulgine 6 Mtpa online Q3 2029, Bull = Mt Mulgine 15 Mtpa online 2030-2031, H-Bull = Mt Mulgine 15 Mtpa + 6N WF6 plant online 2032+ if ever**.  With a **floor A$0.30-0.50 supported by current NAV assumptions** (not guaranteed in all market conditions). The v10.2 v4 (MT MULGINE-CENTRIC REFRAME) reflects 5 preserved findings + 4 NEW reframe theorems: (1) industry-by-industry year-by-year deficit (5 of 6 industries in deficit); (2) TGN as global supplier (China + ex-China); (3) China is ALREADY a structural net-importer in 2026 (53rd user catch, per Jiaxin HKEX Aug 2025 filing + Reuters Jan-Feb 2026 data; the original "2028 flip" was a misread — China is structurally short NOW); (4) global deficit grows 5.6× by 2035; (5) PEE Error Band Sensitivity (AACE Class 4 -15% to -30% / +20% to +50%) + Boguty Reality Check (Jiaxin HKEX:3858, 100% to China) (ex-China deficit -11,160 → -62,441 t W/yr, 51st user catch with open-loop APT recycling; was 4.7× in v10.1); (6) **Highest-Bidder Theorem (52nd user catch): in a 60+ kt deficit, geographic distinction collapses; TGN realized APT = MAX(China APT, Tier 2 DFARS APT)**; (7) **53rd user catch (July 20, 2026):** China is ALREADY a net-importer → probability mass shifts more aggressively. **(8) 🆕 54th user catch (July 21, 2026): Mt Mulgine-Centric Reframe — Mt Mulgine 6 Mtpa online Q3 2029 is the realistic Base case (50% probability); Mt Mulgine 15 Mtpa online 2030-2031 is the Bull case (33%); Mt Mulgine 15 Mtpa + 6N WF6 plant online 2032+ if ever is the H-Bull case (7%, lower prob reflects "if ever" uncertainty on WF6 timeline)**. (9) **🆕 By-product credits (Au/Ag/Cu/Mo at Mt Mulgine) make break-even APT A$800-900/MTU vs A$1,200/MTU without — a 30-40% APT-resilience uplift**; (10) **🆕 6N W powder is the binding chokepoint** (not WF6 itself) — Kanto+Central Glass July 2026 shutdowns caused by China's 6N W powder export controls; (11) **🆕 Mt Mulgine A$18-22B NPV with by-products (vs A$0.5-1.5B "future optionality" framing)**; (12) **🆕 DFARS Phase 3 Jan 2027 + Sangdong Phase 2 2027 + TGN Mt Mulgine 2029 timeline charted**. **TGN's 2035 revenue projection: A$7-10B (single-point base case, 75% concentrate payable); 5-scenario sensitivity range: A$5-22B (Bear to Hyper-bull, includes scenario-weighted DFARS Tier 2 premium). W-based formula: A$6.3-8.5B (65% payable) to A$7.2-9.8B (75% payable) for the base scenario. v10.2 v3 APT-based formula overstated by 36% (1.36× W→APT double-counting) — see audit pass 16..** The **A$254M funding gap is the #1 risk** — the binary decision variable that determines whether TGN produces in 2027 or slips. Per the v5.2 framework (July 21, 2026), the structural floor is confirmed: **the tungsten deficit exists for the 28-44 kt/yr of "permanent primary demand" — chemistry-bound chemicals, dispersed end-uses, and pyrometallurgical W losses in steel/superalloy recycling — where recycling CANNOT close the gap.** At Watershed nameplate, TGN produces only **2,090 t/yr WO₃ ≈ 1,657 t/yr W** — a small slice of the structural deficit, but the **only Tier 2 RDP primary producer in the 2027-2029 window**. At Mt Mulgine 6 Mtpa (Q3 2029), TGN produces ~5,000-6,000 t/yr W. At Mt Mulgine 15 Mtpa (2030-2031), TGN produces ~9,000 t/yr W (targeting 290+ kt W contained, 30+ year mine life, A$18-22B NPV with by-products at A$2,500/MTU APT). **The deeper structural driver (Section 5c, user-identified):** the ex-China APT premium ($2,900-3,200/MTU vs $1,200/MTU Chinese APT current; was $1,000-1,100/MTU at peak $5,500/MTU ex-China) is sustained by a **sanctioned feedstock gap** — China has access to 12-14 kt/yr W from Russia + NK + Bakuta that ex-China is denied by sanctions. The **4-layer TGN pricing stack (per v5.2 §5f/5g)**: $2,000-2,500/MTU base APT (sanction-gap-supported) + **$400-700/MTU** Tier 2 RDP premium (strengthened — TGN is 40-50% of NEW Tier 2 supply 2027-2029) + $200-400/MTU 6N/7N routing premium + $300-700/MTU anti-weaponization premium (conditional) = **$2,500-3,000/MTU blended target (baseline) — L1 + L2 + L3 min+max = $2,600-3,600/MTU; the $2,500-3,000 range is the conservative single-point baseline (L1 min \$2,000 + L2 min \$400 + L3 min \$100 = \$2,500 if 6N/7N routing is light; full L1+L2+L3 simultaneous min+max is \$2,600-3,600). ** and **$3,000-4,300/MTU stress-test** (if China fully weaponizes).
+Tungsten Mining NL is the **only bulk-tonnage open-pit Tier 2 (RDP-qualifying) tungsten producer** in the 2027-2028 US DoD captive window (Q4 2026 - Q4 2027, 12-18 months), AND the dominant undeveloped Tier 2 tungsten resource globally with Mt Mulgine's 290+ kt W contained (expanding). The U.S. military is legally cutting off Chinese and Russian tungsten supply on **January 1, 2027** (DFARS 252.225-7052), creating a **12-18 month US DoD captive window (Q4 2026 - Q4 2027)** for compliant producers, closing as US Tier 1 mines ramp (TUNGF Phase II Q2 2027, Blue Moon Q4 2027, Guardian Pilot Q4 2028). TGN's Watershed project (PEE-stage economics, A$1,309M pre-tax NPV, 198% IRR, 9-month payback) is positioned to capture the **frictionless defense procurement share of the 2027-2028 US DoD window** (12-18 months — NOT a 3-4 year window; US Tier 1 mines close this window by Q4 2027; Cove Kaz Tier 3 EXEMPTED under EO Section 5 Project Vault from 2030), and **funds the Mt Mulgine development** (Q3 2029 first production, 6 Mtpa initial / 15 Mtpa full expansion 2030-2031). The durable 95% of TGN's revenue rests on civilian APT (60%) + Japan 6N/WF6 chokepoint (20%) + allied defense non-US (15%) — AISC moat is Mt Mulgine US$111/MTU LOM (Tier S globally). **P(wtd) A$13.50-15.50 (61-70×, v5.2 LIVE 5-tier Mt Mulgine-as-Base)** — 5-tier normalized (7% H-Bull + 33% Bull + 50% Base + 9% Bear + 1% Floor = 100%) with **Base = Mt Mulgine 6 Mtpa online Q3 2029, Bull = Mt Mulgine 15 Mtpa online 2030-2031, H-Bull = Mt Mulgine 15 Mtpa + 6N WF6 plant online 2032+ if ever**.  With a **floor A$0.30-0.50 supported by current NAV assumptions** (not guaranteed in all market conditions). The v10.2 v4 (MT MULGINE-CENTRIC REFRAME) reflects 5 preserved findings + 4 NEW reframe theorems: (1) industry-by-industry year-by-year deficit (5 of 6 industries in deficit); (2) TGN as global supplier (China + ex-China); (3) China is ALREADY a structural net-importer in 2026; (4) global deficit grows 5.6× by 2035; (5) PEE Error Band Sensitivity (AACE Class 4 -15% to -30% / +20% to +50%) + Boguty Reality Check (Jiaxin HKEX:3858, 100% to China) (ex-China deficit -11,160 → -62,441 t W/yr, 51st user catch with open-loop APT recycling; was 4.7× in v10.1); (6) **Highest-Bidder Theorem: in a 60+ kt deficit, geographic distinction collapses; TGN realized APT = MAX(China APT, Tier 2 DFARS APT)**; (7) **53rd user catch (July 20, 2026):** China is ALREADY a net-importer → probability mass shifts more aggressively. **(8) 🆕 54th user catch (July 21, 2026): Mt Mulgine-Centric Reframe — Mt Mulgine 6 Mtpa online Q3 2029 is the realistic Base case (50% probability); Mt Mulgine 15 Mtpa online 2030-2031 is the Bull case (33%); Mt Mulgine 15 Mtpa + 6N WF6 plant online 2032+ if ever is the H-Bull case (7%, lower prob reflects "if ever" uncertainty on WF6 timeline)**. (9) **🆕 By-product credits (Au/Ag/Cu/Mo at Mt Mulgine) make break-even APT A$800-900/MTU vs A$1,200/MTU without — a 30-40% APT-resilience uplift**; (10) **🆕 6N W powder is the binding chokepoint** (not WF6 itself) — Kanto+Central Glass July 2026 shutdowns caused by China's 6N W powder export controls; (11) **🆕 Mt Mulgine A$18-22B NPV with by-products (vs A$0.5-1.5B "future optionality" framing)**; (12) **🆕 DFARS Phase 3 Jan 2027 + Sangdong Phase 2 2027 + TGN Mt Mulgine 2029 timeline charted**. **TGN's 2035 revenue projection: A$7-10B (single-point base case, 75% concentrate payable); 5-scenario sensitivity range: A$5-22B (Bear to Hyper-bull, includes scenario-weighted DFARS Tier 2 premium). W-based formula: A$6.3-8.5B (65% payable) to A$7.2-9.8B (75% payable) for the base scenario. v10.2 v3 APT-based formula overstated by 36% (1.36× W→APT double-counting) — see audit pass 16..** The **A$254M funding gap is the #1 risk** — the binary decision variable that determines whether TGN produces in 2027 or slips. Per the v5.2 framework (July 21, 2026), the structural floor is confirmed: **the tungsten deficit exists for the 28-44 kt/yr of "permanent primary demand" — chemistry-bound chemicals, dispersed end-uses, and pyrometallurgical W losses in steel/superalloy recycling — where recycling CANNOT close the gap.** At Watershed nameplate, TGN produces only **2,090 t/yr WO₃ ≈ 1,657 t/yr W** — a small slice of the structural deficit, but the **only Tier 2 RDP primary producer in the 2027-2029 window**. At Mt Mulgine 6 Mtpa (Q3 2029), TGN produces ~5,000-6,000 t/yr W. At Mt Mulgine 15 Mtpa (2030-2031), TGN produces ~9,000 t/yr W (targeting 290+ kt W contained, 30+ year mine life, A$18-22B NPV with by-products at A$2,500/MTU APT). **The deeper structural driver (Section 5c, user-identified):** the ex-China APT premium ($2,900-3,200/MTU vs $1,200/MTU Chinese APT current; was $1,000-1,100/MTU at peak $5,500/MTU ex-China) is sustained by a **sanctioned feedstock gap** — China has access to 12-14 kt/yr W from Russia + NK + Bakuta that ex-China is denied by sanctions. The **4-layer TGN pricing stack (per v5.2 §5f/5g)**: $2,000-2,500/MTU base APT (sanction-gap-supported) + **$400-700/MTU** Tier 2 RDP premium (strengthened — TGN is 40-50% of NEW Tier 2 supply 2027-2029) + $200-400/MTU 6N/7N routing premium + $300-700/MTU anti-weaponization premium (conditional) = **$2,500-3,000/MTU blended target (baseline) — L1 + L2 + L3 min+max = $2,600-3,600/MTU; the $2,500-3,000 range is the conservative single-point baseline (L1 min \$2,000 + L2 min \$400 + L3 min \$100 = \$2,500 if 6N/7N routing is light; full L1+L2+L3 simultaneous min+max is \$2,600-3,600). ** and **$3,000-4,300/MTU stress-test** (if China fully weaponizes).
 - **Full source:** `tungsten_bucket3_wf6_chemicals.md` (35KB, 95+ sources, 10-wave deep research).
 
-### 6. 🆕 v10.1 — AISC Cost Moat — Last Man Standing (REVISED 57th-58th user catch, July 21, 2026)
+###AISC Cost Moat — Last Man Standing
 - **TGN's Mt Mulgine AISC is US$111/MTU LOM W-only (A$170/MTU), NEGATIVE with by-products (Mo 1,178 t + Cu 1,301 t + Au 9,580 oz + Ag 531,284 oz)** — this is the AISC MOAT, Tier S globally (lowest among Tier 2/3 Western producers per Section 5aa in 03-price-floor.md).
 - **TGN's Watershed AISC is A$415/MTU = US$270/MTU** (PEE June 2026) — mid-tier globally (Tier B per 5aa), competitive but not the cost leader. Watershed is the near-term cash flow; Mt Mulgine is the long-term cost engine.
 - **AISC cost curve (per 5aa, sorted by Tier):** Tier S (lowest): TGN Mt Mulgine US$111, Yakhton US$37-100 (USGS PFS), TUNGF Ima Phase II US$80-165, Almonty Sangdong US$110-120, Koytash-Ugat US$130. Tier A: Hemerdon US$144. Tier B: TUNGF Phase I US$200-300, Chinese SOEs US$205-245, **TGN Watershed US$270**.
@@ -25,9 +25,9 @@ Tungsten Mining NL is the **only bulk-tonnage open-pit Tier 2 (RDP-qualifying) t
 - **TGN's Mt Mulgine is the marginal supplier — the last one standing in Tier 2/3.** Both Tier 2 (defense) and Chinese 6N/7N (commercial) refiners compete for Mt Mulgine's concentrate. TGN captures the marginal APT price = the highest bid. The cascade (Section 5f/5f.1) is amplified because Mt Mulgine's supply becomes the bottleneck.
 - **Structural Bear floor: A$1.00-2.00 (mean A$1.50, AISC-supported, 5-9× current) — NOT a "TGN goes to zero" case, but a "TGN holds up better than peers" case.** TGN is profitable when Mactung, Almonty Panasqueira, and expensive Chinese mines go bankrupt. **Note**: TGN's "last man standing" status is within Tier 2/3; TUNGF Phase II ($80-165/MTU) and Yakhton ($37-100/MTU) would be cheaper globally if available. See Section 5aa (NEW, 03-price-floor.md) and Section 5i (REVISED).
 
-### 5a. 🆕 v10.1 — The Deficit Is In The Non-Recyclable Industries (added July 18, 2026)
+###The Deficit Is In The Non-Recyclable Industries
 
-**Reframing (user-corrected v9.57d → v10.1):** The "Bucket 3 chemistry floor" framing is a SUBSET of a broader structural reality: **the tungsten deficit exists for industries that cannot be recycled easily.** The blended "global 30% recycling rate" is a weighted average that masks huge variance by industry.
+**Reframing:** The "Bucket 3 chemistry floor" framing is a SUBSET of a broader structural reality: **the tungsten deficit exists for industries that cannot be recycled easily.** The blended "global 30% recycling rate" is a weighted average that masks huge variance by industry.
 
 **⚠️ Honest correction (user-caught, v10.1):** An earlier draft of this section claimed TGN's production was "75-125% of the entire permanent primary demand floor" — this was wrong arithmetic. TGN's Watershed nameplate is **2,090 t/yr WO₃ ≈ 1,657 t/yr W** (a 4-6% slice of the 28-44 kt/yr floor), **not** 32-35 kt/yr. The structural argument is that TGN is the **only Tier 2 RDP primary producer in the 2027-2028 US DoD captive window (12-18 months)** — not that TGN alone fills the deficit. The deficit requires TGN + Mactung (Tier 2 Canada, 2030-31) + Tier 3 (Almonty Sangdong, Korea, Tier 3 + Cove Kazakhstan, Tier 3 + sanctioned) to clear. **AUDIT-2 location-based classification:** "Almonty" alone is ambiguous. Specifically: Almonty Sangdong (Korea, Tier 3, commercial) + Almonty Panasqueira (Portugal, Tier 2 RDP) + Almonty Los Santos (Spain, Tier 2 RDP). The Tier 3 friction applies ONLY to Sangdong, NOT to Panasqueira/Los Santos.
 
@@ -79,7 +79,7 @@ The user has identified that the permanent primary demand floor is more precisel
 - TGN's Watershed 1,657 t/yr W = **2.4-3.5% of chemistry-bound + low-recycling** or **3.5-5.9% of the 28-44 kt/yr permanent floor**.
 - The 28-44 kt/yr is the most defensible structural floor; it cannot be repealed, recycled away, or replaced by alternative materials.
 
-**The 5 reasons the structural floor is durable (33rd user catch):**
+**The 5 reasons the structural floor is durable:**
 
 1. **WF6 chemistry is consumed** — W on chip is gone forever; 0-10% recycling, 40% potential with closed-loop (not yet implemented).
 2. **6N/7N is chemistry-bound** — high-purity is dissipated in production; <5% recycling.
@@ -126,7 +126,7 @@ The user has identified that the permanent primary demand floor is more precisel
 
 **Full source:** `tungsten_recycling_by_industry.md` (28KB, 80+ sources, 10-wave deep research, ITIA + Sandvik + Plansee + China Tungsten Industry Association + aerospace Revert data).
 
-### 5b. 🆕 v10.1 — China Competes for Feedstock (user-corrected, July 18, 2026)
+###China Competes for Feedstock
 
 **The user-corrected reframe:** A previous framing claimed TGN's concentrate "addresses 25-33% of the ex-China 6N deficit." **This was wrong because the ex-China 6N deficit is a REFINING-capacity chokepoint, NOT a mine-supply chokepoint.** TGN's concentrate is bid on by ALL global buyers — including Chinese 6N refiners.
 
@@ -187,9 +187,9 @@ The user has identified that the permanent primary demand floor is more precisel
 
 **Full source:** `tungsten_actual_mine_addressable_deficit.md` (32KB, 90+ sources, 10-wave deep research, ITIA + Sandvik + Plansee + Masan + Xiamen Tungsten + Almonty + DFARS data; the "compete for feedstock" overlay on the 5-layer supply chain chokepoints).
 
-### 5c. 🆕 v10.1 — The Sanctioned Feedstock Gap (user-corrected, July 18, 2026)
+###The Sanctioned Feedstock Gap
 
-**The deepest structural argument yet (user-identified):** The ex-China APT premium ($2,900-3,200/MTU vs $1,000-1,100/MTU Chinese APT) is sustained by a **sanctioned feedstock gap** — China has access to tungsten that ex-China is denied by sanctions.
+**The deepest structural argument yet:** The ex-China APT premium ($2,900-3,200/MTU vs $1,000-1,100/MTU Chinese APT) is sustained by a **sanctioned feedstock gap** — China has access to tungsten that ex-China is denied by sanctions.
 
 **The sanctioned feedstock gap (2025 production data):**
 
@@ -225,7 +225,7 @@ The user has identified that the permanent primary demand floor is more precisel
 
 **The $1,900/MTU ex-China premium = the sanctioned feedstock gap.** This is structural, not cyclical. Russia-Ukraine war ending would not change NK sanctions. Bakuta is sold to China via long-term contracts.
 
-**The China recycling reframe (user-identified, also crucial):**
+**The China recycling reframe:**
 
 China's 10% recycling rate is misleading. The flow:
 
@@ -280,7 +280,7 @@ China's 10% recycling rate is misleading. The flow:
 - **TGN's Tier 2 RDP premium ($400-700/MTU, strengthened per Section 5g)** adds on top of sanction gap. Baseline total: $2,500-3,000/MTU. Stress-test (anti-weaponization active): $3,000-4,300/MTU. *[Updated to 4-layer in v10.1 Section 5f/5g.]*
 - **Position sizing 6-9% unchanged** — this is a clarification of structural drivers, not new information. It deepens the existing thesis without changing position size.
 
-### 5d. 🆕 v10.1 — Chinese Weaponization Scenario & Mutually Assured Destruction (user-identified)
+###Chinese Weaponization Scenario & Mutually Assured Destruction
 
 **The user's sharp question:** "If the West keeps restricting China from ASML EUV, won't China cut off WF6 once they get their own EUV machine?"
 
@@ -291,7 +291,7 @@ China's 10% recycling rate is misleading. The flow:
 - **Status:** Japanese WF6 industry is operating on Chinese goodwill, not on independent supply
 - **Ex-China 6N supply:** 0% today; H.C. Starck, JNM Akita, Sumitomo Toyama are racing to add 1,000-2,000 t/yr by 2030 (60-80% gap)
 
-**The mutual retaliation matrix (user-corrected, RISC-V removed):**
+**The mutual retaliation matrix:**
 
 | Western Leverage on China | Chinese Leverage on West |
 |---|---|
@@ -305,7 +305,7 @@ China's 10% recycling rate is misleading. The flow:
 | **Imagination GPU IP** (UK) | |
 | **Advanced packaging tools** (ASMPT, Besi) | |
 
-**What China does NOT need from the West (user-corrected):**
+**What China does NOT need from the West:**
 - **RISC-V IP** — open source (BSD-licensed ISA), anyone can implement. China uses RISC-V to REDUCE Western IP dependence (Alibaba T-Head, Xiaomi, HiSilicon design RISC-V chips domestically)
 - **Foundry process know-how at mature nodes** (28nm+) — China has SMIC, Hua Hong
 - **Memory process know-how at mature nodes** — China has YMTC (NAND), CXMT (DRAM), ChangXin Memory
@@ -376,7 +376,7 @@ China's 10% recycling rate is misleading. The flow:
 6. Chinese APT export restrictions — tightens Tripartite Bucket 2 (Ex-China Commercial) supply
 7. One-two punch (DFARS cliff + Chinese supply withdrawal)
 
-### 5e. 🆕 v10.1 — Ex-China 6N/7N Refinery Buildout + Year-by-Year Production Forecast (user-requested)
+###Ex-China 6N/7N Refinery Buildout + Year-by-Year Production Forecast
 
 **The 6 ex-China 6N/4N+ refinery projects (mid-2026 data, user-requested breakdown):**
 
@@ -390,7 +390,7 @@ China's 10% recycling rate is misleading. The flow:
 | **EU €350M tungsten processing** | Austria, Germany | Tier 2 | 200-500 t/yr mixed grades | Phased 2026-2030 | €350M |
 | **US DPA Title III: Golden Metal** | Pilot Mountain, USA | Tier 2 | Pilot (small) | Funded 2025 | $6.2M |
 
-**🆕 Ex-China 6N/7N Production Forecast by Year (user-requested):**
+**🆕 Ex-China 6N/7N Production Forecast by Year:**
 
 | Year | Ex-China 6N/7N Capacity (t/yr) | Cumulative (t/yr) | Online Projects | Demand (t/yr) | Gap |
 |---|---|---|---|---|---|
@@ -415,7 +415,7 @@ China's 10% recycling rate is misleading. The flow:
 
 **🆕 v10.1 Production Reality for 6N/7N:** The ex-China 6N/7N buildout is happening but is too slow to close the gap during TGN's Tier 2 monopoly window (2027-2029). The 4-layer TGN pricing stack (sanction gap + Tier 2 + 6N/7N + anti-weaponization) remains valid through 2030. The persistent 60-80% gap supports the structural APT floor at $2,000-2,500/MTU (sanction-gap-supported) and the 6N/7N routing premium at $200-400/MTU for TGN's concentrate when sold to 6N refiners.
 
-### 5f. 🆕 v10.1 — The Price Cascade: From WF6 Chokepoint to TGN Revenue (user-identified, the most important insight of the session)
+###The Price Cascade: From WF6 Chokepoint to TGN Revenue
 
 **The user's transmission mechanism insight:** "It's likely that the ex-China WF6 can fetch a higher price, which in turn is able to buy concentrate or APT for higher price."
 
@@ -489,7 +489,7 @@ China's 10% recycling rate is misleading. The flow:
 
 **Position sizing 6-9% unchanged** (the cascade validates the existing thesis, doesn't change the binary risk = $254M funding gap). The cascade supports the BULL case scenarios but the BASE case is unchanged.
 
-### 5f.1. 🆕 v10.1 — Cascade Amplification from AISC Cost Moat (REVISED 57th-58th user catch, July 21, 2026)
+###Cascade Amplification from AISC Cost Moat
 
 **The user's critical insight (REVISED):** TGN's MOAT IS MT MULGINE (US$111/MTU LOM W-only, NEGATIVE with by-products, Tier S globally), not Watershed (A$415/MTU = US$270/MTU, mid-tier globally per 5aa). In a Bear scenario, Tier B/C/D producers go bankrupt, supply tightens, and TGN's Mt Mulgine concentrate becomes the **marginal feedstock** for both Tier 2 (defense) AND Chinese 6N/7N refiners (commercial). This **amplifies the cascade transmission mechanism** because TGN captures the marginal APT price = the highest commercial bid.
 
@@ -511,7 +511,7 @@ China's 10% recycling rate is misleading. The flow:
 | **Chinese high-cost mines** | **US$1,200-1,800/MTU** | Tier 4 (banned, DFARS 252.225-7052 — covered country) | **GO BANKRUPT in Bear; close in 12-24 months** |
 | Russian/NK/Bakuta mines (sanctioned) | US$400-800/MTU | Tier 4 (banned + sanctioned, DFARS 252.225-7052) | Cannot supply ex-China even if cheap |
 
-**The "last man standing" mechanism (user-identified):**
+**The "last man standing" mechanism:**
 
 1. **Bear scenario trigger:** APT price drops to $1,500-2,000/MTU for 12-18+ months (e.g., recession, China dumps inventory, defense procurement delayed)
 2. **Higher-cost mines close first:** Chinese mines at US$1,200-1,800/MTU AISC go bankrupt (revenue < cash cost); Mactung's PFS economics (US$1,000/MTU) turn negative; Almonty mines become cash-flow negative
@@ -573,7 +573,7 @@ The earlier v9.51 Bear case (A$0.30-0.50 per the v10.0 P(wtd) framework) assumed
 
 4. **The Chinese 6N/7N bid for TGN's concentrate is the most under-appreciated mechanism.** Chinese 6N/7N refiners (CSSC, Xiamen) face the same ex-China WF6 shortage as Japanese/European refiners. In a sustained Bear, they ALSO bid for TGN's concentrate (commercial price) because their own Chinese APT supply is unreliable (Chinese high-cost mines closed, sanctioned supply denied). This creates a TWO-BUYER market (Tier 2 defense + Chinese commercial) competing for TGN's concentrate.
 
-**The v10.2 RE-ANCHORED 2.0 5-tier framework with Hyper-bull + Highest-Bidder Theorem (52nd user catch, July 20, 2026; replaces v10.2 v3 5-tier and v10.1 4-tier AISC-supported):**
+**The v10.2 RE-ANCHORED 2.0 5-tier framework with Hyper-bull + Highest-Bidder Theorem:**
 
 | Tier | Per Share | Multiple | Probability (v10.2 v3.6) | **Probability (v10.2 v4 HISTORICAL — superseded by v5.1/v5.2 LIVE A$14.40)** | Expected (v4) |
 |------|-----------|----------|---------------------------|------------------------------------------------|------------------|
@@ -613,7 +613,7 @@ The cascade (Section 5f) was about TRANSMISSION: how the WF6 chokepoint propagat
 
 **Cross-references:** This section is the 5f.1 extension of Section 5f (Price Cascade). The corrected Bear P(wtd) row replaces the v9.51 Bear (A$0.30-0.50) and matches the V10.1 INFOGRAPHIC v2 framework (commit 69d4c35, July 18, 2026). The 4-layer pricing stack (Sections 5c, 5d, 5g) is preserved unchanged.
 
-### 5g. 🆕 v10.1 — TGN's Buyers and Competitors — The DFARS Tier 2 RDP Universe (user-corrected, 13th-15th user catches this session)
+###TGN's Buyers and Competitors — The DFARS Tier 2 RDP Universe
 
 **The user's three critical catches (in sequence):**
 
@@ -870,9 +870,9 @@ TGN's 1,657 t/yr W (Watershed) / 5,800-6,300 t/yr W (mid-term)
 
 ---
 
-### 5i. 🆕 v10.1 — AISC Cost Moat — Last Man Standing (user-identified, structural Bear floor)
+###AISC Cost Moat — Last Man Standing
 
-**The core insight (REVISED 57th-58th user catch, July 21, 2026):** TGN's AISC MOAT is **Mt Mulgine US$111/MTU LOM (NEGATIVE effective with by-products, Tier S globally)**, NOT Watershed A$415/MTU (which is mid-tier globally, Tier B). The historical v10.1 framing of "Watershed A$415/MTU is the lowest in the world" was wrong on 3 fronts. Per v5.2 LIVE Section 5aa: the AISC moat is Mt Mulgine, validated by 4-way cross-check (USGS PFS, Mt Mulgine PFS, TGN PEE, Haji TUNGF CEO disclosures). In Bear (A$1.55 Watershed-only, AISC-protected), TGN is "last man standing" only WITHIN Tier 2/3 — NOT globally (TUNGF Phase II at $80-165/MTU and Mt Mulgine at $111/MTU would be cheaper if available).
+**The core insight:** TGN's AISC MOAT is **Mt Mulgine US$111/MTU LOM (NEGATIVE effective with by-products, Tier S globally)**, NOT Watershed A$415/MTU (which is mid-tier globally, Tier B). The historical v10.1 framing of "Watershed A$415/MTU is the lowest in the world" was wrong on 3 fronts. Per v5.2 LIVE Section 5aa: the AISC moat is Mt Mulgine, validated by 4-way cross-check (USGS PFS, Mt Mulgine PFS, TGN PEE, Haji TUNGF CEO disclosures). In Bear (A$1.55 Watershed-only, AISC-protected), TGN is "last man standing" only WITHIN Tier 2/3 — NOT globally (TUNGF Phase II at $80-165/MTU and Mt Mulgine at $111/MTU would be cheaper if available).
 
 **The AISC cost-curve hierarchy (v5.2 LIVE, REVISED 57th-58th user catch):**
 
@@ -888,7 +888,7 @@ TGN's 1,657 t/yr W (Watershed) / 5,800-6,300 t/yr W (mid-term)
 | **Chinese high-cost mines** | Mixed, Tier 4 | **US$1,200-1,800/MTU** | **Tier 4 (banned, DFARS 252.225-7052 — covered country)** | **GO BANKRUPT in Bear — close in 12-24 months** |
 | Russian/NK/Bakuta mines (sanctioned) | Mixed, Tier 4 | US$400-800/MTU | Tier 4 (banned + sanctioned, DFARS 252.225-7052) | Cannot supply ex-China even if cheap |
 
-**The 6-step Bear economic chain (user-identified, the structural Bear floor mechanism):**
+**The 6-step Bear economic chain:**
 
 1. **APT prices retreat** due to recession / AI winter / semi downturn → APT drops from $2,500-3,000/MTU baseline to $1,500-2,000/MTU for 12-18+ months
 2. **High-cost producers go bankrupt FIRST** (revenue < AISC = cash cost): Chinese high-cost mines (US$1,200-1,800/MTU AISC) close in 12-24 months; Mactung's PFS economics (US$1,000/MTU) turn negative; Almonty Sangdong (US$900-1,000/MTU) becomes cash-flow negative; even Almonty Panasqueira/Los Santos (US$700-900/MTU) become marginal
@@ -941,9 +941,9 @@ TGN's AISC of A$415/MTU is structurally below the marginal cost of every other m
 
 ---
 
-### 5n. 🆕 v10.1 — Tungsten vs Chip Policy Asymmetry: DFARS Now, CHIPS Act Later (user-identified, July 18, 2026)
+###Tungsten vs Chip Policy Asymmetry: DFARS Now, CHIPS Act Later
 
-**The core insight (user-identified, 29th-30th user catches of the session):** The US does recognize the chip national security threat (CHIPS Act $52.7B, DPA, EAR, Section 1260H/1758, Trusted Foundry), but **cannot create a DFARS-like mandate for chips** because the ex-China advanced chip supply doesn't exist at scale. The US uses a **"fund first, mandate later"** approach for chips, but a **"supply exists, mandate now"** approach for tungsten. This asymmetry makes TGN's DFARS protection uniquely durable.
+**The core insight:** The US does recognize the chip national security threat (CHIPS Act $52.7B, DPA, EAR, Section 1260H/1758, Trusted Foundry), but **cannot create a DFARS-like mandate for chips** because the ex-China advanced chip supply doesn't exist at scale. The US uses a **"fund first, mandate later"** approach for chips, but a **"supply exists, mandate now"** approach for tungsten. This asymmetry makes TGN's DFARS protection uniquely durable.
 
 **The 6 reasons the US does NOT have a chip DFARS equivalent:**
 
@@ -1125,9 +1125,9 @@ TGN's structural floor is **more durable than any chip-fab stock** because:
 
 ---
 
-### 5q. 🆕 v10.1 — Recycling Reality Check: Chemistry-Bound + Low-Recycling is the Structural Floor (user-identified, 33rd user catch of the session, July 18, 2026)
+###Recycling Reality Check: Chemistry-Bound + Low-Recycling is the Structural Floor
 
-**The core insight (user-identified, July 18, 2026):** APT demand is partially offset by recycling, BUT the recycling rate varies ENORMOUSLY by industry. **Cemented carbide is 30-50% recycled (offset), but WF6/6N/AMT is 0-10% recycled (chemistry-bound), and steel/superalloy is only 15% recycled.** The structural floor is **NOT just chemistry-bound chemicals (the original v10.1 framing), but the broader category of "chemistry-bound + low-recycling" segments** that together total 47-68 kt/yr primary demand that cannot be closed by recycling.
+**The core insight:** APT demand is partially offset by recycling, BUT the recycling rate varies ENORMOUSLY by industry. **Cemented carbide is 30-50% recycled (offset), but WF6/6N/AMT is 0-10% recycled (chemistry-bound), and steel/superalloy is only 15% recycled.** The structural floor is **NOT just chemistry-bound chemicals (the original v10.1 framing), but the broader category of "chemistry-bound + low-recycling" segments** that together total 47-68 kt/yr primary demand that cannot be closed by recycling.
 
 **The industry-specific recycling rate table (ITIA 2024 + 2025 industry data + USGS MCS 2026):**
 
@@ -1209,7 +1209,7 @@ This is the chemistry-bound + low-recycling subtotal MINUS the cemented carbide 
 | **TOTAL primary demand (mine)** | **88,000-117,000** | **1.4-1.9%** | — |
 | **Permanent primary demand floor (28-44 kt/yr)** | **28,000-44,000** | **3.5-5.9%** | **TGN's structural addressable market** |
 
-**The 5 most important findings (33rd user catch synthesis):**
+**The 5 most important findings:**
 
 1. **Cemented carbide is 60-70% of APT demand but 30-50% is recycled** — primary demand 37,500-63,000 t/yr
 2. **WF6/6N/AMT is 9-12% of APT demand and only 0-10% is recycled** — primary demand 23,925-30,625 t/yr (chemistry-bound)
@@ -1225,7 +1225,7 @@ This is the chemistry-bound + low-recycling subtotal MINUS the cemented carbide 
 4. **TGN's 1,657 t/yr W = 17-23% of WF6 primary demand, 12-17% of 6N/7N primary demand**
 5. **The 28-44 kt/yr floor is supported by industry-specific recycling analysis, not just chemistry-bound framing**
 
-**The 5 reasons TGN's structural floor is durable (33rd user catch):**
+**The 5 reasons TGN's structural floor is durable:**
 
 1. **WF6 chemistry is consumed** — W on chip is gone forever; 0-10% recycling, 40% potential with closed-loop (not yet implemented at scale)
 2. **6N/7N is chemistry-bound** — high-purity is dissipated in production; <5% recycling
@@ -1257,7 +1257,7 @@ The user has identified that the v10.1 "permanent primary demand floor" of 28-44
 
 ---
 
-**🆕 v10.1 USER-IDENTIFIED REFINEMENT (34th user catch, July 18, 2026): The 28-44 kt/yr is GLOBAL primary demand, NOT ex-China. China's share must be subtracted.**
+**🆕 v10.1 USER-IDENTIFIED REFINEMENT: The 28-44 kt/yr is GLOBAL primary demand, NOT ex-China. China's share must be subtracted.**
 
 **The user's critical clarification:** The 28-44 kt/yr "permanent primary demand floor" calculated above is **GLOBAL primary demand**, not ex-China. China consumes a large share of chemistry-bound demand (~50-65% across segments) because China is the largest chip manufacturer and largest chemical refiner. **TGN cannot sell to China for DFARS Tier 2 demand** (DFARS only covers US/allied). Therefore, TGN's addressable market is the **EX-CHINA** portion of the global floor.
 
@@ -1298,7 +1298,7 @@ The user has identified that the v10.1 "permanent primary demand floor" of 28-44
 | **Ex-China steel/superalloy primary demand** | 3,300-5,400 | **31-50%** | Low recycling |
 | **Ex-China mill products primary demand** | 1,700-3,400 | **49-97%** | Low recycling |
 
-**The 5 key insights from the global vs ex-China breakdown (34th user catch):**
+**The 5 key insights from the global vs ex-China breakdown:**
 
 1. **The 28-44 kt/yr is GLOBAL primary demand** — China consumes ~65% (~20-30 kt/yr), ex-China consumes ~9-16 kt/yr
 2. **TGN's market share is 3.8-5.9% of GLOBAL, but 10-18% of EX-CHINA** — TGN is more concentrated in ex-China
@@ -1392,7 +1392,7 @@ The 28-44 kt/yr "permanent primary demand floor" is a GROSS chemistry-bound + lo
 
 **Source:** Deep Research 10x, 50+ sources, ITIA 2024 Recycling of Tungsten (authoritative). See `tungsten_industry_deficit_2025_2035/tungsten_industry_deficit_2025_2035.md` for full year-by-year analysis.
 
-**SIMPLIFIED FRAMING (35th user catch, deep-research-10x):** **Only cemented carbide is in surplus. The other 5 industries (Steels, Mill Products, Chemicals, Defense, Other) ALL need new APT supply.**
+**SIMPLIFIED FRAMING:** **Only cemented carbide is in surplus. The other 5 industries (Steels, Mill Products, Chemicals, Defense, Other) ALL need new APT supply.**
 
 | Industry | 2025 → 2035 Deficit | Status | APT-Demand? |
 |---|---|---|---|
@@ -1407,13 +1407,13 @@ The 28-44 kt/yr "permanent primary demand floor" is a GROSS chemistry-bound + lo
 
 ---
 
-## 🆕 v10.2 Sections (8 NEW sections 5k/5l/5o/5s/5t/5u/5v/5w, see ordering note)
+## v10.2 Sections (8 NEW sections 5k/5l/5o/5s/5t/5u/5v/5w, see ordering note)
 
 **📋 Section ordering note:** The 8 v10.2 sections below (5k, 5l, 5o, 5s, 5t, 5u, 5v, 5w) are presented in the order they were added to the framework (chronological: 5s, 5t, 5u, 5k, 5l, 5o, 5v, 5w). The numerical order (5k → 5l → 5o → 5s → 5t → 5u → 5v → 5w) is preserved in the section headers and Table of Contents. The body content is correct; only the file order differs from the numerical order. Logical grouping: 5k/5l/5o (supply-side / structural) + 5s/5t/5u (demand-side / global) + 5v (recycling / 51st catch) + 5w (PEE error band / Boguty, v10.2 v3 only).
 
 ---
 
-## 🆕 v10.2 Section 5s: China Flips to DEFICIT in 2028 (37th user catch)
+##China Flips to DEFICIT in 2028
 
 **User insight (July 18, 2026):** "but china prices are lower because they have extra supply from north korea and russia. will the demand outstrip supply in the future? or will there be surplus in china?"
 
@@ -1433,7 +1433,7 @@ The 28-44 kt/yr "permanent primary demand floor" is a GROSS chemistry-bound + lo
 
 ---
 
-## 🆕 v10.2 Section 5t: Global Supply-Demand — Even All New Mines Can't Keep Up (38th user catch)
+##Global Supply-Demand — Even All New Mines Can't Keep Up
 
 **User insight (July 18, 2026):** "oh then prices in china will start rising too. then by 2030, the deficit will be so serious, all the new mines globally can't keep up either"
 
@@ -1447,7 +1447,7 @@ The 28-44 kt/yr "permanent primary demand floor" is a GROSS chemistry-bound + lo
 | 2032 | 31,759 | 6,200 (17.7 × 35%) | 73,500 | -35,541 |
 | 2035 | 32,459 | **7,100** (20.3 × 35%, new in v10.2) | **102,000** | **-62,441** (was -69,541 in v10.1) |
 
-*Note: 5c shows ex-China total demand (pre-recycling) = 40-50 kt/yr W (2025), but after applying 30% ex-China recycling rate (industry-specific blended), primary demand ≈ 28-35 kt. The 5t table above uses primary demand (post-recycling) for consistency with the supply-side primary production figures. Total demand including recycling is 40-50 kt/yr W per Section 5c. **v10.2 deficit update (51st user catch):** the open-loop APT recycling (16% of global carbide 65 kt = 10.4 kt W/yr; 35% ex-China share) is APT-competing supply that v10.1 did not explicitly model. Adding it reduces the 2025 deficit by 24% (-14,800 → -11,160) and the 2035 deficit by 10% (-69,541 → -62,441). The growth rate INCREASES from 4.7× to 5.6× because the 2025 base is smaller. TGN's market share of the corrected ex-China deficit is 12-15% (2025, Watershed only) → 18-25% (2035, full multi-asset).*
+*Note: 5c shows ex-China total demand (pre-recycling) = 40-50 kt/yr W (2025), but after applying 30% ex-China recycling rate (industry-specific blended), primary demand ≈ 28-35 kt. The 5t table above uses primary demand (post-recycling) for consistency with the supply-side primary production figures. Total demand including recycling is 40-50 kt/yr W per Section 5c. **v10.2 deficit update:** the open-loop APT recycling (16% of global carbide 65 kt = 10.4 kt W/yr; 35% ex-China share) is APT-competing supply that v10.1 did not explicitly model. Adding it reduces the 2025 deficit by 24% (-14,800 → -11,160) and the 2035 deficit by 10% (-69,541 → -62,441). The growth rate INCREASES from 4.7× to 5.6× because the 2025 base is smaller. TGN's market share of the corrected ex-China deficit is 12-15% (2025, Watershed only) → 18-25% (2035, full multi-asset).*
 
 **Why even all new mines can't keep up:**
 1. **China flips to deficit in 2028** — adding 59,500 t/yr demand for ex-China by 2035
@@ -1461,7 +1461,7 @@ The 28-44 kt/yr "permanent primary demand floor" is a GROSS chemistry-bound + lo
 
 ---
 
-## 🆕 v10.2 Section 5u: TGN as Global Supplier (37th user catch)
+##TGN as Global Supplier
 
 **User insight (July 18, 2026):** "show me both in-china and ex-china. tgn can also supply to china."
 
@@ -1492,7 +1492,7 @@ The 28-44 kt/yr "permanent primary demand floor" is a GROSS chemistry-bound + lo
 
 ---
 
-## 🆕 v10.2 Section 5k: TGN as Sovereign Asset (July 18, 2026)
+##TGN as Sovereign Asset (July 18, 2026)
 
 **TGN is no longer a mining company — it is a STRATEGIC SOVEREIGN ASSET for the Western bloc.**
 
@@ -1522,7 +1522,7 @@ The 28-44 kt/yr "permanent primary demand floor" is a GROSS chemistry-bound + lo
 
 ---
 
-## 🆕 v10.2 Section 5l: China's 5-Stage Squeeze Pattern (July 18, 2026)
+##China's 5-Stage Squeeze Pattern (July 18, 2026)
 
 **China's tungsten export control strategy follows a predictable 5-stage pattern:**
 
@@ -1550,7 +1550,7 @@ The 28-44 kt/yr "permanent primary demand floor" is a GROSS chemistry-bound + lo
 
 ---
 
-## 🆕 v10.2 Section 5o: APT Demand Diversification (July 18, 2026)
+##APT Demand Diversification (July 18, 2026)
 
 **APT demand is concentrated in 5 customer segments, each with different risk profile:**
 
@@ -1578,7 +1578,7 @@ The 28-44 kt/yr "permanent primary demand floor" is a GROSS chemistry-bound + lo
 
 ---
 
-## 🆕 v10.2 Section 5v: Open-Loop APT Recycling — Recycling CAN Produce APT (51st user catch, July 19, 2026)
+##Open-Loop APT Recycling — Recycling CAN Produce APT
 
 **User insight (July 19, 2026):** "recycled tungsten carbide can be turned back into apt. fix the thesis."
 
@@ -1599,7 +1599,7 @@ The v10.1 floor of **28-44 kt/yr W** was for the **chemistry-bound + low-recycli
 
 The user's correction affects the floor indirectly via the **APT supply side**: the 10.4 kt W/yr of open-loop APT from carbide scrap (16% × 65 kt = 10.4 kt) is a **secondary APT supply source** that competes with primary APT in the global APT market. This secondary supply is already partially captured in the 30% blended recycling rate.
 
-**Revised v10.2 framework (51st user catch):**
+**Revised v10.2 framework:**
 
 1. **The 28-44 kt/yr chemistry-bound floor is still the structural floor** — these industries (chemicals 5%, defense 8%, AMT 5%, mill products 22%, steel 15%, 6N/7N 0%) have NO recycling path that can close the gap, even with the open-loop APT correction.
 
@@ -1627,7 +1627,7 @@ The user's correction affects the floor indirectly via the **APT supply side**: 
 
 **The deeper structural argument (unchanged):** TGN is the only Tier 2 RDP primary producer in 2027-2029. The 28-44 kt/yr chemistry-bound floor is the truly inelastic demand — no recycling path can close it. TGN's 11,357-15,357 t/yr W is a small slice of the chemistry-bound floor (4-6%) but a SIGNIFICANT share of the expanded primary demand (17-31%, when carbide primary is included).
 
-### 🆕 v10.2 SECTION 5w: PEE ERROR BAND SENSITIVITY + BOGUTY REALITY CHECK (Gemini audit integration, July 19, 2026)
+### v10.2 SECTION 5w: PEE ERROR BAND SENSITIVITY + BOGUTY REALITY CHECK (Gemini audit integration, July 19, 2026)
 
 **Source:** Gemini independent audit (v10.2 v2) flagged the funding gap math + the 2029 supply glut fear. Deep verification (AACE 47R-11, Almonty public filings, HKEX Jiaxin filings) added empirical anchors.
 
@@ -1672,7 +1672,7 @@ P(wtd) framework A$16.30-16.70 (mid A$16.50, calc A$16.49, +109% from v10.2 v3.6
 
 ---
 
-## 🆕 v10.2 Section 5x: The Highest-Bidder Theorem (52nd user catch, July 20, 2026)
+##The Highest-Bidder Theorem
 
 **The insight (user-stated, July 20, 2026):** *"By 2035, the deficit will be so severe it doesn't matter in-China or ex-China. The highest bidder wins."*
 
@@ -1680,7 +1680,7 @@ This is a structural refinement to the v10.2 v3 framework. The current thesis is
 
 ### 5x.1 Why China Will Bid UP (not stay cheap)
 
-**Critical correction (53rd user catch, July 20, 2026):** China is ALREADY a structural net-importer in 2026, not 2028. The original thesis (v10.2 v1-v3) used "2028 flip" as a conservative projection, but the **Jiaxin HKEX:3858 filing (Aug 2025) itself states**: *"the surplus between China's domestic production and consumption of tungsten concentrate has been narrowing and it is expected to turn to a shortfall in around 2026"*. **Reuters data confirms this is already happening** (concentrate imports +153.7% YoY Jan-Feb 2026 = 5,196 t in 2 months = ~31,200 t/yr run rate). The "2028 flip" was a misread — the flip is **NOW**.
+**Critical correction:** China is ALREADY a structural net-importer in 2026, not 2028. The original thesis (v10.2 v1-v3) used "2028 flip" as a conservative projection, but the **Jiaxin HKEX:3858 filing (Aug 2025) itself states**: *"the surplus between China's domestic production and consumption of tungsten concentrate has been narrowing and it is expected to turn to a shortfall in around 2026"*. **Reuters data confirms this is already happening** (concentrate imports +153.7% YoY Jan-Feb 2026 = 5,196 t in 2 months = ~31,200 t/yr run rate). The "2028 flip" was a misread — the flip is **NOW**.
 
 In a 60+ kt deficit (and China is structurally short TODAY), China has no choice but to bid UP because:
 
@@ -1793,11 +1793,11 @@ The "China bid" is already being observed in concentrate trade: **Project Blue r
 - Section 5f.1: AISC Cost Moat (last man standing)
 - Section 5c: Sanctioned Feedstock Gap (China has 12-14 kt/yr W from Russia + NK + Bakuta)
 
-**The Highest-Bidder Theorem is the 5th NEW finding of v10.2 v3.5 (52nd user catch), completing the structural re-anchor.**
+**The Highest-Bidder Theorem is the 5th NEW finding of v10.2 v3.5, completing the structural re-anchor.**
 
 ---
 
-## 🆕 Section 5y — The Mt Mulgine-Centric Reframe (54th user catch, July 21, 2026)
+## Section 5y — The Mt Mulgine-Centric Reframe
 
 ### 5y.1 The Reframe Thesis
 
@@ -1977,14 +1977,14 @@ The Mt Mulgine drill assays in late July 2026 are the **single most important ca
 
 ### 5y.12 Cross-References
 
-- Section 5i: AISC Cost Moat (REVISED 57th-58th user catch July 21, 2026: Mt Mulgine US$111/MTU LOM, NEGATIVE with by-products, is the moat; Watershed A$415/MTU is mid-tier globally, NOT the moat)
+- Section 5i: AISC Cost Moat
 - Section 5k: Mt Mulgine by-product credits (Au/Ag/Cu/Mo)
 - Section 5t: Global Supply-Demand (deficit 11.16 → 62.44 kt, 5.6×)
-- Section 5x: Highest-Bidder Theorem (52nd user catch)
-- Section 5x.1: China-2026-already-importer (53rd user catch)
+- Section 5x: Highest-Bidder Theorem
+- Section 5x.1: China-2026-already-importer
 - Section 5x (Highest-Bidder Theorem) + 5y (Mt Mulgine-Centric Reframe) — 6N W powder chokepoint is referenced in v4 framework (Issue #11) and will be expanded in v5
 
-**The Mt Mulgine-Centric Reframe is the 8th NEW framework of v10.2 v4 (54th user catch), completing the structural reframe from "Watershed as base" to "Mt Mulgine as base".**
+**The Mt Mulgine-Centric Reframe is the 8th NEW framework of v10.2 v4, completing the structural reframe from "Watershed as base" to "Mt Mulgine as base".**
 
 ---
 
@@ -2131,7 +2131,7 @@ The Mt Mulgine drill assays in late July 2026 are the **single most important ca
 
 ---
 
-## 🆕 v5.2 §5ab — Compressed Catalyst Timeline & IRR Acceleration (Jul 21, 2026)
+## v5.2 §5ab — Compressed Catalyst Timeline & IRR Acceleration (Jul 21, 2026)
 
 **Catalyst compression:** The v5.2 catalyst calendar is **pulled forward by 12-18 months** vs. v5.1, driven by two converging events in Q3 2026:
 - **NASDAQ/NYSE uplisting** (officially targeted Q3 2026 per ASX announcement Feb 26, 2026; could be fast-tracked to Q2 2026 per Chairman Gary Lyons Nov 19, 2025 conference remarks)
@@ -2158,7 +2158,7 @@ The Mt Mulgine drill assays in late July 2026 are the **single most important ca
 
 ---
 
-## 🆕 v5.2 §5ac — Almonty Competitive Overlap (Jul 21, 2026, 59th user catch)
+## v5.2 §5ac — Almonty Competitive Overlap (Jul 21, 2026, 59th user catch)
 
 **Context:** TGN thesis positions itself as "the only Tier 2 RDP primary producer in the 2027-2029 window." But Almonty Industries (AIM: ALM / NASDAQ: ALM / TSX: AII) is a serious Western competitor with multiple assets. The "only Tier 2" claim needs to be tested against Almonty's actual production ramp.
 
@@ -2222,7 +2222,7 @@ The Mt Mulgine drill assays in late July 2026 are the **single most important ca
 
 ---
 
-## 🆕 v5.2 §5ae — Trump Jul 20 EO + Cove Capital EXIM Analysis (60th user catch, Jul 21, 2026)
+## v5.2 §5ae — Trump Jul 20 EO + Cove Capital EXIM Analysis
 
 **Date of executive order:** July 20, 2026 (YESTERDAY)
 **Title:** "Securing America's Defense Supply Chains and Ensuring Domestic Acquisition of Critical Materials"
@@ -2316,7 +2316,7 @@ This is a **v5.3 candidate** (not yet live). Will revisit if Mt Mulgine funding 
 
 ---
 
-## 🆕 v5.2 §5af — v5.3 Reframe: Post-2030 Thesis Pivot (61st user catch, Jul 21, 2026)
+## v5.2 §5af — v5.3 Reframe: Post-2030 Thesis Pivot
 
 **User catch 61:** "The exemption smells fishy, as though to benefit Trump personally. TGN likely cannot depend on USA DoD post 2030 when Cove comes online since it can fill most of DoD demand."
 
@@ -2406,7 +2406,7 @@ This is a **v5.3 candidate** (not yet live). Will revisit if Mt Mulgine funding 
 
 ---
 
-### v5.3 §5ag — US Tier 1 Mine Ramp Closes TGN's US DoD Window Early (61st user catch, Jul 21, 2026)
+### v5.3 §5ag — US Tier 1 Mine Ramp Closes TGN's US DoD Window Early
 
 **User catch 61 (continued):** "Reduce emphasis on DFARS, since Cove is the favourite for now. Plus some USA mines coming up in 2027."
 
@@ -2527,7 +2527,7 @@ This is a **v5.3 candidate** (not yet live). Will revisit if Mt Mulgine funding 
 
 ---
 
-### v5.3 §5ah — DFARS RELIANCE REBALANCE — Thesis-Wide Annotation (61st user catch, Jul 21, 2026)
+### v5.3 §5ah — DFARS RELIANCE REBALANCE — Thesis-Wide Annotation
 
 **User catch 61 (rebalance):** "Reduce emphasis on DFARS, since Cove is the favourite for now. Plus some USA mines coming up in 2027 no?"
 
@@ -2663,6 +2663,6 @@ The rebalance does NOT change v5.2 LIVE (A$14.40) or v5.3 REVISED CANDIDATE (A$1
 
 
 
-*Last updated: July 21, 2026 | v10.2 v4 (MT MULGINE-CENTRIC REFRAME) — P(wtd) A$13.50-15.50 (61-70×), +109% to v10.2 v3.6 on the 54th user catch (Mt Mulgine-Centric Reframe, Section 5y, July 21, 2026). New scenario structure (v10.2 v4 / Mt Mulgine-Centric Reframe historical, kept for audit trail): Base = Mt Mulgine 6 Mtpa online Q3 2029 (A$11.50, 50% prob); Bull = Mt Mulgine 15 Mtpa online 2030-2031 (A$22.50, 33%); H-Bull = Mt Mulgine 15 Mtpa + 6N WF6 plant 2032+ if ever (A$45, 7%); Bear = Watershed only, China dump (A$1.80, 9%); Floor = total loss (A$0.40, 1%) = 100%. v10.2 v4 P(wtd) = 0.07×45 + 0.33×22.50 + 0.50×11.50 + 0.09×1.80 + 0.01×0.40 = 3.15 + 7.425 + 5.75 + 0.162 + 0.004 = **A$16.49** (v10.2 v4 historical). v5.1/v5.2 LIVE update: Tier 2 RDP premium TIME-BOUNDED 2027-2028 (57th-58th catch) → Bear A$1.80→A$1.55, Base A$11.50→A$10.00, Bull A$22.50→A$18.50 → P(wtd) = 0.07×45 + 0.33×18.50 + 0.50×10.00 + 0.09×1.55 + 0.01×0.40 = 3.15 + 6.105 + 5.00 + 0.1395 + 0.004 = **A$14.40**. v4 preserves v3.6 (Highest-Bidder Theorem Section 5x + 53rd catch China-2026-already-importer); v4 reframes the SCENARIO LAYERS, not the upstream math. Watershed is the cash-generating bridge (Sep 2026 FID, Q2 2027 first production), Mt Mulgine is the destination (Q3 2029 first production at 6 Mtpa, 2030-2031 expansion to 15 Mtpa, 2032+ downstream 6N integration if ever). 5 NEW findings preserved from v3.6: (1) industry-by-industry deficit (5 of 6 in deficit); (2) TGN as global supplier; (3) China ALREADY net-importer 2026 (Jiaxin HKEX + Reuters); (4) global deficit 5.6× by 2035; (5) PEE Error Band AACE Class 4 + Boguty reality check. 7 NEW frameworks: (6) Highest-Bidder Theorem Section 5x (52nd catch); (7) China-2026-already-importer (53rd catch); (8) **🆕 Mt Mulgine-Centric Reframe Section 5y (54th catch, July 21, 2026)**: Mt Mulgine is the BASE asset, not optionality. (9) TGN revenue 2035: A$7-10B base case (227-500× upgrade from v10.1 A$22-33M, W-based formula); A$5-22B 5-scenario sensitivity range. (10) by-product credits (Au/Ag/Cu/Mo) at Mt Mulgine make break-even APT A$800-900/MTU vs A$1,200/MTU without. (11) 6N W powder as binding chokepoint for Kanto+Central Glass July 2026 shutdown. (12) DFARS Phase 3 Jan 2027 + Sangdong Phase 2 2027 + TGN Mt Mulgine 2029 timeline. (13) 50% Base prob at Q3 2029 is achievable: Watershed FID Sep 2026 → first production Q2 2027 → 2.5 years Watershed FCF funding Mt Mulgine construction. TGN revenue 2035: A$7-10B base case (227-500× upgrade from v10.1 A$22-33M, W-based formula); A$5-22B 5-scenario sensitivity range, 31-44% all ex-China / 44-59% Tier 2 only market share, post-Bucket 3 deep research, post-Recycling-by-Industry reframing, post-China-competes-for-feedstock correction, post-Sanctioned-Feedstock-Gap structural driver, post-Chinese-Weaponization-Scenario with anti-weaponization premium, post-DFARS-qualifying-country-correction Almonty-Sangdong-not-Tier-2-Korea-not-on-list, post-AISC-Cost-Moat-Last-Man-Standing, post-Tungsten-vs-Chip-Policy-Asymmetry, post-Recycling-Reality-Check chemistry-bound+low-recycling structural floor, post-Global-vs-ex-China breakdown of the 28-44 kt/yr floor, post-4-tier-DFARS-framework Tier 1=USA Tier 2=Qualifying Tier 3=Non-qualifying Tier 4=Banned, post-Open-Loop-APT-Recycling (51st catch), post-PEE-Error-Band-AACE-Class-4 (Section 5w), post-Boguty-Reality-Check (Jiaxin HKEX 100% China). v10.2 v4 ADDITION: Section 5y Mt Mulgine-Centric Reframe (54th user catch, July 21, 2026) — Mt Mulgine 6 Mtpa online Q3 2029 is the realistic 50% Base case (vs old Base = Watershed only); Mt Mulgine 15 Mtpa online 2030-2031 is the 33% Bull case; Mt Mulgine 15 Mtpa + 6N WF6 plant 2032+ if ever is the 7% H-Bull case; P(wtd) A$7.88→A$16.49 (+109% to v3.6). UPGRADED +170% from v10.2 v3 A$6.11 on Section 5x + 53rd catch; +265% from v10.1 A$4.52.*
+*Last updated: July 21, 2026 | v10.2 v4 (MT MULGINE-CENTRIC REFRAME) — P(wtd) A$13.50-15.50 (61-70×), +109% to v10.2 v3.6 on the 54th user catch (Mt Mulgine-Centric Reframe, Section 5y, July 21, 2026). New scenario structure (v10.2 v4 / Mt Mulgine-Centric Reframe historical, kept for audit trail): Base = Mt Mulgine 6 Mtpa online Q3 2029 (A$11.50, 50% prob); Bull = Mt Mulgine 15 Mtpa online 2030-2031 (A$22.50, 33%); H-Bull = Mt Mulgine 15 Mtpa + 6N WF6 plant 2032+ if ever (A$45, 7%); Bear = Watershed only, China dump (A$1.80, 9%); Floor = total loss (A$0.40, 1%) = 100%. v10.2 v4 P(wtd) = 0.07×45 + 0.33×22.50 + 0.50×11.50 + 0.09×1.80 + 0.01×0.40 = 3.15 + 7.425 + 5.75 + 0.162 + 0.004 = **A$16.49** (v10.2 v4 historical). v5.1/v5.2 LIVE update: Tier 2 RDP premium TIME-BOUNDED 2027-2028 (57th-58th catch) → Bear A$1.80→A$1.55, Base A$11.50→A$10.00, Bull A$22.50→A$18.50 → P(wtd) = 0.07×45 + 0.33×18.50 + 0.50×10.00 + 0.09×1.55 + 0.01×0.40 = 3.15 + 6.105 + 5.00 + 0.1395 + 0.004 = **A$14.40**. v4 preserves v3.6 (Highest-Bidder Theorem Section 5x + 53rd catch China-2026-already-importer); v4 reframes the SCENARIO LAYERS, not the upstream math. Watershed is the cash-generating bridge (Sep 2026 FID, Q2 2027 first production), Mt Mulgine is the destination (Q3 2029 first production at 6 Mtpa, 2030-2031 expansion to 15 Mtpa, 2032+ downstream 6N integration if ever). 5 NEW findings preserved from v3.6: (1) industry-by-industry deficit (5 of 6 in deficit); (2) TGN as global supplier; (3) China ALREADY net-importer 2026 (Jiaxin HKEX + Reuters); (4) global deficit 5.6× by 2035; (5) PEE Error Band AACE Class 4 + Boguty reality check. 7 NEW frameworks: (6) Highest-Bidder Theorem Section 5x (52nd catch); (7) China-2026-already-importer (53rd catch); (8) **🆕 Mt Mulgine-Centric Reframe Section 5y (54th catch, July 21, 2026)**: Mt Mulgine is the BASE asset, not optionality. (9) TGN revenue 2035: A$7-10B base case (227-500× upgrade from v10.1 A$22-33M, W-based formula); A$5-22B 5-scenario sensitivity range. (10) by-product credits (Au/Ag/Cu/Mo) at Mt Mulgine make break-even APT A$800-900/MTU vs A$1,200/MTU without. (11) 6N W powder as binding chokepoint for Kanto+Central Glass July 2026 shutdown. (12) DFARS Phase 3 Jan 2027 + Sangdong Phase 2 2027 + TGN Mt Mulgine 2029 timeline. (13) 50% Base prob at Q3 2029 is achievable: Watershed FID Sep 2026 → first production Q2 2027 → 2.5 years Watershed FCF funding Mt Mulgine construction. TGN revenue 2035: A$7-10B base case (227-500× upgrade from v10.1 A$22-33M, W-based formula); A$5-22B 5-scenario sensitivity range, 31-44% all ex-China / 44-59% Tier 2 only market share, post-Bucket 3 deep research, post-Recycling-by-Industry reframing, post-China-competes-for-feedstock correction, post-Sanctioned-Feedstock-Gap structural driver, post-Chinese-Weaponization-Scenario with anti-weaponization premium, post-DFARS-qualifying-country-correction Almonty-Sangdong-not-Tier-2-Korea-not-on-list, post-AISC-Cost-Moat-Last-Man-Standing, post-Tungsten-vs-Chip-Policy-Asymmetry, post-Recycling-Reality-Check chemistry-bound+low-recycling structural floor, post-Global-vs-ex-China breakdown of the 28-44 kt/yr floor, post-4-tier-DFARS-framework Tier 1=USA Tier 2=Qualifying Tier 3=Non-qualifying Tier 4=Banned, post-Open-Loop-APT-Recycling (51st catch), post-PEE-Error-Band-AACE-Class-4 (Section 5w), post-Boguty-Reality-Check (Jiaxin HKEX 100% China). v10.2 v4 ADDITION: Section 5y Mt Mulgine-Centric Reframe — Mt Mulgine 6 Mtpa online Q3 2029 is the realistic 50% Base case (vs old Base = Watershed only); Mt Mulgine 15 Mtpa online 2030-2031 is the 33% Bull case; Mt Mulgine 15 Mtpa + 6N WF6 plant 2032+ if ever is the 7% H-Bull case; P(wtd) A$7.88→A$16.49 (+109% to v3.6). UPGRADED +170% from v10.2 v3 A$6.11 on Section 5x + 53rd catch; +265% from v10.1 A$4.52.*
 
 *🆕 AUDIT-3: APT pricing 4-layer consistency ($2,500-3,100 baseline, $3,000-4,300 stress-test) — all 9 inconsistencies from the audit task list resolved. Each of the 10 production references (lines 11, 89, 129, 138, 215, 309, 347, 382, 395, 883) now shows the 4-layer stack (Layer 1 $2,000-2,500 + Layer 2 $400-700 [strengthened per Section 5g] + Layer 3 $200-400 + Layer 4 $300-700) and the [Updated to 4-layer in v10.1 Section 5f/5g...] note. Section 5c "3-layer build-up" table now shows 4-layer; Section 5d "anti-weaponization premium" table updated to 4-layer; Section 5f "cascade" table shows Layer 2 as +$400-700/MTU. Original 3-layer build ($2,400-2,900 baseline, $2,800-4,100 stress-test) preserved in the comparison table at line 805-809.*
