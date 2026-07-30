@@ -1973,7 +1973,7 @@ If no (drill disappointment, scoping unfavorable, FID delayed, or Mt Mulgine doe
 - Drop Base probability from 50% to 70-80%
 - P(wtd) reverts to v3.6: A$7.88
 
-The Mt Mulgine drill assays in late July 2026 are the **single most important catalyst** for the v4 framework. If the assays confirm 290+ kt W (or expand to 350-500+ kt), the 50% Base probability is locked in. If the assays disappoint, v4 should be reverted to v3.6.
+The Mt Mulgine drill assays (started 5 Jun 2026, +6-week lab turnaround = 17 Jul 2026 expected) are the **single most important catalyst** for the v4 framework. As of 30 Jul 2026, the assays are 13 days overdue. If the assays confirm 290+ kt W (or expand to 350-500+ kt), the 50% Base probability is locked in. If the assays disappoint, v4 should be reverted to v3.6.
 
 ### 5y.12 Cross-References
 
@@ -2110,9 +2110,9 @@ The Mt Mulgine drill assays in late July 2026 are the **single most important ca
 | Date | Catalyst | Impact |
 |------|----------|--------|
 | **NOW (fluid, weekly check)** | Kanto/Central Glass WF6 shutdown status (SUSPENDED Jun 19) | APT price floor support |
-| **Mid-late July 2026** | K₂O assays | Binary (re-rating or trim) |
-| **Mid-late July 2026** | Mt Mulgine integrated Scoping Study (announced Jul 19) | Confirms 23-yr LOM, polymetallic credits |
-| **30 July 2026 (TBC)** | **TGN Q4 FY26 Annual Report (Apr-Jun 2026 + full year)** | **First public spend data post A$53M placement: cash deployment, US listing progress, Mt Mulgine DFS timeline, drilling status** |
+| **Mt Mulgine 40,000m RC assays (13 days overdue as of 30/07/2026)** | First assays expected ~17/07/2026; now 13 days late | Binary (re-rating or trim) |
+| **Q3 2026 (per Q4 quarterly)** | Mt Mulgine integrated PFS / Scoping Study (Q3 2026 completion) | Confirms 23-yr LOM, polymetallic credits |
+| **30 July 2026 (✓ DONE)** | **TGN Q4 FY26 Quarterly Report (Apr-Jun 2026)** | **A$49.1M cash, 1.396B shares, 54.2M perf rights, 16M escrow; Mt Mulgine 45,000m drilling "largest campaign to date"; Watershed 15,000m RC + PQ diamond planned** |
 | **September 2026** | Watershed FID | Binary (re-rating or dump) |
 | **September 2026** | Financing package announcement | Binary (re-rating or 30-50% dump) |
 | **Q3 2026** | NASDAQ uplisting (officially targeted Q3 2026 per ASX Feb 26, 2026; possibly Q2 2026) | US institutional capital unlocks |
@@ -2617,7 +2617,7 @@ The rebalance does NOT change v5.2 LIVE (A$14.40) or v5.3 REVISED CANDIDATE (A$1
 
 **Position sizing 6-9% CEILING** is the right risk-adjusted size for the current uncertainty, validated by 7+ independent AI audits. **No increase warranted on Bucket 3 alone; the value is in confirmation, not new information.**
 
-**The next 8 weeks are critical:** K₂O assays (mid-late July) + Watershed FID (September) + financing package. These are the binary catalysts that will determine whether the thesis plays out as modeled.
+**The next 8 weeks are critical:** Mt Mulgine 40,000m RC drill assays (13 days overdue as of 30/07/2026) + Watershed 15,000m RC assays (on schedule, expected mid-Sep 2026) + Watershed FID (September) + Mt Mulgine integrated PFS completion (Q3 2026) + financing package. These are the binary catalysts that will determine whether the thesis plays out as modeled.
 
 **🆕 New monitoring item (July 18, 2026):** **Kanto Denka + Central Glass WF6 shutdown status is fluid.** Original permanent halt from July 1, 2026 was SUSPENDED on June 19, 2026 after Chinese export quota allocation. Weekly check of MOFCOM whitelist renewal decisions is required through Q4 2026. If suspension is revoked, expect another APT price spike and accelerated 2026-2027 supply gap.
 
