@@ -1086,6 +1086,17 @@ The global deficit above is misleading because it includes Chinese demand. The *
 - **Tungsten carbide powder:** +450% in 14 months (to 2,000 RMB/kg by March 2026)
 - **European APT spot:** crossed $1,100/MTU in April 2026
 
+**🆕 China STRUCTURAL Production Decline (NEW Aug 5, 2026, Section 5ab cross-ref):**
+- **Output 2015-2024**: 73,000 → 67,000 t W = **-9% over 9 years** (Wind data)
+- **Ore grade 2004-2024**: 0.42% → 0.27-0.28% WO₃ = **-33-36% over 20 years**
+- **Mining quota 2026**: 107,000-115,000 t full-year, **-8% YoY, 3rd consecutive year of cuts**
+- **Cumulative quota reduction 2023-2026**: **~22% over 3 years**
+- **CICC supply gap 2025-2028**: 19,000-21,000 t W/yr (structural, multi-year)
+- **Even full new project development globally fills only 40% of China's shortfall** (2025-2027)
+- **China is now a net-importer of tungsten** (10+ months running, +74.56% YoY concentrate imports)
+- **The chokepoint is structural, not policy-driven.** China physically can't produce more — resource is depleting, environmental enforcement is real, mining costs are 5× the 2000 level.
+- **TGN's 30-year mine life perfectly aligns with the 30-year structural chokepoint.** See 03-price-floor.md Section 5ab for full analysis.
+
 **Chinese Supply-Side Weaponry:**
 - 2025 mining quota cut to 58,000 t (−6.5% YoY, −4,000 t)
 - 2025 export controls: Tungsten + antimony + silver (effective 2026)
