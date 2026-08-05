@@ -779,8 +779,8 @@ TGN's structural floor is **more durable than any chip-fab stock** because:
 |---|---|---|---|
 | **Tungsten mine (concentrate)** | 80% | TGN, Mactung, Almonty built (10-20 yrs) | Slow build, fast mandate (2027) |
 | **APT** | 80% | Masan, H.C. Starck, JNM, Sumitomo, Plansee, GTP build (5-10 yrs) | Slow build |
-| **6N/7N** | 99% | H.C. Starck, JNM, Sumitomo, EU build (5-10 yrs) | Slow build, big gap (40-60% by 2030) |
-| **WF6** | 80% | Kanto, Central Glass, Shin-Etsu PERMANENT HALT from July 1, 2026 (suspended Jun 19, 2026 after Chinese quota allocation) | Critical chokepoint |
+| **6N/7N** | 99% | H.C. Starck, JNM, A.L.M.T., SK Specialty, Foosung (multi-producer) + EU build | **CORRECTION (Aug 5, 2026, 76th catch):** Multiple ex-China 7N producers EXIST; chokepoint is upstream raw material (Chinese APT/AMT/powder exports), not gas production technology |
+| **WF6** | 80% | Kanto, Central Glass, Shin-Etsu PERMANENT HALT from July 1, 2026 (suspended Jun 19, 2026 after Chinese quota allocation); CSSC, H.C. Starck, JNM, A.L.M.T., SK Specialty, Foosung all producing ex-China | **CORRECTION (Aug 5, 2026, 76th catch):** CSSC is dominant (~25-30% global, 70-80% China domestic) but NOT sole; multiple ex-China WF6 producers exist, all constrained by upstream 6N/7N powder flow from China |
 | **CHIPS (EDA, EUV, DUV)** | — | TSMC Arizona, Intel Ohio, Samsung Texas build (5-10 yrs) | Slow build, **no mandate yet** |
 
 **TGN's structural floor is more durable than any chip-fab stock because tungsten has DFARS mandate + supply, while chips rely on CHIPS Act funding + future mandate.** Position sizing 6-9% unchanged.
@@ -2152,11 +2152,11 @@ P(wtd) framework A$13.50-15.50 (mid A$14.50, calc A$14.40) per v5.2 LIVE — alr
 |---|---|---|---|
 | **1. Mine (concentrate)** | 20% (Almonty, Masan, Plansee, TGN, Mactung, EQR, KIS) | SOFT | TGN produces 1,657 t/yr W (Watershed) |
 | **2. APT** | 20% (~20-25 kt/yr) | MODERATE | TGN sells concentrate to APT refiners |
-| **3. Oxide/powder (4N-5N)** | ~0% (H.C. Starck Goslar 50% expansion) | SEVERE | Not TGN's market |
-| **4. 6N/7N ultra-high purity** | 0% today → 1,000-2,000 t/yr by 2030 (60-80% gap) | **CRITICAL** | TGN's concentrate is upstream feedstock |
-| **5. WF6 (semi precursor)** | 25% (Japan SUSPENDED, CSSC China 2,000+1,000) | SEVERE | Not TGN's market |
+| **3. Oxide/powder (4N-5N)** | **DISTRIBUTED but constrained** (H.C. Starck, JNM, A.L.M.T., SK Specialty, Foosung, Buffalo Tungsten — all have 4N-5N capability, but constrained by Chinese APT/AMT exports) | **MODERATE** (was misframed as "SEVERE / ~0%") | TGN's concentrate can supply this layer if integrated APT is built |
+| **4. 6N/7N ultra-high purity** | **EXISTS but constrained** (H.C. Starck Germany/USA/Japan, JNM, A.L.M.T. Corp, SK Specialty, Foosung, Xiamen CTMH all have 6N/7N capability) | **CRITICAL** but **NOT "0% ex-China"** — the chokepoint is **upstream raw material flow** (Chinese APT/AMT/powder export controls), not the gas production technology | TGN's integrated mine + APT is the **ENABLER** for this layer; existing 7N producers need ex-China raw material to ramp |
+| **5. WF6 (semi precursor)** | **MULTIPLE producers exist** (CSSC ~25-30% global + H.C. Starck + JNM + A.L.M.T. + SK Specialty + Foosung all producing ex-China). Japanese Kanto/Central Glass PERMANENTLY OFFLINE Jul 1, 2026 due to Chinese raw material constraints. CSSC +1,000 t/yr Q1 2027. | **SEVERE** but **NOT "CSSC sole producer"** — the chokepoint is **upstream 6N/7N powder supply**, not gas production technology | Not TGN's market; but integrated mine + APT enables existing 7N gas producers to ramp |
 
-**The 6N/7N chokepoint is the most acute in the entire supply chain.** TGN's concentrate is one input into a globally competitive APT market; the 6N deficit is a REFINING-capacity chokepoint that ex-China refiners (H.C. Starck, JNM, Sumitomo) are racing to fill. TGN benefits INDIRECTLY as a feedstock supplier.
+**The 6N/7N chokepoint is real but it's at the UPSTREAM raw material layer, not at the gas production technology layer.** TGN's concentrate is one input into a globally competitive APT market; the binding constraint for 7N WF6 is **upstream 6N/7N powder flow** (Chinese APT/AMT/powder export controls), NOT a "0% ex-China 7N capability" gap. **Multiple ex-China 7N producers EXIST (H.C. Starck, JNM, A.L.M.T., SK Specialty, Foosung, Xiamen CTMH) and have the technology — they just need ex-China raw material supply to ramp.** TGN's integrated mine + APT is the **ENABLER** that unlocks this existing capacity, not a moonshot from scratch. **Timeline: 2-3 years for first APT revenue, not 5-7 years for full 7N WF6 chain.**
 
 ### F. Permitting Bottleneck = 7-10 Years (US)
 

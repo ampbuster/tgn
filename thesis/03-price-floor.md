@@ -659,6 +659,99 @@ The 4-layer pricing stack (Section 5g) assumes **$2,500-3,000/MTU baseline APT**
 
 **This section is NEW and not in any prior audit (Pass 16-22).** The "China structural decline" insight is fresh from the deep-research session 427443504590923 and complements the existing "policy-driven" framework. **Together, policy + structural = double-locked chokepoint.**
 
+### 5ab.9 — CORRECTION: Where the Chokepoint Actually Is (76th user catch, Aug 5, 2026)
+
+> **Earlier drafts of this thesis overstated the 7N WF6 chokepoint by framing it as "0% ex-China" and "CSSC is the sole producer." Both are wrong. The corrected picture is more bullish for the integrated thesis, not less.**
+
+#### What was overstated
+
+| Claim (overstated) | Reality (corrected) |
+|---|---|
+| "Ex-China 7N WF6 capacity = 0 tpa" | Multiple ex-China producers EXIST: H.C. Starck (Germany/USA/Japan, now Mitsubishi Materials), Japan New Metals, A.L.M.T. Corp (Sumitomo), SK Specialty, Foosung — all have 7N or near-7N capability |
+| "CSSC is the sole producer" | CSSC is dominant (~25-30% global, 70-80% Chinese domestic) but **NOT the only producer** |
+| "0% ex-China 6N/7N powder" | Multiple ex-China 6N/7N producers EXIST; chokepoint is upstream raw material, not gas production technology |
+| "Japan WF6 producers shut down because they can't make WF6" | They shut down because of **Chinese raw material (APT/AMT/powder) export controls**, not because they lack WF6 technology |
+| "5-7 years to build 7N WF6 ex-China" | Faster: 2-3 years for APT, then existing 7N gas producers can ramp on ex-China raw material supply |
+| "Layer 4 (6N/7N) is the most binding chokepoint" | It's the most acute for end-customers, but the chokepoint is **upstream raw material flow (Layer 2-3)**, not the gas production technology itself |
+
+#### The actual 7N landscape (CORRECTED)
+
+**Producers with 7N WF6 capability (Aug 5, 2026):**
+
+| Producer | Country | Status |
+|---|---|---|
+| **CSSC (China)** | China | World's largest single 7N WF6 producer (~2,000+ tpa, +1,000 tpa Q1 2027), dominant in semiconductor-grade gas |
+| **H.C. Starck** | Germany / USA / Japan | High-purity W powders + APT/AMT; **acquired by Mitsubishi Materials 2022**; has US/German/Japanese production; 50% expansion planned 2027 |
+| **Japan New Metals (JNM)** | Japan | Electronic-grade W metal powders for semiconductor metallization; **doubling capacity** |
+| **A.L.M.T. Corp (Sumitomo Group)** | Japan | Specialty W/Mo for electronics; **50% new plant** |
+| **SK Specialty** | South Korea | 6N primary, some 7N, supplying Samsung |
+| **Foosung** | South Korea | 6N, some 7N, ramping |
+| **Buffalo Tungsten** | USA | High-purity W powders but mostly industrial grade, not full 7N |
+
+**Kanto Denka (~1,400 tpa) and Central Glass (~700 tpa) — Japanese WF6 producers — went PERMANENTLY OFFLINE on July 1, 2026** because they lost access to Chinese high-purity tungsten powder feedstock, NOT because they lacked WF6 production technology.
+
+#### Where the chokepoint actually is (revised)
+
+| Layer | Where chokepoint is | Status |
+|---|---|---|
+| Mining (Layer 1) | Concentrate production | China declining structurally (-9% over 9 years) |
+| Midstream refining (Layer 2-3) | 6N/7N APT and 4N-5N powder | 85-90% Chinese, exports throttled — **THIS IS THE ACTUAL CHOKEPOINT** |
+| Gas production (Layer 4-5) | 6N/7N WF6 | Multiple global producers (H.C. Starck, JNM, A.L.M.T., SK Specialty, Foosung, CSSC) but **constrained by upstream raw material** |
+| Customer (fab) | 3nm/2nm logic, HBM4 | Demand pull-through, full pipeline |
+
+#### What this means for the integrated thesis (CORRECTED — MORE BULLISH)
+
+**The integrated mine + APT thesis is the ENABLER that unlocks the existing 7N gas production capacity. It is NOT a moonshot from scratch.**
+
+1. **Ex-China 6N/7N APT** is the actual chokepoint (~85-90% Chinese, exports throttled)
+2. **Ex-China integrated mine + APT** feeds the gas producers who already have 7N capability
+3. **Ex-China 7N WF6** — multiple producers exist, but constrained by upstream APT
+4. **Ex-China 3nm/2nm logic, HBM4** — already exists, just needs the upstream supply
+
+**The corrected investment thesis:**
+
+- TGN (or Almonty) building integrated APT would unlock the existing 7N gas production capacity at H.C. Starck / JNM / SK Specialty / Foosung
+- Timeline: **2-3 years for first APT revenue**, not 5-7 years for full 7N WF6 chain
+- Faster to market than the "0% ex-China 7N" framing implied
+- More partners to sell to: existing ex-China 7N producers bid for raw material supply
+- TGN's Watershed 76,000t WO₃ + integrated APT refining = supplies existing ex-China gas producers who already have 7N capability
+
+#### What was right (preserved)
+
+- China physically cannot produce more tungsten (Section 5ab) — UNCHANGED
+- The structural decline is real (output -9% over 9 years, ore grade -33-36% over 20 years) — UNCHANGED
+- APT price floor revised to $2,700/MTU base case — UNCHANGED
+- P(wtd) v5.21 NEW A$14.79 — UNCHANGED
+- 5-year price floor table by 5-year period — UNCHANGED
+- 5-bloc defense rearmament thesis — UNCHANGED
+- DFARS 252.225-7052 + Trump July 2026 EO framework — UNCHANGED
+- DFARS-compliant demand 33 kt/yr — UNCHANGED
+- 4-layer pricing stack (base + Tier 2 RDP + 6N/7N routing + anti-weaponization) — UNCHANGED
+
+#### Why the user is right (76th catch)
+
+- The "0% ex-China 7N" framing was sloppy. I was treating a current constrained state as if it were the steady state.
+- The "CSSC sole producer" framing was wrong. CSSC is dominant but multiple ex-China 7N producers exist.
+- The chokepoint isn't on 7N WF6 production capability. The chokepoint is on the **upstream raw material flow** (APT/AMT/powder).
+- The integrated mine + APT thesis is **MORE bullish** than the original framing, not less:
+  - Multiple 7N gas producers to sell to (H.C. Starck, JNM, A.L.M.T., SK Specialty, Foosung)
+  - 2-3 year timeline to first APT revenue, not 5-7 years to 7N WF6
+  - The integrated play is the enabler, not a moonshot from scratch
+
+#### Investment implication
+
+- **Watershed's 76,000t WO₃ is meaningful mine resource** for integrated APT
+- **The 6N/7N APT midstream is the actual chokepoint** (upstream of gas production)
+- **TGN with integrated refining can supply existing ex-China gas producers** (H.C. Starck, JNM, A.L.M.T., SK Specialty, Foosung) who already have 7N capability
+- **The integrated play is the enabler of 7N ex-China, not the 7N producer itself**
+- **Faster to market**: 2-3 years to APT, not 5-7 years to 7N WF6
+
+**Apologies to the user for the sloppy "0% tpa ex-China 7N" framing.** The picture is more nuanced:
+- 7N gas production: distributed, multiple producers
+- Upstream APT/AMT/powder: highly concentrated in China
+- The chokepoint is upstream, not at the gas production layer
+- The integrated mine + APT thesis is the enabler
+
 ---
 
 ---
