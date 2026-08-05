@@ -2740,6 +2740,8 @@ The structural decline **strengthens** the Base case by making it more robust:
 
 **This section is NEW and not in any prior audit (Pass 16-22).** The "China structural decline" insight is fresh from the deep-research session 427443504590923 and complements the existing "policy-driven" framework. **Together, policy + structural = double-locked chokepoint.**
 
+> **🆕 76th user catch (Aug 5, 2026): CORRECTION on 7N WF6 chokepoint framing.** Earlier drafts overstated the chokepoint as "0% ex-China" and "CSSC sole producer." **CORRECTED:** Multiple ex-China 7N producers EXIST (H.C. Starck Germany/USA/Japan, JNM, A.L.M.T. Corp/Sumitomo, SK Specialty, Foosung) — they have the technology but are constrained by **upstream Chinese raw material (APT/AMT/powder) export controls**, not gas production technology. The chokepoint is at the **upstream raw material layer**, not the gas production layer. The integrated mine + APT thesis is the **ENABLER** that unlocks the existing 7N gas production capacity, not a moonshot from scratch. **Timeline: 2-3 years for first APT revenue, not 5-7 years for 7N WF6.** See 03-price-floor.md Section 5ab.9 and 04-duopoly-framework.md "5-Layer Supply Chain Chokepoints" (Aug 5, 2026 CORRECTED) for full details.
+
 ---
 
 ## 🏆 Bottom Line
