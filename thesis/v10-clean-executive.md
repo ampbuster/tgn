@@ -1,6 +1,6 @@
 # Tungsten Mining NL (ASX: TGN / OTCQB: TGNMF) — v10.2 CLEAN EXECUTIVE VERSION
 
-**Last updated: July 21, 2026 | P(wtd) A$13.50-15.50 (61-70×) — v5.2 LIVE 5-tier Mt Mulgine-as-Base (Base = Mt Mulgine 6 Mtpa online Q3 2029 (A$10.00, 50% prob); Bull = Mt Mulgine 15 Mtpa online 2030-2031 (A$18.50, 33%); H-Bull = Mt Mulgine 15 Mtpa + 6N WF6 plant online 2032+ (A$45, 7%); Bear = Watershed only, China dump (A$1.55, 9%); Floor = total loss (A$0.40, 1%) = 100%). P(wtd) math: 0.07×45 + 0.33×18.50 + 0.50×10.00 + 0.09×1.55 + 0.01×0.40 = 3.15 + 6.105 + 5.00 + 0.1395 + 0.004 = **A$14.40** (v5.2). v5.3 REVISED CANDIDATE A$16.85 (post-Trump-EO + US Tier 1 mine ramp reframe; 5 driver framework: 60% civilian APT + 20% Japan 6N/WF6 + 15% allied defense + 5% US DoD captive 12-18 month window). Watershed is the cash-generating bridge (Sep 2026 FID, Q2 2027 first production), Mt Mulgine is the destination (Q3 2029 first production at 6 Mtpa, 2030-2031 expansion to 15 Mtpa, 2032+ downstream 6N integration if ever). 5 NEW findings: (1) industry-by-industry deficit (5 of 6 in deficit); (2) TGN as global supplier; (3) China ALREADY net-importer 2026 (Jiaxin HKEX + Reuters); (4) global deficit 5.6× by 2035; (5) PEE Error Band AACE Class 4 + Boguty reality check. 7 NEW frameworks: (6) Highest-Bidder Theorem Section 5x (52nd catch); (7) China-2026-already-importer (53rd catch); (8) Mt Mulgine-Centric Reframe Section 5y (54th catch, July 21, 2026): Mt Mulgine is the BASE asset, not optionality. (9) TGN revenue 2035: A$7-10B base case (W-based formula); A$5-22B 5-scenario sensitivity range. (10) by-product credits (Au/Ag/Cu/Mo) at Mt Mulgine make break-even APT A$800-900/MTU vs A$1,200/MTU without. (11) 6N W powder as binding chokepoint for Kanto+Central Glass July 2026 shutdown. (12) DFARS Phase 3 Jan 2027 + Sangdong Phase 2 2027 + TGN Mt Mulgine 2029 timeline. (13) 50% Base prob at Q3 2029 is achievable: Watershed FID Sep 2026 → first production Q2 2027 → 2.5 years Watershed FCF funding Mt Mulgine construction. 5 NEW v5.2 sections (§5aa-§5af) + 3 NEW v5.3 sections (§5ag US Tier 1 mine ramp, §5ah DFARS RELIANCE REBALANCE, §5af v5.3 REFRAME CANDIDATE). 61st user catch drove §5ag + §5ah + §5af reframe.**
+**Last updated: August 5, 2026 | P(wtd) A$13.50-15.50 (61-70×) — v5.2 LIVE 5-tier Mt Mulgine-as-Base (Base = Mt Mulgine 6 Mtpa online Q3 2029 (A$10.00, 50% prob); Bull = Mt Mulgine 15 Mtpa online 2030-2031 (A$18.50, 33%); H-Bull = Mt Mulgine 15 Mtpa + 6N WF6 plant online 2032+ (A$45, 7%); Bear = Watershed only, China dump (A$1.55, 9%); Floor = total loss (A$0.40, 1%) = 100%). P(wtd) math: 0.07×45 + 0.33×18.50 + 0.50×10.00 + 0.09×1.55 + 0.01×0.40 = 3.15 + 6.105 + 5.00 + 0.1395 + 0.004 = **A$14.40** (v5.2). **🆕 v5.21 NEW A$14.79** (Aug 5, 2026, post-Section 5ab China structural decline re-weighting: 7.5% × A$45 + 33% × A$18.50 + 52% × A$10.00 + 7% × A$1.55 + 0.5% × A$0.40 = 3.375 + 6.105 + 5.20 + 0.1085 + 0.002 = **A$14.79**, +2.7% from A$14.40). v5.3 REVISED CANDIDATE A$16.85 → **A$17.32** (post-structural-decline re-weighting: 7.5% × A$50 + 33% × A$22 + 52% × A$12 + 7% × A$1 + 0.5% × A$0.25 = 3.75 + 7.26 + 6.24 + 0.07 + 0.00125 = **A$17.32**, +2.8% from A$16.85). APT price floor REVISED UP at every 5-year horizon: 2026 $2,700-3,200/MTU; 2027-2030 $2,800-3,400; 2031-2035 $2,700-3,300; 2036-2040 $3,000-3,800 (peak demand era); 2041-2050 $2,500-3,200. The floor is now structurally-supported by China physical supply constraints (output -9% over 9 years, ore grade -33-36% over 20 years, mining quota -22% cumulative 2023-2026), not just policy. See Section 5ab for full analysis. Watershed is the cash-generating bridge (Sep 2026 FID, Q2 2027 first production), Mt Mulgine is the destination (Q3 2029 first production at 6 Mtpa, 2030-2031 expansion to 15 Mtpa, 2032+ downstream 6N integration if ever). 5 NEW findings: (1) industry-by-industry deficit (5 of 6 in deficit); (2) TGN as global supplier; (3) China ALREADY net-importer 2026 (Jiaxin HKEX + Reuters); (4) global deficit 5.6× by 2035; (5) PEE Error Band AACE Class 4 + Boguty reality check. **(6) 🆕 Aug 5, 2026: China structural production decline (Section 5ab): output -9% over 9 years, ore grade -33-36% over 20 years, mining quota -22% cumulative 2023-2026, CICC supply gap 19-21 kt W/yr through 2028 — even full new project buildout fills only 40% of China's structural shortfall; APT price floor raised to $2,700/MTU base case (was $2,000-2,500); P(wtd) v5.21 NEW A$14.79 (was v5.2 A$14.40, +2.7%).** 7 NEW frameworks: (6) Highest-Bidder Theorem Section 5x (52nd catch); (7) China-2026-already-importer (53rd catch); (8) Mt Mulgine-Centric Reframe Section 5y (54th catch, July 21, 2026): Mt Mulgine is the BASE asset, not optionality. (9) TGN revenue 2035: A$7-10B base case (W-based formula); A$5-22B 5-scenario sensitivity range. (10) by-product credits (Au/Ag/Cu/Mo) at Mt Mulgine make break-even APT A$800-900/MTU vs A$1,200/MTU without. (11) 6N W powder as binding chokepoint for Kanto+Central Glass July 2026 shutdown. (12) DFARS Phase 3 Jan 2027 + Sangdong Phase 2 2027 + TGN Mt Mulgine 2029 timeline. (13) 50% Base prob at Q3 2029 is achievable: Watershed FID Sep 2026 → first production Q2 2027 → 2.5 years Watershed FCF funding Mt Mulgine construction. 5 NEW v5.2 sections (§5aa-§5af) + 3 NEW v5.3 sections (§5ag US Tier 1 mine ramp, §5ah DFARS RELIANCE REBALANCE, §5af v5.3 REFRAME CANDIDATE) + 1 NEW v5.21 §5ai (Aug 5, 2026, China structural production decline + 5-year price floor revision).**
 
 > This is the **distilled executive version** of the TGN investment thesis. For the full 3,500+ line comprehensive thesis (use `git log` for history). For the full comprehensive thesis, see `01-master-thesis.md`. This document contains only the verified, decision-relevant insights for institutional review.
 
@@ -2684,6 +2684,51 @@ The structural decline **strengthens** the Base case by making it more robust:
 | **China floods (Bear)** | Ramp imports + relax quotas | $1,500-2,000/MTU | A$1.55 (Bear) |
 
 **The structural decline makes the Bear case (China floods) LESS LIKELY** because China is physically constrained from ramping. The -9% output decline over 9 years isn't a 1-year policy blip; it's a structural trajectory that won't reverse.
+
+### APT Price Floor by 5-Year Period (NEW, Aug 5, 2026 revision)
+
+> **The new structural decline insight REVISES the price floor UP at every 5-year horizon. The base case is more durable, the bear case is weaker.**
+
+**Self-correcting floor mechanism**: New mine capex ($300-500M per project) requires APT ≥ $2,500-3,000/MTU. Below this, new mine FIDs stall → supply response weakens → deficit grows → APT recovers. This **economically embedded floor** didn't exist with the policy-only framework.
+
+| Period | Bear APT (low) | **Base APT (mid)** | Bull APT (high) | Key drivers |
+|---|---|---|---|---|
+| **2026 (current)** | $2,000-2,500 | **$2,700-3,200** | $3,500-4,500 | 6N/WF6 crisis (Japan offline Jul 1), China quota -8% (3rd cut), DFARS 150d, Mt Mulgine assays pending |
+| **2027-2030 (DFARS Phase 3 active)** | $2,200-2,700 | **$2,800-3,400** | $3,800-5,000 | DFARS Phase 3 enforcement, Almonty + TGN Watershed online, China quota declines further, TUNGF Phase II/Blue Moon ramp, Mt Mulgine 6 Mtpa Q3 2029 |
+| **2031-2035 (Supply catch-up window)** | $2,000-2,500 | **$2,700-3,300** | $3,500-4,500 | Mactung FID, TGN Mt Mulgine 6 Mtpa + 15 Mtpa, US Tier 1 + Almonty Phase 2 fully online, demand growth slows, new supply response catches some demand |
+| **2036-2040 (Peak demand era)** | $2,500-3,000 | **$3,000-3,800** | $4,000-5,500 | 7N WF6 demand 4,100 → 8,700 tpa, China physically constrained, recycling ceiling, new mine buildout lags demand |
+| **2041-2050 (Mature market)** | $1,800-2,500 | **$2,500-3,200** | $3,500-4,500 | Substitution risk (limited for WC), recycling improvements, possible new technology, TGN LOM end, Mt Mulgine tail |
+
+**Why the floor stays elevated through 2050**:
+1. **China physically cannot ramp**: Ore grades won't recover, environmental enforcement is permanent, small/medium mines have exited
+2. **Recycling ceiling**: Global 30% is structural ceiling; China 10% is structural floor
+3. **Substitution limits**: WC is irreplaceable in cutting tools; 6N/7N WF6 has no substitute in semiconductor metallization
+4. **New mine lead time**: 5-10 years discovery-to-production; supply response lags demand
+5. **Self-correcting mechanism**: New mine FIDs require APT ≥ $2,500-3,000, so the floor is set by capex economics, not policy
+
+**Why the floor is highest 2036-2040 (peak demand era)**:
+- 7N WF6 demand grows 30× from 2026 to 2040 (300 → 8,700 tpa)
+- Even with full new project buildout, structural deficit persists
+- China physically constrained → no China "fix"
+- TGN's Mt Mulgine 30-year mine life spans this entire peak demand era
+
+### P(wtd) re-weighting (revised v5.21 NEW)
+
+| Tier | v5.2 LIVE prob | **v5.21 NEW prob** | Reason |
+|---|---|---|---|
+| H-Bull (A$45) | 7% | 7.5% | Slight up — weaponization more probable given structural weakness |
+| Bull (A$18.50) | 33% | 33% | Unchanged |
+| Base (A$10.00) | 50% | **52%** | Higher price floor = more confidence |
+| Bear (A$1.55) | 9% | **7%** | China flood much less likely |
+| Floor (A$0.40) | 1% | **0.5%** | Total loss even less likely |
+| **P(wtd) recalc** | **A$14.40** | **A$14.79** | +2.7% from re-weighting |
+
+**v5.3 REVISED CANDIDATE A$16.85 → A$17.32** with same re-weighting on higher base case.
+
+**Decision framework**:
+- v5.2 LIVE A$14.40 remains the conservative framework (preserved as historical audit trail)
+- **v5.21 NEW A$14.79** is the structurally-supported update (preferred going forward)
+- v5.3 REVISED A$16.85 → **A$17.32** (post-structural-decline, preferred going forward)
 
 ### Cross-references
 

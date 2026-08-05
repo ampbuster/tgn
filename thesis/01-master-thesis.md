@@ -1097,6 +1097,18 @@ The global deficit above is misleading because it includes Chinese demand. The *
 - **The chokepoint is structural, not policy-driven.** China physically can't produce more — resource is depleting, environmental enforcement is real, mining costs are 5× the 2000 level.
 - **TGN's 30-year mine life perfectly aligns with the 30-year structural chokepoint.** See 03-price-floor.md Section 5ab for full analysis.
 
+**🆕 APT Price Floor by 5-Year Period (NEW Aug 5, 2026, Section 5ab.7 cross-ref):**
+
+| Period | Bear APT (low) | **Base APT (mid)** | Bull APT (high) | Key drivers |
+|---|---|---|---|---|
+| **2026 (current)** | $2,000-2,500 | **$2,700-3,200** | $3,500-4,500 | 6N/WF6 crisis (Japan offline Jul 1), China quota -8% (3rd cut), DFARS 150d, Mt Mulgine assays pending |
+| **2027-2030 (DFARS Phase 3 active)** | $2,200-2,700 | **$2,800-3,400** | $3,800-5,000 | DFARS Phase 3 enforcement, Almonty + TGN Watershed online, China quota declines further, TUNGF Phase II/Blue Moon ramp, Mt Mulgine 6 Mtpa Q3 2029 |
+| **2031-2035 (Supply catch-up window)** | $2,000-2,500 | **$2,700-3,300** | $3,500-4,500 | Mactung FID, TGN Mt Mulgine 6 Mtpa + 15 Mtpa, US Tier 1 + Almonty Phase 2 fully online, demand growth slows, new supply response catches some demand |
+| **2036-2040 (Peak demand era)** | $2,500-3,000 | **$3,000-3,800** | $4,000-5,500 | 7N WF6 demand 4,100 → 8,700 tpa, China physically constrained, recycling ceiling, new mine buildout lags demand |
+| **2041-2050 (Mature market)** | $1,800-2,500 | **$2,500-3,200** | $3,500-4,500 | Substitution risk (limited for WC), recycling improvements, possible new technology, TGN LOM end, Mt Mulgine tail |
+
+**P(wtd) v5.21 NEW A$14.79** (re-weight only, post-structural-decline): 7.5% × A$45 + 33% × A$18.50 + 52% × A$10.00 + 7% × A$1.55 + 0.5% × A$0.40 = 3.375 + 6.105 + 5.20 + 0.1085 + 0.002 = **A$14.79** (+2.7% from v5.2 LIVE A$14.40). v5.3 REVISED CANDIDATE A$16.85 → **A$17.32** with same re-weighting. See v10-clean-executive.md §5ai and 03-price-floor.md Section 5ab.7 for full derivation.
+
 **Chinese Supply-Side Weaponry:**
 - 2025 mining quota cut to 58,000 t (−6.5% YoY, −4,000 t)
 - 2025 export controls: Tungsten + antimony + silver (effective 2026)

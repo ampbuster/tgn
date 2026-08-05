@@ -590,7 +590,62 @@ The 4-layer pricing stack (Section 5g) assumes **$2,500-3,000/MTU baseline APT**
 
 **The structural decline makes the Base case (A$14.40) more robust** because China is **physically constrained** from flooding. The -9% output decline over 9 years isn't a 1-year policy blip; it's a structural trajectory that won't reverse.
 
-### 5ab.7 — Cross-references and implications
+### 5ab.7 — APT Price Floor by 5-Year Period (Aug 5, 2026 revision)
+
+> **The new structural decline insight REVISES the price floor UP at every 5-year horizon. The base case is more durable, the bear case is weaker.**
+
+**Methodology**: 
+- Bear = China floods imports + relaxes quotas (now physically harder)
+- Base = Status quo (policy + structural support)
+- Bull = China weaponizes + structural chokepoint tightens
+
+**Self-correcting floor mechanism**: New mine capex ($300-500M per project) requires APT ≥ $2,500-3,000/MTU. Below this, new mine FIDs stall → supply response weakens → deficit grows → APT recovers. This **economically embedded floor** didn't exist with the policy-only framework.
+
+| Period | Bear APT (low) | **Base APT (mid)** | Bull APT (high) | Key drivers |
+|---|---|---|---|---|
+| **2026 (current)** | $2,000-2,500 | **$2,700-3,200** | $3,500-4,500 | 6N/WF6 crisis (Japan offline Jul 1), China quota -8% (3rd cut), DFARS 150d, Mt Mulgine assays pending |
+| **2027-2030 (DFARS Phase 3 active)** | $2,200-2,700 | **$2,800-3,400** | $3,800-5,000 | DFARS Phase 3 enforcement, Almonty + TGN Watershed online, China quota declines further, TUNGF Phase II/Blue Moon ramp, Mt Mulgine 6 Mtpa Q3 2029 |
+| **2031-2035 (Supply catch-up window)** | $2,000-2,500 | **$2,700-3,300** | $3,500-4,500 | Mactung FID, TGN Mt Mulgine 6 Mtpa + 15 Mtpa, US Tier 1 + Almonty Phase 2 fully online, demand growth slows, new supply response catches some demand |
+| **2036-2040 (Peak demand era)** | $2,500-3,000 | **$3,000-3,800** | $4,000-5,500 | 7N WF6 demand 4,100 → 8,700 tpa, China physically constrained, recycling ceiling, new mine buildout lags demand |
+| **2041-2050 (Mature market)** | $1,800-2,500 | **$2,500-3,200** | $3,500-4,500 | Substitution risk (limited for WC), recycling improvements, possible new technology, TGN LOM end, Mt Mulgine tail |
+
+**Reading the table**:
+- **Bear floor rises from $1,500-2,000 (old) to $2,000-2,500 (now)** at 2026, and stays at $2,000+ throughout the 25-year horizon
+- **Base floor rises from $2,500-3,000 (old) to $2,700-3,200 (now)** at 2026, and stays at $2,500+ through 2050
+- **Bull ceiling rises from $4,000-5,000 (old) to $3,500-5,500+ (now)** with widening range as weaponization risk compounds with structural shortage
+
+**Why the floor stays elevated through 2050**:
+1. **China physically cannot ramp**: Ore grades won't recover, environmental enforcement is permanent, small/medium mines have exited and won't return
+2. **Recycling ceiling**: Global 30% recycling rate is a structural ceiling; China 10% rate is a structural floor (products leave China before EOL)
+3. **Substitution limits**: WC is irreplaceable in cutting tools (HSS melts, ceramics too brittle); 6N/7N WF6 has no substitute in semiconductor metallization
+4. **New mine lead time**: 5-10 years discovery-to-production means supply response lags demand
+5. **Self-correcting mechanism**: New mine FIDs require APT ≥ $2,500-3,000, so the floor is set by capex economics, not policy
+
+**Why the floor is highest 2036-2040 (peak demand era)**:
+- 7N WF6 demand grows 30× from 2026 to 2040
+- Even with full new project buildout, structural deficit persists
+- China physically constrained → no China "fix"
+- TGN's Mt Mulgine 30-year mine life spans this entire peak demand era
+
+**P(wtd) re-weighting (revised v5.21 NEW)**:
+
+| Tier | v5.2 LIVE prob | **v5.21 NEW prob** | Reason |
+|---|---|---|---|
+| H-Bull (A$45) | 7% | 7.5% | Slight up — weaponization more probable given structural weakness |
+| Bull (A$18.50) | 33% | 33% | Unchanged |
+| Base (A$10.00) | 50% | **52%** | Higher price floor = more confidence |
+| Bear (A$1.55) | 9% | **7%** | China flood much less likely |
+| Floor (A$0.40) | 1% | **0.5%** | Total loss even less likely |
+| **P(wtd) recalc** | **A$14.40** | **A$14.79** | +2.7% from re-weighting |
+
+**v5.3 REVISED CANDIDATE A$16.85 → A$17.32** with same re-weighting on higher base case.
+
+**Decision framework**:
+- v5.2 LIVE A$14.40 remains the conservative framework (preserved as historical audit trail)
+- **v5.21 NEW A$14.79** is the structurally-supported update (preferred going forward)
+- v5.3 REVISED A$16.85 → **A$17.32** (post-structural-decline, preferred going forward)
+
+### 5ab.8 — Cross-references and implications
 
 **This section corroborates:**
 - Section 5z Supply Model Rev 3 (China share 77-78% declining)
